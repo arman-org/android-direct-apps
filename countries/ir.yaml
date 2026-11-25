@@ -2,6 +2,42 @@
 # Edit here, then run python scripts/build.py. See README.md.
 
 # Banks
+- package: com.dara.cityBankOtp
+  name: { fa: "رمزنت", en: "RamzNet" }
+  category: bank
+  stores: [bazaar, myket]
+- package: com.tosan.dara.day
+  name: { fa: "دی جت", en: "Day Jet" }
+  category: bank
+  stores: [bazaar, myket]
+- package: com.bpm.mellatdynamicpin
+  name: { fa: "رمز نگار ملت", en: "Mellat Dynamic PIN" }
+  category: bank
+  stores: [bazaar, myket]
+- package: ir.stts.bjt
+  name: { fa: "باجت", en: "Bajet" }
+  category: bank
+  stores: [bazaar, myket]
+- package: com.bmelat.mobile
+  name: { fa: "دیما", en: "Dima" }
+  category: bank
+  stores: [bazaar, myket]
+- package: ir.zypod.app
+  name: { fa: "زیپاد", en: "Zypod" }
+  category: bank
+  stores: [myket]
+- package: com.rahand.qbank
+  name: { fa: "کیو", en: "QBank" }
+  category: bank
+  stores: [bazaar, myket]
+- package: com.isc.bsinew
+  name: { fa: "همراه بانک صادرات", en: "Saderat Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+- package: com.samanpr.blujr
+  name: { fa: "بلو جونیور", en: "blu Junior" }
+  category: bank
+  stores: [bazaar, myket]
 - package: com.tosan.dara.sepah
   name: { fa: "همراه بانک سپه", en: "Sepah Mobile Bank" }
   category: bank
@@ -120,6 +156,18 @@
   stores: [bazaar, myket, play]
 
 # Payments and wallets
+- package: com.tosansoha.ezpay
+  name: { fa: "ایزی‌پی", en: "EzPay" }
+  category: payment
+  stores: [bazaar, myket]
+- package: com.ada.mbank.bankette
+  name: { fa: "بانکت", en: "Bankette" }
+  category: payment
+  stores: [bazaar, myket]
+- package: setare_app.ymz.yma.setareyek
+  name: { fa: "ستاره یک", en: "Setare Yek" }
+  category: payment
+  stores: [bazaar, myket, play]
 - package: com.tara360.tara.production
   name: { fa: "تارا", en: "Tara" }
   category: payment
@@ -190,6 +238,14 @@
   stores: [bazaar, myket, play]
 
 # Crypto exchanges
+- package: kifpool.me.v2
+  name: { fa: "کیف پول من", en: "Kifpool" }
+  category: crypto
+  stores: [bazaar, myket, play]
+- package: com.tabdeal
+  name: { fa: "تبدیل", en: "Tabdeal" }
+  category: crypto
+  stores: [bazaar, myket, play]
 - package: com.arzdigitalnew
   name: { fa: "ارزدیجیتال", en: "Arzdigital" }
   category: crypto
@@ -236,6 +292,14 @@
   stores: [bazaar, myket, play]
 
 # Stocks and investing
+- package: digital.kian.kiandigital
+  name: { fa: "کیان دیجیتال", en: "Kian Digital" }
+  category: investing
+  stores: [bazaar, myket]
+- package: ir.easytrader.orbis.m.twa
+  name: { fa: "ایزی تریدر", en: "EasyTrader" }
+  category: investing
+  stores: [bazaar, myket, play]
 - package: ir.hooshdadeh.bourse
   name: { fa: "تحلیل گر بورس", en: "Bourse Analyst" }
   category: investing
@@ -866,6 +930,22 @@
   stores: [bazaar, myket, play]
 
 # Services and tools
+- package: com.parmisit.parmismobile
+  name: { fa: "حسابداری پارمیس", en: "Parmis Accounting" }
+  category: services
+  stores: [bazaar, myket, play]
+- package: net.ragham.booking
+  name: { fa: "رقم", en: "Ragham" }
+  category: services
+  stores: [bazaar, myket, play]
+- package: com.hazhircompany.kafineteiran
+  name: { fa: "کافی نت ایران", en: "Kafinet Iran" }
+  category: services
+  stores: [bazaar, myket]
+- package: com.autoabzar.autoabzar
+  name: { fa: "اتو ابزار", en: "Auto Abzar" }
+  category: services
+  stores: [bazaar, myket]
 - package: com.sanags.a4f3client
   name: { fa: "آچاره", en: "Achareh" }
   category: services

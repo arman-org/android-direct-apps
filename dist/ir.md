@@ -1,14 +1,18 @@
 # IR: apps that connect directly
 
-223 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
+243 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
 
-## بانک · Banks (29)
+## بانک · Banks (38)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
 | بام | Baam | `ir.bmi.bam.nativeweb` | [Bazaar](https://cafebazaar.ir/app/ir.bmi.bam.nativeweb) · [Myket](https://myket.ir/app/ir.bmi.bam.nativeweb) |
+| باجت | Bajet | `ir.stts.bjt` | [Bazaar](https://cafebazaar.ir/app/ir.stts.bjt) · [Myket](https://myket.ir/app/ir.stts.bjt) |
 | بانکینو | Bankino | `digital.neobank` | [Bazaar](https://cafebazaar.ir/app/digital.neobank) · [Myket](https://myket.ir/app/digital.neobank) |
 | بلو | blu | `com.samanpr.blu` | [Bazaar](https://cafebazaar.ir/app/com.samanpr.blu) · [Myket](https://myket.ir/app/com.samanpr.blu) |
+| بلو جونیور | blu Junior | `com.samanpr.blujr` | [Bazaar](https://cafebazaar.ir/app/com.samanpr.blujr) · [Myket](https://myket.ir/app/com.samanpr.blujr) |
+| دی جت | Day Jet | `com.tosan.dara.day` | [Bazaar](https://cafebazaar.ir/app/com.tosan.dara.day) · [Myket](https://myket.ir/app/com.tosan.dara.day) |
+| دیما | Dima | `com.bmelat.mobile` | [Bazaar](https://cafebazaar.ir/app/com.bmelat.mobile) · [Myket](https://myket.ir/app/com.bmelat.mobile) |
 | موبایل بانک گردشگری | Gardeshgari Mobile Bank | `mob.banking.android.gardesh` | [Bazaar](https://cafebazaar.ir/app/mob.banking.android.gardesh) · [Myket](https://myket.ir/app/mob.banking.android.gardesh) |
 | همراه نوین | Hamrah Novin | `com.farazpardazan.enbank` | [Bazaar](https://cafebazaar.ir/app/com.farazpardazan.enbank) · [Myket](https://myket.ir/app/com.farazpardazan.enbank) |
 | همراه شهر پلاس | Hamrah Shahr Plus | `com.citydi.hplus` | [Bazaar](https://cafebazaar.ir/app/com.citydi.hplus) · [Myket](https://myket.ir/app/com.citydi.hplus) |
@@ -17,15 +21,19 @@
 | همراه بانک کشاورزی | Keshavarzi Mobile Bank | `com.bki.mobilebanking.android` | — |
 | همراه بانک مسکن | Maskan Mobile Bank | `com.maskanmobilebank` | [Myket](https://myket.ir/app/com.maskanmobilebank) |
 | همراه بانک مهر ایران | Mehr Iran Mobile Bank | `com.ada.mbank.mehr` | [Bazaar](https://cafebazaar.ir/app/com.ada.mbank.mehr) · [Myket](https://myket.ir/app/com.ada.mbank.mehr) |
+| رمز نگار ملت | Mellat Dynamic PIN | `com.bpm.mellatdynamicpin` | [Bazaar](https://cafebazaar.ir/app/com.bpm.mellatdynamicpin) · [Myket](https://myket.ir/app/com.bpm.mellatdynamicpin) |
 | همراه بانک ملت | Mellat Mobile Bank | `com.pmb.mobile` | [Bazaar](https://cafebazaar.ir/app/com.pmb.mobile) · [Myket](https://myket.ir/app/com.pmb.mobile) |
 | موبایلت | Mobillet | `ir.mobillet.app` | [Bazaar](https://cafebazaar.ir/app/ir.mobillet.app) · [Myket](https://myket.ir/app/ir.mobillet.app) |
 | پارسیان من | Parsian Mobile Bank | `com.parsmobapp` | [Bazaar](https://cafebazaar.ir/app/com.parsmobapp) · [Myket](https://myket.ir/app/com.parsmobapp) |
 | همراه بانک پاسارگاد | Pasargad Mobile Bank | `mob.banking.android.pasargad` | [Bazaar](https://cafebazaar.ir/app/mob.banking.android.pasargad) · [Myket](https://myket.ir/app/mob.banking.android.pasargad) |
 | همراه بانک پست بانک | Post Bank Mobile Bank | `com.postbank.mb` | — |
+| کیو | QBank | `com.rahand.qbank` | [Bazaar](https://cafebazaar.ir/app/com.rahand.qbank) · [Myket](https://myket.ir/app/com.rahand.qbank) |
 | رمزبان بانک ملی | Ramzban | `nuesoft.mobileToken` | [Bazaar](https://cafebazaar.ir/app/nuesoft.mobileToken) · [Myket](https://myket.ir/app/nuesoft.mobileToken) |
+| رمزنت | RamzNet | `com.dara.cityBankOtp` | [Bazaar](https://cafebazaar.ir/app/com.dara.cityBankOtp) · [Myket](https://myket.ir/app/com.dara.cityBankOtp) |
 | ردبانک | Redbank | `co.redbank.app` | [Bazaar](https://cafebazaar.ir/app/co.redbank.app) · [Myket](https://myket.ir/app/co.redbank.app) |
 | موبایل بانک رفاه | Refah Mobile Bank | `com.refahbank.dpi.android` | [Bazaar](https://cafebazaar.ir/app/com.refahbank.dpi.android) · [Myket](https://myket.ir/app/com.refahbank.dpi.android) |
 | همراه بانک رسالت | Resalat Mobile Bank | `mob.banking.android.resalat` | [Bazaar](https://cafebazaar.ir/app/mob.banking.android.resalat) · [Myket](https://myket.ir/app/mob.banking.android.resalat) |
+| همراه بانک صادرات | Saderat Mobile Bank | `com.isc.bsinew` | [Bazaar](https://cafebazaar.ir/app/com.isc.bsinew) · [Myket](https://myket.ir/app/com.isc.bsinew) |
 | رمز پویا بانک سامان | Saman Bank OTP | `com.tosan.mobile.otpapp.saman` | [Myket](https://myket.ir/app/com.tosan.mobile.otpapp.saman) |
 | سکه | Sekeh | `com.bpm.sekeh` | [Bazaar](https://cafebazaar.ir/app/com.bpm.sekeh) · [Myket](https://myket.ir/app/com.bpm.sekeh) · [Google Play](https://play.google.com/store/apps/details?id=com.bpm.sekeh) |
 | همراه بانک سپه | Sepah Mobile Bank | `com.tosan.dara.sepah` | [Bazaar](https://cafebazaar.ir/app/com.tosan.dara.sepah) · [Myket](https://myket.ir/app/com.tosan.dara.sepah) |
@@ -35,16 +43,19 @@
 | همراه بانک تجارت | Tejarat Mobile Bank | `ir.tejaratbank.tata.mobile.android.tejarat` | [Bazaar](https://cafebazaar.ir/app/ir.tejaratbank.tata.mobile.android.tejarat) · [Myket](https://myket.ir/app/ir.tejaratbank.tata.mobile.android.tejarat) |
 | توبانک | Tobank | `com.gardeshpay.app` | [Bazaar](https://cafebazaar.ir/app/com.gardeshpay.app) · [Myket](https://myket.ir/app/com.gardeshpay.app) |
 | ویپاد | Wepod | `com.dotin.wepod` | [Bazaar](https://cafebazaar.ir/app/com.dotin.wepod) · [Myket](https://myket.ir/app/com.dotin.wepod) · [Google Play](https://play.google.com/store/apps/details?id=com.dotin.wepod) |
+| زیپاد | Zypod | `ir.zypod.app` | [Myket](https://myket.ir/app/ir.zypod.app) |
 
-## پرداخت و کیف پول · Payments and wallets (17)
+## پرداخت و کیف پول · Payments and wallets (20)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
 | ۷۲۴ | 724 | `ir.sep.sesoot` | [Bazaar](https://cafebazaar.ir/app/ir.sep.sesoot) · [Myket](https://myket.ir/app/ir.sep.sesoot) |
 | آپ | Ap | `com.sibche.aspardproject.app` | [Bazaar](https://cafebazaar.ir/app/com.sibche.aspardproject.app) · [Myket](https://myket.ir/app/com.sibche.aspardproject.app) |
+| بانکت | Bankette | `com.ada.mbank.bankette` | [Bazaar](https://cafebazaar.ir/app/com.ada.mbank.bankette) · [Myket](https://myket.ir/app/com.ada.mbank.bankette) |
 | داپ اپ | Daap App | `com.daapapp.crmrn` | [Bazaar](https://cafebazaar.ir/app/com.daapapp.crmrn) · [Myket](https://myket.ir/app/com.daapapp.crmrn) |
 | دیجی پی | Digipay | `com.mydigipay.app.android` | [Bazaar](https://cafebazaar.ir/app/com.mydigipay.app.android) · [Myket](https://myket.ir/app/com.mydigipay.app.android) · [Google Play](https://play.google.com/store/apps/details?id=com.mydigipay.app.android) |
 | اوانو | Ewano | `com.ebcom.ewano` | [Bazaar](https://cafebazaar.ir/app/com.ebcom.ewano) · [Myket](https://myket.ir/app/com.ebcom.ewano) · [Google Play](https://play.google.com/store/apps/details?id=com.ebcom.ewano) |
+| ایزی‌پی | EzPay | `com.tosansoha.ezpay` | [Bazaar](https://cafebazaar.ir/app/com.tosansoha.ezpay) · [Myket](https://myket.ir/app/com.tosansoha.ezpay) |
 | فام | FAM | `com.fam.fam` | [Bazaar](https://cafebazaar.ir/app/com.fam.fam) · [Myket](https://myket.ir/app/com.fam.fam) |
 | قبضینو | Ghabzino | `ir.ayantech.ghabzino` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.ghabzino) · [Myket](https://myket.ir/app/ir.ayantech.ghabzino) · [Google Play](https://play.google.com/store/apps/details?id=ir.ayantech.ghabzino) |
 | هف هشتاد | HafHashtad | `ir.hafhashtad.android780` | [Bazaar](https://cafebazaar.ir/app/ir.hafhashtad.android780) · [Myket](https://myket.ir/app/ir.hafhashtad.android780) · [Google Play](https://play.google.com/store/apps/details?id=ir.hafhashtad.android780) |
@@ -53,12 +64,13 @@
 | پی پاد | Paypod | `com.etick.mobilemancard` | [Bazaar](https://cafebazaar.ir/app/com.etick.mobilemancard) · [Myket](https://myket.ir/app/com.etick.mobilemancard) |
 | ساد ۲۴ | SAD24 | `ir.sad24.app` | [Bazaar](https://cafebazaar.ir/app/ir.sad24.app) · [Myket](https://myket.ir/app/ir.sad24.app) · [Google Play](https://play.google.com/store/apps/details?id=ir.sad24.app) |
 | ست | Set | `ir.stts.etc` | [Myket](https://myket.ir/app/ir.stts.etc) |
+| ستاره یک | Setare Yek | `setare_app.ymz.yma.setareyek` | [Bazaar](https://cafebazaar.ir/app/setare_app.ymz.yma.setareyek) · [Myket](https://myket.ir/app/setare_app.ymz.yma.setareyek) · [Google Play](https://play.google.com/store/apps/details?id=setare_app.ymz.yma.setareyek) |
 | تارا | Tara | `com.tara360.tara.production` | [Bazaar](https://cafebazaar.ir/app/com.tara360.tara.production) · [Myket](https://myket.ir/app/com.tara360.tara.production) · [Google Play](https://play.google.com/store/apps/details?id=com.tara360.tara.production) |
 | تومن پی | TomanPay | `org.qbitpay` | [Bazaar](https://cafebazaar.ir/app/org.qbitpay) · [Myket](https://myket.ir/app/org.qbitpay) |
 | تاپ | TOP | `ir.tgbs.peccharge` | [Bazaar](https://cafebazaar.ir/app/ir.tgbs.peccharge) · [Myket](https://myket.ir/app/ir.tgbs.peccharge) · [Google Play](https://play.google.com/store/apps/details?id=ir.tgbs.peccharge) |
 | زرین پلاس | Zarinplus | `app.emtiyaz` | [Bazaar](https://cafebazaar.ir/app/app.emtiyaz) · [Myket](https://myket.ir/app/app.emtiyaz) · [Google Play](https://play.google.com/store/apps/details?id=app.emtiyaz) |
 
-## ارز دیجیتال · Crypto exchanges (11)
+## ارز دیجیتال · Crypto exchanges (13)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
@@ -67,18 +79,22 @@
 | بیت برگ | Bitbarg | `com.bitbarg.app` | [Bazaar](https://cafebazaar.ir/app/com.bitbarg.app) · [Myket](https://myket.ir/app/com.bitbarg.app) · [Google Play](https://play.google.com/store/apps/details?id=com.bitbarg.app) |
 | بیت پین | Bitpin | `io.bitpin.app` | [Bazaar](https://cafebazaar.ir/app/io.bitpin.app) · [Myket](https://myket.ir/app/io.bitpin.app) |
 | اکس اونیکس | Exonyx | `com.exonyxapp.trader` | [Bazaar](https://cafebazaar.ir/app/com.exonyxapp.trader) · [Myket](https://myket.ir/app/com.exonyxapp.trader) |
+| کیف پول من | Kifpool | `kifpool.me.v2` | [Bazaar](https://cafebazaar.ir/app/kifpool.me.v2) · [Myket](https://myket.ir/app/kifpool.me.v2) · [Google Play](https://play.google.com/store/apps/details?id=kifpool.me.v2) |
 | نوبیتکس | Nobitex | `app.nobitex` | — |
 | نوبیتکس | Nobitex | `market.nobitex` | [Bazaar](https://cafebazaar.ir/app/market.nobitex) · [Myket](https://myket.ir/app/market.nobitex) |
 | اوکی اکسچنج | OK Exchange | `co.okex.app` | [Bazaar](https://cafebazaar.ir/app/co.okex.app) · [Myket](https://myket.ir/app/co.okex.app) · [Google Play](https://play.google.com/store/apps/details?id=co.okex.app) |
 | رمزینکس | Ramzinex | `com.ramzinex.ramzinex` | [Bazaar](https://cafebazaar.ir/app/com.ramzinex.ramzinex) · [Myket](https://myket.ir/app/com.ramzinex.ramzinex) |
 | صراف | Saraf | `com.parsa.saraf` | [Bazaar](https://cafebazaar.ir/app/com.parsa.saraf) · [Myket](https://myket.ir/app/com.parsa.saraf) |
 | سرمایکس | Sarmayex | `com.arzjoo` | [Bazaar](https://cafebazaar.ir/app/com.arzjoo) · [Myket](https://myket.ir/app/com.arzjoo) · [Google Play](https://play.google.com/store/apps/details?id=com.arzjoo) |
+| تبدیل | Tabdeal | `com.tabdeal` | [Bazaar](https://cafebazaar.ir/app/com.tabdeal) · [Myket](https://myket.ir/app/com.tabdeal) · [Google Play](https://play.google.com/store/apps/details?id=com.tabdeal) |
 
-## بورس و سرمایه‌گذاری · Stocks and investing (5)
+## بورس و سرمایه‌گذاری · Stocks and investing (7)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
 | تحلیل گر بورس | Bourse Analyst | `ir.hooshdadeh.bourse` | [Myket](https://myket.ir/app/ir.hooshdadeh.bourse) · [Google Play](https://play.google.com/store/apps/details?id=ir.hooshdadeh.bourse) |
+| ایزی تریدر | EasyTrader | `ir.easytrader.orbis.m.twa` | [Bazaar](https://cafebazaar.ir/app/ir.easytrader.orbis.m.twa) · [Myket](https://myket.ir/app/ir.easytrader.orbis.m.twa) · [Google Play](https://play.google.com/store/apps/details?id=ir.easytrader.orbis.m.twa) |
+| کیان دیجیتال | Kian Digital | `digital.kian.kiandigital` | [Bazaar](https://cafebazaar.ir/app/digital.kian.kiandigital) · [Myket](https://myket.ir/app/digital.kian.kiandigital) |
 | مفید اپ | Mofid App | `com.emofid.rnmofid` | [Bazaar](https://cafebazaar.ir/app/com.emofid.rnmofid) · [Myket](https://myket.ir/app/com.emofid.rnmofid) · [Google Play](https://play.google.com/store/apps/details?id=com.emofid.rnmofid) |
 | نرخ ارز | Nerkh Arz | `com.shamimsoft.nerkh` | [Bazaar](https://cafebazaar.ir/app/com.shamimsoft.nerkh) · [Myket](https://myket.ir/app/com.shamimsoft.nerkh) · [Google Play](https://play.google.com/store/apps/details?id=com.shamimsoft.nerkh) |
 | سیگنال | Signal | `ir.part.app.signal` | [Bazaar](https://cafebazaar.ir/app/ir.part.app.signal) · [Myket](https://myket.ir/app/ir.part.app.signal) · [Google Play](https://play.google.com/store/apps/details?id=ir.part.app.signal) |
@@ -299,17 +315,19 @@
 | تحلیلگران | TahlilGaran | `org.tahlilgaran.tdictionary` | [Bazaar](https://cafebazaar.ir/app/org.tahlilgaran.tdictionary) · [Myket](https://myket.ir/app/org.tahlilgaran.tdictionary) · [Google Play](https://play.google.com/store/apps/details?id=org.tahlilgaran.tdictionary) |
 | زبانشناس | Zabanshenas | `com.zabanshenas` | [Bazaar](https://cafebazaar.ir/app/com.zabanshenas) · [Myket](https://myket.ir/app/com.zabanshenas) · [Google Play](https://play.google.com/store/apps/details?id=com.zabanshenas) |
 
-## خدمات و ابزار · Services and tools (16)
+## خدمات و ابزار · Services and tools (20)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
 | آچاره | Achareh | `com.sanags.a4f3client` | [Bazaar](https://cafebazaar.ir/app/com.sanags.a4f3client) · [Myket](https://myket.ir/app/com.sanags.a4f3client) · [Google Play](https://play.google.com/store/apps/details?id=com.sanags.a4f3client) |
+| اتو ابزار | Auto Abzar | `com.autoabzar.autoabzar` | [Bazaar](https://cafebazaar.ir/app/com.autoabzar.autoabzar) · [Myket](https://myket.ir/app/com.autoabzar.autoabzar) |
 | ای استخدام | e-Estekhdam | `com.e_estekhdam.android.app` | [Bazaar](https://cafebazaar.ir/app/com.e_estekhdam.android.app) · [Myket](https://myket.ir/app/com.e_estekhdam.android.app) |
 | فرمون | Farmoon | `io.vsum.estelamkhalafi` | [Bazaar](https://cafebazaar.ir/app/io.vsum.estelamkhalafi) |
 | هواشناس | Havashenas | `com.app.weatherclock` | [Bazaar](https://cafebazaar.ir/app/com.app.weatherclock) |
 | ایران استخدام | Iran Estekhdam | `com.iranestekhdam.iranestekhdam` | [Bazaar](https://cafebazaar.ir/app/com.iranestekhdam.iranestekhdam) · [Myket](https://myket.ir/app/com.iranestekhdam.iranestekhdam) · [Google Play](https://play.google.com/store/apps/details?id=com.iranestekhdam.iranestekhdam) |
 | ایساکو | Isaco | `ir.ikec.isaco` | [Bazaar](https://cafebazaar.ir/app/ir.ikec.isaco) · [Myket](https://myket.ir/app/ir.ikec.isaco) |
 | آیتول | iToll | `ir.itoll.mycarapp` | [Bazaar](https://cafebazaar.ir/app/ir.itoll.mycarapp) · [Myket](https://myket.ir/app/ir.itoll.mycarapp) |
+| کافی نت ایران | Kafinet Iran | `com.hazhircompany.kafineteiran` | [Bazaar](https://cafebazaar.ir/app/com.hazhircompany.kafineteiran) · [Myket](https://myket.ir/app/com.hazhircompany.kafineteiran) |
 | استعلام خلافی خودرو | Khalafi | `com.serendip.khalafi` | [Bazaar](https://cafebazaar.ir/app/com.serendip.khalafi) |
 | خلافی پلاس | Khalafi Plus | `ir.ayantech.finesdetail` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.finesdetail) · [Myket](https://myket.ir/app/ir.ayantech.finesdetail) |
 | خدمت از ما | Khedmatazma | `com.khedmatazma.customer` | [Bazaar](https://cafebazaar.ir/app/com.khedmatazma.customer) · [Myket](https://myket.ir/app/com.khedmatazma.customer) · [Google Play](https://play.google.com/store/apps/details?id=com.khedmatazma.customer) |
@@ -317,5 +335,7 @@
 | مطمئن باش | MotmaenBash | `nu.milad.motmaenbash` | [Bazaar](https://cafebazaar.ir/app/nu.milad.motmaenbash) · [Myket](https://myket.ir/app/nu.milad.motmaenbash) · [Google Play](https://play.google.com/store/apps/details?id=nu.milad.motmaenbash) |
 | نانوواچ | NanoWatch | `ca.nanowatch.app` | [Bazaar](https://cafebazaar.ir/app/ca.nanowatch.app) · [Myket](https://myket.ir/app/ca.nanowatch.app) |
 | استادکار | Ostadkar | `ir.ostadkar.customer` | — |
+| حسابداری پارمیس | Parmis Accounting | `com.parmisit.parmismobile` | [Bazaar](https://cafebazaar.ir/app/com.parmisit.parmismobile) · [Myket](https://myket.ir/app/com.parmisit.parmismobile) · [Google Play](https://play.google.com/store/apps/details?id=com.parmisit.parmismobile) |
+| رقم | Ragham | `net.ragham.booking` | [Bazaar](https://cafebazaar.ir/app/net.ragham.booking) · [Myket](https://myket.ir/app/net.ragham.booking) · [Google Play](https://play.google.com/store/apps/details?id=net.ragham.booking) |
 | رضوان | Rezvan | `ir.aqr.razavi` | [Bazaar](https://cafebazaar.ir/app/ir.aqr.razavi) · [Myket](https://myket.ir/app/ir.aqr.razavi) |
 | ردیاب خودرو سایه | Sayeh GPS | `com.irantec.CarAlarm` | [Bazaar](https://cafebazaar.ir/app/com.irantec.CarAlarm) |
