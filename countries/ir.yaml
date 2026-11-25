@@ -1,469 +1,824 @@
 # Apps that connect directly: Iran.
 # Edit here, then run python scripts/build.py. See README.md.
+# installs: Myket's download count when last checked.
 
 # Banks
-- package: com.dara.cityBankOtp
-  name: { fa: "رمزنت", en: "RamzNet" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.tosan.dara.day
-  name: { fa: "دی جت", en: "Day Jet" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.bpm.mellatdynamicpin
-  name: { fa: "رمز نگار ملت", en: "Mellat Dynamic PIN" }
-  category: bank
-  stores: [bazaar, myket]
-- package: ir.stts.bjt
-  name: { fa: "باجت", en: "Bajet" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.bmelat.mobile
-  name: { fa: "دیما", en: "Dima" }
-  category: bank
-  stores: [bazaar, myket]
-- package: ir.zypod.app
-  name: { fa: "زیپاد", en: "Zypod" }
-  category: bank
-  stores: [myket]
-- package: com.rahand.qbank
-  name: { fa: "کیو", en: "QBank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.isc.bsinew
-  name: { fa: "همراه بانک صادرات", en: "Saderat Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.samanpr.blujr
-  name: { fa: "بلو جونیور", en: "blu Junior" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.tosan.dara.sepah
-  name: { fa: "همراه بانک سپه", en: "Sepah Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: ir.bmi.bam.nativeweb
-  name: { fa: "بام", en: "Baam" }
-  category: bank
-  stores: [bazaar, myket]
-- package: digital.neobank
-  name: { fa: "بانکینو", en: "Bankino" }
-  category: bank
-  stores: [bazaar, myket]
 - package: com.samanpr.blu
   name: { fa: "بلو", en: "blu" }
   category: bank
   stores: [bazaar, myket]
-- package: mob.banking.android.gardesh
-  name: { fa: "موبایل بانک گردشگری", en: "Gardeshgari Mobile Bank" }
+  installs: { myket: 19000000 }
+- package: ir.bmi.bam.nativeweb
+  name: { fa: "بام", en: "Baam" }
   category: bank
   stores: [bazaar, myket]
-- package: com.farazpardazan.enbank
-  name: { fa: "همراه نوین", en: "Hamrah Novin" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.citydi.hplus
-  name: { fa: "همراه شهر پلاس", en: "Hamrah Shahr Plus" }
-  category: bank
-  stores: [bazaar, myket]
-- package: ir.tejaratbank.totp.mobile.android
-  name: { fa: "همراز", en: "Hamraz" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.sadadpsp.eva
-  name: { fa: "ایوا", en: "IVA" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.bki.mobilebanking.android
-  name: { fa: "همراه بانک کشاورزی", en: "Keshavarzi Mobile Bank" }
-  category: bank
-  stores: []
-- package: com.maskanmobilebank
-  name: { fa: "همراه بانک مسکن", en: "Maskan Mobile Bank" }
-  category: bank
-  stores: [myket]
-- package: com.ada.mbank.mehr
-  name: { fa: "همراه بانک مهر ایران", en: "Mehr Iran Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.pmb.mobile
-  name: { fa: "همراه بانک ملت", en: "Mellat Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: ir.mobillet.app
-  name: { fa: "موبایلت", en: "Mobillet" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.parsmobapp
-  name: { fa: "پارسیان من", en: "Parsian Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: mob.banking.android.pasargad
-  name: { fa: "همراه بانک پاسارگاد", en: "Pasargad Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.postbank.mb
-  name: { fa: "همراه بانک پست بانک", en: "Post Bank Mobile Bank" }
-  category: bank
-  stores: []
-- package: nuesoft.mobileToken
-  name: { fa: "رمزبان بانک ملی", en: "Ramzban" }
-  category: bank
-  stores: [bazaar, myket]
-- package: co.redbank.app
-  name: { fa: "ردبانک", en: "Redbank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.refahbank.dpi.android
-  name: { fa: "موبایل بانک رفاه", en: "Refah Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: mob.banking.android.resalat
-  name: { fa: "همراه بانک رسالت", en: "Resalat Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.tosan.mobile.otpapp.saman
-  name: { fa: "رمز پویا بانک سامان", en: "Saman Bank OTP" }
-  category: bank
-  stores: [myket]
-- package: com.bpm.sekeh
-  name: { fa: "سکه", en: "Sekeh" }
-  category: bank
-  stores: [bazaar, myket, play]
-- package: mob.banking.android.sepah
-  name: { fa: "همراه بانک سپه (قدیمی)", en: "Sepah Mobile Bank (old)" }
-  category: bank
-  stores: []
-- package: app.sepino
-  name: { fa: "سپینو", en: "Sepino" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.hafizco.mobilebanksina
-  name: { fa: "همراه بانک سینا", en: "Sina Mobile Bank" }
-  category: bank
-  stores: []
-- package: ir.tejaratbank.tata.mobile.android.tejarat
-  name: { fa: "همراه بانک تجارت", en: "Tejarat Mobile Bank" }
-  category: bank
-  stores: [bazaar, myket]
-- package: com.gardeshpay.app
-  name: { fa: "توبانک", en: "Tobank" }
-  category: bank
-  stores: [bazaar, myket]
+  installs: { myket: 12000000 }
 - package: com.dotin.wepod
   name: { fa: "ویپاد", en: "Wepod" }
   category: bank
   stores: [bazaar, myket, play]
+  installs: { myket: 8000000 }
+- package: com.pmb.mobile
+  name: { fa: "همراه بانک ملت", en: "Mellat Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 7000000 }
+- package: com.samanpr.blujr
+  name: { fa: "بلو جونیور", en: "blu Junior" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 6000000 }
+- package: com.ada.mbank.mehr
+  name: { fa: "همراه بانک مهر ایران", en: "Mehr Iran Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 6000000 }
+- package: ir.tejaratbank.tata.mobile.android.tejarat
+  name: { fa: "همراه بانک تجارت", en: "Tejarat Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 5000000 }
+- package: com.rahand.qbank
+  name: { fa: "کیو", en: "QBank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 4000000 }
+- package: mob.banking.android.resalat
+  name: { fa: "همراه بانک رسالت", en: "Resalat Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 4000000 }
+- package: com.isc.bsinew
+  name: { fa: "همراه بانک صادرات", en: "Saderat Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 4000000 }
+- package: com.tosan.dara.sepah
+  name: { fa: "همراه بانک سپه", en: "Sepah Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: app.sepino
+  name: { fa: "سپینو", en: "Sepino" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: ir.zypod.app
+  name: { fa: "زیپاد", en: "Zypod" }
+  category: bank
+  stores: [myket]
+  installs: { myket: 3000000 }
+- package: ir.stts.bjt
+  name: { fa: "باجت", en: "Bajet" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: digital.neobank
+  name: { fa: "بانکینو", en: "Bankino" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.gostaresh.mobilebank.boilerplate
+  name: { fa: "باران بانک کشاورزی", en: "Baran Keshavarzi Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.bmelat.mobile
+  name: { fa: "دیما", en: "Dima" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.citydi.hplus
+  name: { fa: "همراه شهر پلاس", en: "Hamrah Shahr Plus" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.sadadpsp.eva
+  name: { fa: "ایوا", en: "IVA" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.maskanmobilebank
+  name: { fa: "همراه بانک مسکن", en: "Maskan Mobile Bank" }
+  category: bank
+  stores: [myket]
+  installs: { myket: 2000000 }
+- package: com.parsmobapp
+  name: { fa: "پارسیان من", en: "Parsian Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: mob.banking.android.pasargad
+  name: { fa: "همراه بانک پاسارگاد", en: "Pasargad Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: nuesoft.mobileToken
+  name: { fa: "رمزبان بانک ملی", en: "Ramzban" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.bpm.sekeh
+  name: { fa: "سکه", en: "Sekeh" }
+  category: bank
+  stores: [bazaar, myket, play]
+  installs: { myket: 2000000 }
+- package: ir.tejaratbank.totp.mobile.android
+  name: { fa: "همراز", en: "Hamraz" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: ir.mobillet.app
+  name: { fa: "موبایلت", en: "Mobillet" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: com.refahbank.dpi.android
+  name: { fa: "موبایل بانک رفاه", en: "Refah Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: com.bpm.mellatdynamicpin
+  name: { fa: "رمز نگار ملت", en: "Mellat Dynamic PIN" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 700000 }
+- package: co.redbank.app
+  name: { fa: "ردبانک", en: "Redbank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 700000 }
+- package: com.farazpardazan.enbank
+  name: { fa: "همراه نوین", en: "Hamrah Novin" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 600000 }
+- package: com.gardeshpay.app
+  name: { fa: "توبانک", en: "Tobank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
+- package: com.tosan.dara.day
+  name: { fa: "دی جت", en: "Day Jet" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: com.dara.cityBankOtp
+  name: { fa: "رمزنت", en: "RamzNet" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: mob.banking.android.gardesh
+  name: { fa: "موبایل بانک گردشگری", en: "Gardeshgari Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.tosan.mobile.otpapp.saman
+  name: { fa: "رمز پویا بانک سامان", en: "Saman Bank OTP" }
+  category: bank
+  stores: [myket]
+  installs: { myket: 200000 }
+- package: com.tosan.mobile.otpapp.iranzamin
+  name: { fa: "رمز پویا بانک ایران زمین", en: "Iran Zamin Bank OTP" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 60000 }
+- package: app.digiteen
+  name: { fa: "دیجی تین", en: "Digiteen" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 50000 }
+- package: com.tosan.dara.mehriran
+  name: { fa: "مهرینو", en: "Mehrino" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 25000 }
+- package: ir.middleeastbank.www.meb_otp
+  name: { fa: "رمز پویا بانک خاورمیانه", en: "Middle East Bank OTP" }
+  category: bank
+  stores: [myket]
+  installs: { myket: 6000 }
+- package: com.tosan.mobile.otpapp.bim
+  name: { fa: "رمز پویا بانک صنعت و معدن", en: "Sanat va Madan Bank OTP" }
+  category: bank
+  stores: [myket]
+  installs: { myket: 5000 }
+- package: ir.karafariniomid.app
+  name: { fa: "خاص", en: "Khas" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 4000 }
+- package: com.pdbplus.android
+  name: { fa: "پارسیان من پلاس", en: "Parsian Man Plus" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 4000 }
+- package: ir.sqsh.smartassistant
+  name: { fa: "هوشاد", en: "Hooshad" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 300 }
+- package: com.metati.app
+  name: { fa: "متاتی", en: "Metati" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { myket: 200 }
+- package: com.bki.mobilebanking.android
+  name: { fa: "همراه بانک کشاورزی", en: "Keshavarzi Mobile Bank" }
+  category: bank
+  stores: []
+- package: com.postbank.mb
+  name: { fa: "همراه بانک پست بانک", en: "Post Bank Mobile Bank" }
+  category: bank
+  stores: []
+- package: mob.banking.android.sepah
+  name: { fa: "همراه بانک سپه (قدیمی)", en: "Sepah Mobile Bank (old)" }
+  category: bank
+  stores: []
+- package: com.hafizco.mobilebanksina
+  name: { fa: "همراه بانک سینا", en: "Sina Mobile Bank" }
+  category: bank
+  stores: []
 
 # Payments and wallets
-- package: com.tosansoha.ezpay
-  name: { fa: "ایزی‌پی", en: "EzPay" }
-  category: payment
-  stores: [bazaar, myket]
-- package: com.ada.mbank.bankette
-  name: { fa: "بانکت", en: "Bankette" }
-  category: payment
-  stores: [bazaar, myket]
-- package: setare_app.ymz.yma.setareyek
-  name: { fa: "ستاره یک", en: "Setare Yek" }
-  category: payment
-  stores: [bazaar, myket, play]
-- package: com.tara360.tara.production
-  name: { fa: "تارا", en: "Tara" }
-  category: payment
-  stores: [bazaar, myket, play]
-- package: ir.sep.sesoot
-  name: { fa: "۷۲۴", en: "724" }
-  category: payment
-  stores: [bazaar, myket]
 - package: com.sibche.aspardproject.app
   name: { fa: "آپ", en: "Ap" }
   category: payment
   stores: [bazaar, myket]
-- package: com.daapapp.crmrn
-  name: { fa: "داپ اپ", en: "Daap App" }
-  category: payment
-  stores: [bazaar, myket]
-- package: com.mydigipay.app.android
-  name: { fa: "دیجی پی", en: "Digipay" }
-  category: payment
-  stores: [bazaar, myket, play]
-- package: com.ebcom.ewano
-  name: { fa: "اوانو", en: "Ewano" }
-  category: payment
-  stores: [bazaar, myket, play]
-- package: com.fam.fam
-  name: { fa: "فام", en: "FAM" }
-  category: payment
-  stores: [bazaar, myket]
-- package: ir.ayantech.ghabzino
-  name: { fa: "قبضینو", en: "Ghabzino" }
-  category: payment
-  stores: [bazaar, myket, play]
-- package: ir.hafhashtad.android780
-  name: { fa: "هف هشتاد", en: "HafHashtad" }
-  category: payment
-  stores: [bazaar, myket, play]
+  installs: { myket: 25000000 }
 - package: com.adpdigital.mbs.ayande
   name: { fa: "همراه کارت", en: "Hamrah Card" }
   category: payment
   stores: [bazaar, myket]
-- package: ir.partsoftware.cup
-  name: { fa: "آی کاپ", en: "iCup" }
+  installs: { myket: 6000000 }
+- package: com.ebcom.ewano
+  name: { fa: "اوانو", en: "Ewano" }
   category: payment
   stores: [bazaar, myket, play]
-- package: com.etick.mobilemancard
-  name: { fa: "پی پاد", en: "Paypod" }
-  category: payment
-  stores: [bazaar, myket]
-- package: ir.sad24.app
-  name: { fa: "ساد ۲۴", en: "SAD24" }
+  installs: { myket: 5000000 }
+- package: ir.hafhashtad.android780
+  name: { fa: "هف هشتاد", en: "HafHashtad" }
   category: payment
   stores: [bazaar, myket, play]
-- package: ir.stts.etc
-  name: { fa: "ست", en: "Set" }
-  category: payment
-  stores: [myket]
-- package: org.qbitpay
-  name: { fa: "تومن پی", en: "TomanPay" }
+  installs: { myket: 5000000 }
+- package: ir.sep.sesoot
+  name: { fa: "۷۲۴", en: "724" }
   category: payment
   stores: [bazaar, myket]
+  installs: { myket: 4000000 }
+- package: com.mydigipay.app.android
+  name: { fa: "دیجی پی", en: "Digipay" }
+  category: payment
+  stores: [bazaar, myket, play]
+  installs: { myket: 4000000 }
 - package: ir.tgbs.peccharge
   name: { fa: "تاپ", en: "TOP" }
   category: payment
   stores: [bazaar, myket, play]
+  installs: { myket: 4000000 }
+- package: ir.partsoftware.cup
+  name: { fa: "آی کاپ", en: "iCup" }
+  category: payment
+  stores: [bazaar, myket, play]
+  installs: { myket: 3000000 }
+- package: ir.ayantech.ghabzino
+  name: { fa: "قبضینو", en: "Ghabzino" }
+  category: payment
+  stores: [bazaar, myket, play]
+  installs: { myket: 2000000 }
+- package: com.tara360.tara.production
+  name: { fa: "تارا", en: "Tara" }
+  category: payment
+  stores: [bazaar, myket, play]
+  installs: { myket: 2000000 }
+- package: com.etick.mobilemancard
+  name: { fa: "پی پاد", en: "Paypod" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: setare_app.ymz.yma.setareyek
+  name: { fa: "ستاره یک", en: "Setare Yek" }
+  category: payment
+  stores: [bazaar, myket, play]
+  installs: { myket: 1000000 }
+- package: com.ada.mbank.bankette
+  name: { fa: "بانکت", en: "Bankette" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 800000 }
+- package: ir.sad24.app
+  name: { fa: "ساد ۲۴", en: "SAD24" }
+  category: payment
+  stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
+- package: ir.stts.etc
+  name: { fa: "ست", en: "Set" }
+  category: payment
+  stores: [myket]
+  installs: { myket: 400000 }
+- package: com.fam.fam
+  name: { fa: "فام", en: "FAM" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
 - package: app.emtiyaz
   name: { fa: "زرین پلاس", en: "Zarinplus" }
   category: payment
   stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.daapapp.crmrn
+  name: { fa: "داپ اپ", en: "Daap App" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.tosansoha.ezpay
+  name: { fa: "ایزی‌پی", en: "EzPay" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: org.qbitpay
+  name: { fa: "تومن پی", en: "TomanPay" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.ayantech.sayadcheckinquiry
+  name: { fa: "چک صیادی", en: "Sayad Cheque" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 35000 }
+- package: com.kamanfg.clientapp
+  name: { fa: "کمان", en: "Kaman" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 30000 }
+- package: com.aniriz.aniriz_app
+  name: { fa: "آنی ریز", en: "Aniriz" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 23000 }
+- package: com.jrg.app
+  name: { fa: "جیرینگ", en: "Jiring" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { myket: 15000 }
 
 # Crypto exchanges
-- package: kifpool.me.v2
-  name: { fa: "کیف پول من", en: "Kifpool" }
-  category: crypto
-  stores: [bazaar, myket, play]
-- package: com.tabdeal
-  name: { fa: "تبدیل", en: "Tabdeal" }
-  category: crypto
-  stores: [bazaar, myket, play]
-- package: com.arzdigitalnew
-  name: { fa: "ارزدیجیتال", en: "Arzdigital" }
-  category: crypto
-  stores: [bazaar, myket, play]
-- package: cash.bit24
-  name: { fa: "بیت ۲۴", en: "Bit24" }
-  category: crypto
-  stores: [play]
-- package: com.bitbarg.app
-  name: { fa: "بیت برگ", en: "Bitbarg" }
-  category: crypto
-  stores: [bazaar, myket, play]
-- package: io.bitpin.app
-  name: { fa: "بیت پین", en: "Bitpin" }
-  category: crypto
-  stores: [bazaar, myket]
-- package: com.exonyxapp.trader
-  name: { fa: "اکس اونیکس", en: "Exonyx" }
-  category: crypto
-  stores: [bazaar, myket]
-- package: app.nobitex
-  name: { fa: "نوبیتکس", en: "Nobitex" }
-  category: crypto
-  stores: []
 - package: market.nobitex
   name: { fa: "نوبیتکس", en: "Nobitex" }
   category: crypto
   stores: [bazaar, myket]
-- package: co.okex.app
-  name: { fa: "اوکی اکسچنج", en: "OK Exchange" }
+  installs: { myket: 4000000 }
+- package: com.tabdeal
+  name: { fa: "تبدیل", en: "Tabdeal" }
   category: crypto
   stores: [bazaar, myket, play]
-- package: com.ramzinex.ramzinex
-  name: { fa: "رمزینکس", en: "Ramzinex" }
+  installs: { myket: 3000000 }
+- package: io.bitpin.app
+  name: { fa: "بیت پین", en: "Bitpin" }
   category: crypto
   stores: [bazaar, myket]
+  installs: { myket: 2000000 }
 - package: com.parsa.saraf
   name: { fa: "صراف", en: "Saraf" }
   category: crypto
   stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: co.okex.app
+  name: { fa: "اوکی اکسچنج", en: "OK Exchange" }
+  category: crypto
+  stores: [bazaar, myket, play]
+  installs: { myket: 500000 }
+- package: com.ramzinex.ramzinex
+  name: { fa: "رمزینکس", en: "Ramzinex" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
+- package: kifpool.me.v2
+  name: { fa: "کیف پول من", en: "Kifpool" }
+  category: crypto
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.arzdigitalnew
+  name: { fa: "ارزدیجیتال", en: "Arzdigital" }
+  category: crypto
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
 - package: com.arzjoo
   name: { fa: "سرمایکس", en: "Sarmayex" }
   category: crypto
   stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: com.bitbarg.app
+  name: { fa: "بیت برگ", en: "Bitbarg" }
+  category: crypto
+  stores: [bazaar, myket, play]
+  installs: { myket: 60000 }
+- package: com.bitex.pooleno
+  name: { fa: "پول نو", en: "Poolno" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 60000 }
+- package: com.exonyxapp.trader
+  name: { fa: "اکس اونیکس", en: "Exonyx" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 50000 }
+- package: app.trade.morbit
+  name: { fa: "موربیت", en: "Morbit" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 49000 }
+- package: com.hamtapay.exchange
+  name: { fa: "همتاپی", en: "Hamtapay" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 42000 }
+- package: app.coingram
+  name: { fa: "کوینگرام", en: "Coingram" }
+  category: crypto
+  stores: [bazaar, myket, play]
+  installs: { myket: 19000 }
+- package: net.dollarnet.app
+  name: { fa: "دلارنت", en: "Dollarnet" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 14000 }
+- package: com.balinex_android
+  name: { fa: "بالینکس", en: "Balinex" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 8000 }
+- package: io.four.app
+  name: { fa: "فور", en: "Four" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 7000 }
+- package: com.irbtc.twa
+  name: { fa: "ایران بیتکوین", en: "Iran Bitcoin" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 5000 }
+- package: com.asretether.app
+  name: { fa: "عصر تتر", en: "Asr Tether" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 4000 }
+- package: io.tronhub.app
+  name: { fa: "ترون هاب", en: "TronHub" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 4000 }
+- package: ir.loopex.app
+  name: { fa: "لوپکس", en: "Loopex" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { myket: 200 }
+- package: cash.bit24
+  name: { fa: "بیت ۲۴", en: "Bit24" }
+  category: crypto
+  stores: [play]
+- package: app.nobitex
+  name: { fa: "نوبیتکس", en: "Nobitex" }
+  category: crypto
+  stores: []
 
 # Stocks and investing
-- package: digital.kian.kiandigital
-  name: { fa: "کیان دیجیتال", en: "Kian Digital" }
-  category: investing
-  stores: [bazaar, myket]
-- package: ir.easytrader.orbis.m.twa
-  name: { fa: "ایزی تریدر", en: "EasyTrader" }
-  category: investing
-  stores: [bazaar, myket, play]
-- package: ir.hooshdadeh.bourse
-  name: { fa: "تحلیل گر بورس", en: "Bourse Analyst" }
-  category: investing
-  stores: [myket, play]
-- package: com.emofid.rnmofid
-  name: { fa: "مفید اپ", en: "Mofid App" }
-  category: investing
-  stores: [bazaar, myket, play]
-- package: com.shamimsoft.nerkh
-  name: { fa: "نرخ ارز", en: "Nerkh Arz" }
-  category: investing
-  stores: [bazaar, myket, play]
 - package: ir.part.app.signal
   name: { fa: "سیگنال", en: "Signal" }
   category: investing
   stores: [bazaar, myket, play]
+  installs: { myket: 1000000 }
+- package: ir.easytrader.orbis.m.twa
+  name: { fa: "ایزی تریدر", en: "EasyTrader" }
+  category: investing
+  stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
 - package: com.vandaw.tgju
   name: { fa: "قیمت‌ها (TGJU)", en: "TGJU Prices" }
   category: investing
   stores: [myket, play]
+  installs: { myket: 500000 }
+- package: com.emofid.rnmofid
+  name: { fa: "مفید اپ", en: "Mofid App" }
+  category: investing
+  stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
+- package: com.shamimsoft.nerkh
+  name: { fa: "نرخ ارز", en: "Nerkh Arz" }
+  category: investing
+  stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
+- package: digital.kian.kiandigital
+  name: { fa: "کیان دیجیتال", en: "Kian Digital" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: ir.hooshdadeh.bourse
+  name: { fa: "تحلیل گر بورس", en: "Bourse Analyst" }
+  category: investing
+  stores: [myket, play]
+  installs: { myket: 200000 }
+- package: app.ahrominvest.ir
+  name: { fa: "اهرم", en: "Ahrom" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { myket: 80000 }
+- package: com.novin.meschi
+  name: { fa: "مس‌چی", en: "Meschi" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { myket: 41000 }
+- package: com.zarpin.app
+  name: { fa: "زرپین", en: "Zarpin" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { myket: 36000 }
+- package: com.ada.wealthplus
+  name: { fa: "بان‌وست", en: "Banvest" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { myket: 17000 }
+- package: ir.lima.app
+  name: { fa: "لیما", en: "Lima" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { myket: 3000 }
+- package: com.jafund.app
+  name: { fa: "جافاند", en: "Jafund" }
+  category: investing
+  stores: [myket]
 
 # Insurance
 - package: com.nar.bimito
   name: { fa: "ازکی", en: "Azki" }
   category: insurance
   stores: [bazaar, myket, play]
+  installs: { myket: 1000000 }
 
 # Government services
+- package: ir.gov.mygov
+  name: { fa: "دولت من", en: "My Government" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { myket: 4000000 }
 - package: com.pdpsoft.android.saapa
   name: { fa: "برق من", en: "Bargh-e Man" }
   category: government
   stores: [bazaar, myket]
-- package: ir.eadl.edalatehamrah
-  name: { fa: "عدالت همراه", en: "Edalat-e Hamrah" }
-  category: government
-  stores: []
+  installs: { myket: 3000000 }
 - package: com.tamin.taminhamrah
   name: { fa: "تامین من", en: "My Tamin" }
   category: government
   stores: [bazaar, myket]
-- package: com.mytehran
-  name: { fa: "تهران من", en: "MyTehran" }
-  category: government
-  stores: [bazaar, myket]
-- package: ir.ayantech.pishkhan24
-  name: { fa: "پیشخوان ۲۴", en: "Pishkhan24" }
-  category: government
-  stores: [bazaar, myket, play]
+  installs: { myket: 3000000 }
 - package: com.nrdc.android.pyh
   name: { fa: "پلیس من", en: "Police Man" }
   category: government
   stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: com.mytehran
+  name: { fa: "تهران من", en: "MyTehran" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { myket: 900000 }
+- package: ir.ayantech.pishkhan24
+  name: { fa: "پیشخوان ۲۴", en: "Pishkhan24" }
+  category: government
+  stores: [bazaar, myket, play]
+  installs: { myket: 500000 }
+- package: ir.eadl.edalatehamrah
+  name: { fa: "عدالت همراه", en: "Edalat-e Hamrah" }
+  category: government
+  stores: []
 
 # Mobile operators and internet
-- package: ir.hiweb.app.my
-  name: { fa: "های‌وب من", en: "My HiWeb" }
-  category: telecom
-  stores: [myket]
-- package: com.shmapp
-  name: { fa: "شاتل موبایل من", en: "My Shatel Mobile" }
-  category: telecom
-  stores: [bazaar, myket, play]
-- package: ir.mytci
-  name: { fa: "مخابرات من", en: "My TCI" }
-  category: telecom
-  stores: [bazaar, myket]
-- package: com.myirancell
-  name: { fa: "ایرانسل من", en: "MyIrancell" }
-  category: telecom
-  stores: [bazaar, myket, play]
-- package: com.mtni.myirancell
-  name: { fa: "ایرانسل من (قدیمی)", en: "MyIrancell (old)" }
-  category: telecom
-  stores: [myket]
 - package: ir.mci.ecareapp
   name: { fa: "همراه من", en: "MyMCI" }
   category: telecom
   stores: [bazaar, myket, play]
+  installs: { myket: 32000000 }
+- package: com.myirancell
+  name: { fa: "ایرانسل من", en: "MyIrancell" }
+  category: telecom
+  stores: [bazaar, myket, play]
+  installs: { myket: 25000000 }
+- package: com.mtni.myirancell
+  name: { fa: "ایرانسل من (قدیمی)", en: "MyIrancell (old)" }
+  category: telecom
+  stores: [myket]
+  installs: { myket: 25000000 }
 - package: ir.rightel.myrightel
   name: { fa: "رایتل من", en: "MyRightel" }
   category: telecom
   stores: [bazaar, myket]
+  installs: { myket: 5000000 }
+- package: ir.mytci
+  name: { fa: "مخابرات من", en: "My TCI" }
+  category: telecom
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: com.shmapp
+  name: { fa: "شاتل موبایل من", en: "My Shatel Mobile" }
+  category: telecom
+  stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
+- package: com.yaramobile.pishvaz
+  name: { fa: "ریتم", en: "Rhythm" }
+  category: telecom
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: ir.hiweb.app.my
+  name: { fa: "های‌وب من", en: "My HiWeb" }
+  category: telecom
+  stores: [myket]
+  installs: { myket: 19000 }
 - package: ir.rightel.android.momir.rbt
   name: { fa: "آوای انتظار رایتل", en: "Rightel Ringback Tones" }
   category: telecom
   stores: []
 
 # Messengers and social networks
-- package: ir.nasim
-  name: { fa: "بله", en: "Bale" }
-  category: messenger
-  stores: [myket]
-- package: ir.chatzy.messenger
-  name: { fa: "چتزی", en: "Chatzy" }
-  category: messenger
-  stores: [bazaar, myket]
-- package: ir.eitaa.messenger
-  name: { fa: "ایتا", en: "Eitaa" }
-  category: messenger
-  stores: [bazaar, myket]
-- package: com.gapafzar.messenger
-  name: { fa: "گپ", en: "Gap Messenger" }
-  category: messenger
-  stores: [bazaar, myket]
-- package: ir.gharar
-  name: { fa: "قرار", en: "Gharar" }
-  category: messenger
-  stores: []
-- package: net.iGap
-  name: { fa: "آیگپ", en: "iGap" }
-  category: messenger
-  stores: [bazaar, myket]
-- package: com.nazdika.app
-  name: { fa: "نزدیکا", en: "Nazdika" }
-  category: messenger
-  stores: [bazaar, myket]
-- package: com.mnhaami.pasaj
-  name: { fa: "پاتوق", en: "Patogh" }
-  category: messenger
-  stores: [bazaar, myket, play]
-- package: app.pinno
-  name: { fa: "پینو", en: "Pinno" }
-  category: messenger
-  stores: [bazaar, myket, play]
 - package: app.rbmain.a
   name: { fa: "روبیکا", en: "Rubika" }
   category: messenger
   stores: [bazaar, myket]
+  installs: { myket: 48000000 }
+- package: ir.eitaa.messenger
+  name: { fa: "ایتا", en: "Eitaa" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 40000000 }
+- package: ir.nasim
+  name: { fa: "بله", en: "Bale" }
+  category: messenger
+  stores: [myket]
+  installs: { myket: 25000000 }
 - package: mobi.mmdt.ottplus
   name: { fa: "سروش پلاس", en: "Soroush Plus" }
   category: messenger
   stores: [bazaar, myket]
+  installs: { myket: 20000000 }
+- package: net.iGap
+  name: { fa: "آیگپ", en: "iGap" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 8000000 }
+- package: com.nazdika.app
+  name: { fa: "نزدیکا", en: "Nazdika" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 5000000 }
+- package: com.gapafzar.messenger
+  name: { fa: "گپ", en: "Gap Messenger" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: com.mnhaami.pasaj
+  name: { fa: "پاتوق", en: "Patogh" }
+  category: messenger
+  stores: [bazaar, myket, play]
+  installs: { myket: 3000000 }
+- package: ir.chatzy.messenger
+  name: { fa: "چتزی", en: "Chatzy" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.gapafzar.nasimrezvan
+  name: { fa: "نسیم رضوان", en: "Nasim Rezvan" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
 - package: com.wisgoon.android
   name: { fa: "ویسگون", en: "Wisgoon" }
   category: messenger
   stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: app.pinno
+  name: { fa: "پینو", en: "Pinno" }
+  category: messenger
+  stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
+- package: ir.android.baham2
+  name: { fa: "باهم آبی", en: "Baham Abi" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: ir.gharar
+  name: { fa: "قرار", en: "Gharar" }
+  category: messenger
+  stores: []
 
 # App stores
-- package: com.farsitel.bazaar
-  name: { fa: "بازار", en: "Bazaar" }
-  category: store
-  stores: [bazaar]
 - package: ir.mservices.market
   name: { fa: "مایکت", en: "Myket" }
   category: store
   stores: [myket]
+  installs: { myket: 60000000 }
+- package: com.farsitel.bazaar
+  name: { fa: "بازار", en: "Bazaar" }
+  category: store
+  stores: [bazaar]
 
 # Shopping and classifieds
-- package: com.bama.consumer
-  name: { fa: "باما", en: "Bama" }
+- package: com.digikala
+  name: { fa: "دیجی کالا", en: "Digikala" }
   category: shopping
-  stores: [bazaar, myket, play]
-- package: com.banimode.app
-  name: { fa: "بانی مد", en: "Banimode" }
+  stores: [bazaar, myket]
+  installs: { myket: 25000000 }
+- package: ir.torob
+  name: { fa: "ترب", en: "Torob" }
   category: shopping
-  stores: []
+  stores: [bazaar, myket]
+  installs: { myket: 15000000 }
+- package: com.sheypoor.mobile
+  name: { fa: "شیپور", en: "Sheypoor" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 12000000 }
 - package: ir.basalam.app
   name: { fa: "باسلام", en: "Basalam" }
   category: shopping
   stores: [bazaar, myket]
+  installs: { myket: 9000000 }
+- package: ir.emalls.app
+  name: { fa: "ایمالز", en: "Emalls" }
+  category: shopping
+  stores: [bazaar, myket, play]
+  installs: { myket: 900000 }
+- package: ir.pindo.fletcher
+  name: { fa: "پیندو", en: "Pindo" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 800000 }
+- package: com.ads.ring
+  name: { fa: "رینگ", en: "Ring" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 800000 }
+- package: com.bama.consumer
+  name: { fa: "باما", en: "Bama" }
+  category: shopping
+  stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
 - package: ir.basalam.basalam
   name: { fa: "غرفه من (باسلام)", en: "Basalam Vendors" }
   category: shopping
   stores: [bazaar, myket]
+  installs: { myket: 500000 }
+- package: com.hamrah_mechanic.hamrah_mechanic
+  name: { fa: "همراه مکانیک", en: "Hamrah Mechanic" }
+  category: shopping
+  stores: [bazaar, myket, play]
+  installs: { myket: 500000 }
+- package: com.agahi_kala
+  name: { fa: "آگهی کالا", en: "Agahi Kala" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: com.takhfifan.takhfifan
+  name: { fa: "تخفیفان", en: "Takhfifan" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: com.technolife
+  name: { fa: "تکنولایف", en: "Technolife" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: com.karnameh
+  name: { fa: "کارنامه", en: "Karnameh" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.khodro45.c2c
+  name: { fa: "خودرو۴۵", en: "Khodro45" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.komodaa.app
+  name: { fa: "کمدا", en: "Komodaa" }
+  category: shopping
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: com.IranModernBusinesses.Netbarg
+  name: { fa: "نت‌برگ", en: "Netbarg" }
+  category: shopping
+  stores: [myket]
+  installs: { myket: 200000 }
+- package: app.shopino
+  name: { fa: "شاپینو", en: "Shopino" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.aritec.pasazh
+  name: { fa: "پاساژ", en: "Pasazh" }
+  category: shopping
+  stores: [bazaar, myket, play]
+  installs: { myket: 90000 }
+- package: com.banimode.app
+  name: { fa: "بانی مد", en: "Banimode" }
+  category: shopping
+  stores: []
 - package: ir.itrasaneh.bazarkhodro
   name: { fa: "بازار خودرو", en: "Bazar Khodro" }
   category: shopping
@@ -472,10 +827,6 @@
   name: { fa: "قیمت گذار خودرو", en: "Car Pricing" }
   category: shopping
   stores: [bazaar]
-- package: com.digikala
-  name: { fa: "دیجی کالا", en: "Digikala" }
-  category: shopping
-  stores: [bazaar, myket]
 - package: com.digistyle.prod
   name: { fa: "دیجی استایل", en: "Digistyle" }
   category: shopping
@@ -484,376 +835,648 @@
   name: { fa: "دیوار", en: "Divar" }
   category: shopping
   stores: [bazaar]
-- package: ir.emalls.app
-  name: { fa: "ایمالز", en: "Emalls" }
-  category: shopping
-  stores: [bazaar, myket, play]
 - package: ir.esam.app
   name: { fa: "اسام", en: "Esam" }
   category: shopping
   stores: []
-- package: com.hamrah_mechanic.hamrah_mechanic
-  name: { fa: "همراه مکانیک", en: "Hamrah Mechanic" }
-  category: shopping
-  stores: [bazaar, myket, play]
-- package: com.komodaa.app
-  name: { fa: "کمدا", en: "Komodaa" }
-  category: shopping
-  stores: [bazaar, myket, play]
-- package: com.IranModernBusinesses.Netbarg
-  name: { fa: "نت‌برگ", en: "Netbarg" }
-  category: shopping
-  stores: [myket]
-- package: ir.aritec.pasazh
-  name: { fa: "پاساژ", en: "Pasazh" }
-  category: shopping
-  stores: [bazaar, myket, play]
-- package: ir.pindo.fletcher
-  name: { fa: "پیندو", en: "Pindo" }
-  category: shopping
-  stores: [bazaar, myket]
-- package: com.sheypoor.mobile
-  name: { fa: "شیپور", en: "Sheypoor" }
-  category: shopping
-  stores: [bazaar, myket]
-- package: com.takhfifan.takhfifan
-  name: { fa: "تخفیفان", en: "Takhfifan" }
-  category: shopping
-  stores: [bazaar, myket]
-- package: ir.torob
-  name: { fa: "ترب", en: "Torob" }
-  category: shopping
-  stores: [bazaar, myket]
 
 # Food and groceries
-- package: com.pishgaman.bazargam
-  name: { fa: "بازرگام", en: "Bazargam" }
+- package: com.okala
+  name: { fa: "اکالا", en: "Okala" }
   category: food
   stores: [bazaar, myket]
-- package: com.delino.android
-  name: { fa: "دلینو", en: "Delino" }
-  category: food
-  stores: [bazaar, myket]
-- package: me.narenj.onlinedelivery
-  name: { fa: "نارنج", en: "Narenj" }
-  category: food
-  stores: [bazaar]
-- package: ir.mynal.papillon.papillonchef
-  name: { fa: "سرآشپز پاپیون", en: "Sarashpaz Papion" }
-  category: food
-  stores: [bazaar, myket, play]
+  installs: { myket: 4000000 }
 - package: com.zoodfood.android
   name: { fa: "اسنپ فود", en: "SnappFood" }
   category: food
   stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: ir.mynal.papillon.papillonchef
+  name: { fa: "سرآشپز پاپیون", en: "Sarashpaz Papion" }
+  category: food
+  stores: [bazaar, myket, play]
+  installs: { myket: 700000 }
 - package: com.snappmarket
   name: { fa: "اسنپ مارکت", en: "SnappMarket" }
   category: food
   stores: [bazaar, myket]
+  installs: { myket: 600000 }
+- package: com.digikala.firebolt
+  name: { fa: "سوپرمارکت دیجی‌کالا", en: "Digikala Supermarket" }
+  category: food
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: ir.chibokhorim.app
+  name: { fa: "چی بخوریم", en: "Chi Bokhorim" }
+  category: food
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.tapsi.tapsifood
+  name: { fa: "تپسی‌فود", en: "Tapsi Food" }
+  category: food
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.delino.android
+  name: { fa: "دلینو", en: "Delino" }
+  category: food
+  stores: [bazaar, myket]
+  installs: { myket: 80000 }
+- package: com.pishgaman.bazargam
+  name: { fa: "بازرگام", en: "Bazargam" }
+  category: food
+  stores: [bazaar, myket]
+  installs: { myket: 70000 }
+- package: me.narenj.onlinedelivery
+  name: { fa: "نارنج", en: "Narenj" }
+  category: food
+  stores: [bazaar]
 
 # Taxis and transport
-- package: com.alopeyk.customer
-  name: { fa: "الوپیک", en: "AloPeyk" }
-  category: transport
-  stores: [bazaar, myket]
-- package: ir.pakcharkh.bdood
-  name: { fa: "بیدود", en: "Bdood" }
-  category: transport
-  stores: [bazaar, myket]
-- package: co.jadeh.driver
-  name: { fa: "جاده رانندگان", en: "Jadeh Driver" }
-  category: transport
-  stores: [bazaar, myket]
-- package: com.taxsee.taxsee
-  name: { fa: "ماکسیم", en: "Maxim" }
-  category: transport
-  stores: [bazaar, myket, play]
-- package: ir.taxsee.driver
-  name: { fa: "ماکسیم رانندگان", en: "Maxim Driver" }
-  category: transport
-  stores: [bazaar, myket, play]
-- package: ir.metrotimeiran.metrotime
-  name: { fa: "مترو تایم", en: "Metro Time" }
-  category: transport
-  stores: [bazaar]
 - package: cab.snapp.passenger
   name: { fa: "اسنپ", en: "Snapp" }
   category: transport
   stores: [bazaar, myket]
-- package: cab.snapp.passenger.play
-  name: { fa: "اسنپ (گوگل‌پلی)", en: "Snapp (Google Play)" }
-  category: transport
-  stores: [bazaar, myket]
-- package: cab.snapp.driver
-  name: { fa: "اسنپ رانندگان", en: "Snapp Driver" }
-  category: transport
-  stores: [bazaar, myket]
-- package: com.snapp_box.android
-  name: { fa: "اسنپ باکس", en: "Snappbox" }
-  category: transport
-  stores: [bazaar, myket]
-- package: com.snappbox.bikerapp
-  name: { fa: "اسنپ باکس رانندگان", en: "Snappbox Driver" }
-  category: transport
-  stores: [bazaar, myket]
-- package: taxi.tapsi.passenger
-  name: { fa: "تپسی", en: "Tapsi" }
-  category: transport
-  stores: [bazaar, myket]
+  installs: { myket: 30000000 }
 - package: taxi.tap30.passenger
   name: { fa: "تپسی (قدیمی)", en: "Tapsi (old)" }
   category: transport
   stores: [bazaar, myket]
+  installs: { myket: 10000000 }
+- package: cab.snapp.driver
+  name: { fa: "اسنپ رانندگان", en: "Snapp Driver" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 6000000 }
+- package: com.taxsee.taxsee
+  name: { fa: "ماکسیم", en: "Maxim" }
+  category: transport
+  stores: [bazaar, myket, play]
+  installs: { myket: 4000000 }
 - package: taxi.tap30.driver
   name: { fa: "تپسی رانندگان", en: "Tapsi Driver" }
   category: transport
   stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: com.snappbox.bikerapp
+  name: { fa: "اسنپ باکس رانندگان", en: "Snappbox Driver" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: cab.snapp.passenger.play
+  name: { fa: "اسنپ (گوگل‌پلی)", en: "Snapp (Google Play)" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 800000 }
+- package: ir.taxsee.driver
+  name: { fa: "ماکسیم رانندگان", en: "Maxim Driver" }
+  category: transport
+  stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
+- package: com.alopeyk.customer
+  name: { fa: "الوپیک", en: "AloPeyk" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
 - package: net.taraabar.carrier
   name: { fa: "ترابرنت رانندگان", en: "Taraabarnet Drivers" }
   category: transport
   stores: [bazaar, myket, play]
-- package: ftc.com.findtaxisystem
-  name: { fa: "تاکسی ۳۶۰", en: "Taxi 360" }
+  installs: { myket: 500000 }
+- package: com.alopeyk.courier
+  name: { fa: "الوپیک سفیران", en: "AloPeyk Couriers" }
   category: transport
-  stores: [myket]
-- package: co.fardad.android.metro
-  name: { fa: "مترو تهران", en: "Tehran Metro" }
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: com.dotone.passenger
+  name: { fa: "دات وان", en: "DotOne" }
   category: transport
-  stores: [bazaar]
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: com.snapp_box.android
+  name: { fa: "اسنپ باکس", en: "Snappbox" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: net.taraabar.shipper.twa
+  name: { fa: "ترابرنت", en: "Taraabarnet" }
+  category: transport
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
 - package: com.neda.buseta
   name: { fa: "حمل و نقل عمومی تهران", en: "Tehran Public Transport" }
   category: transport
   stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: ir.pakcharkh.bdood
+  name: { fa: "بیدود", en: "Bdood" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 100000 }
+- package: co.jadeh.driver
+  name: { fa: "جاده رانندگان", en: "Jadeh Driver" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 100000 }
+- package: ftc.com.findtaxisystem
+  name: { fa: "تاکسی ۳۶۰", en: "Taxi 360" }
+  category: transport
+  stores: [myket]
+  installs: { myket: 100000 }
+- package: taxi.tapsi.passenger
+  name: { fa: "تپسی", en: "Tapsi" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { myket: 45000 }
+- package: ir.metrotimeiran.metrotime
+  name: { fa: "مترو تایم", en: "Metro Time" }
+  category: transport
+  stores: [bazaar]
+- package: co.fardad.android.metro
+  name: { fa: "مترو تهران", en: "Tehran Metro" }
+  category: transport
+  stores: [bazaar]
 
 # Travel and stays
-- package: com.avrudi.fids
-  name: { fa: "اطلاعات پرواز فرودگاه", en: "Airport Flight Information" }
-  category: travel
-  stores: [bazaar, myket, play]
 - package: ir.alibaba
   name: { fa: "علی بابا", en: "Alibaba" }
   category: travel
   stores: [bazaar, myket]
-- package: app.eghamat24.com
-  name: { fa: "اقامت ۲۴", en: "Eghamat24" }
-  category: travel
-  stores: [bazaar, myket]
-- package: com.flightio.app
-  name: { fa: "فلایتیو", en: "Flightio" }
-  category: travel
-  stores: [myket]
+  installs: { myket: 2000000 }
 - package: com.jabamaguest
   name: { fa: "جاباما", en: "Jabama" }
   category: travel
   stores: [bazaar, myket, play]
+  installs: { myket: 2000000 }
 - package: com.jajiga.app
   name: { fa: "جاجیگا", en: "Jajiga" }
   category: travel
   stores: [bazaar, myket, play]
+  installs: { myket: 800000 }
 - package: com.mrbilit.app
   name: { fa: "مستر بلیط", en: "MrBilit" }
   category: travel
   stores: [bazaar, myket]
+  installs: { myket: 600000 }
 - package: ir.otaghak.app
   name: { fa: "اتاقک", en: "Otaghak" }
   category: travel
   stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
+- package: ir.flytoday
+  name: { fa: "فلای تودی", en: "Flytoday" }
+  category: travel
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
 - package: com.safarmarket.app
   name: { fa: "سفرمارکت", en: "Safarmarket" }
   category: travel
   stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: com.flightio.app
+  name: { fa: "فلایتیو", en: "Flightio" }
+  category: travel
+  stores: [myket]
+  installs: { myket: 200000 }
+- package: ir.sepand.payaneh
+  name: { fa: "پایانه", en: "Payaneh" }
+  category: travel
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
 - package: ir.sepehr360.app
   name: { fa: "سپهر ۳۶۰", en: "Sepehr360" }
   category: travel
   stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
 - package: com.pintapin.pintapin
   name: { fa: "اسنپ تریپ", en: "Snapptrip" }
   category: travel
   stores: [bazaar, myket]
+  installs: { myket: 200000 }
 - package: ir.tcharter.tcharter
   name: { fa: "تی چارتر", en: "Tcharter" }
   category: travel
   stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: com.utravs
+  name: { fa: "یوتراوز", en: "Utravs" }
+  category: travel
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: travel.shab
+  name: { fa: "شب", en: "Shab" }
+  category: travel
+  stores: [bazaar, myket, play]
+  installs: { myket: 100000 }
+- package: com.avrudi.fids
+  name: { fa: "اطلاعات پرواز فرودگاه", en: "Airport Flight Information" }
+  category: travel
+  stores: [bazaar, myket, play]
+  installs: { myket: 60000 }
+- package: app.eghamat24.com
+  name: { fa: "اقامت ۲۴", en: "Eghamat24" }
+  category: travel
+  stores: [bazaar, myket]
+  installs: { myket: 60000 }
 
 # Maps and navigation
-- package: com.baladmaps
-  name: { fa: "بلد", en: "Balad" }
-  category: maps
-  stores: [bazaar, play]
-- package: ir.balad
-  name: { fa: "بلد", en: "Balad" }
-  category: maps
-  stores: [bazaar, myket]
-- package: ir.daal.app
-  name: { fa: "دال", en: "Daal" }
-  category: maps
-  stores: [bazaar, myket]
 - package: org.rajman.neshan.traffic.tehran.navigator
   name: { fa: "نشان", en: "Neshan" }
   category: maps
   stores: [bazaar, myket, play]
-- package: org.rajman.neshan.traffic.tehran
-  name: { fa: "رایا", en: "Raya" }
+  installs: { myket: 19000000 }
+- package: ir.balad
+  name: { fa: "بلد", en: "Balad" }
   category: maps
   stores: [bazaar, myket]
-- package: org.rajman.map.traffic.mashhad
-  name: { fa: "رایا مشهد", en: "Raya Mashhad" }
+  installs: { myket: 14000000 }
+- package: ir.daal.app
+  name: { fa: "دال", en: "Daal" }
   category: maps
-  stores: []
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
 - package: me.unique.map.unique
   name: { fa: "وی", en: "WAY" }
   category: maps
   stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: org.rajman.neshan.traffic.tehran
+  name: { fa: "رایا", en: "Raya" }
+  category: maps
+  stores: [bazaar, myket]
+  installs: { myket: 60000 }
+- package: com.baladmaps
+  name: { fa: "بلد", en: "Balad" }
+  category: maps
+  stores: [bazaar, play]
+- package: org.rajman.map.traffic.mashhad
+  name: { fa: "رایا مشهد", en: "Raya Mashhad" }
+  category: maps
+  stores: []
 
 # Health
-- package: ir.aradsystem.apps.calorietracker
-  name: { fa: "بشقاب", en: "Boshghab" }
-  category: health
-  stores: [bazaar, myket]
-- package: mojabi.app.darooyab
-  name: { fa: "دارویاب", en: "Darooyab" }
-  category: health
-  stores: []
-- package: com.drsainaapp
-  name: { fa: "دکتر ساینا", en: "Drsaina" }
-  category: health
-  stores: [bazaar, myket]
-- package: ir.EnerGym
-  name: { fa: "انرجیم", en: "EnerGym" }
-  category: health
-  stores: [bazaar, myket]
-- package: pr.gahvare.gahvare
-  name: { fa: "گهواره", en: "Gahvare" }
-  category: health
-  stores: [bazaar, myket, play]
-- package: ir.duck.impo
-  name: { fa: "ایمپو", en: "Impo" }
-  category: health
-  stores: [bazaar, myket]
 - package: ir.eynakgroup.caloriemeter
   name: { fa: "کرفس", en: "Karafs" }
   category: health
   stores: [bazaar, myket, play]
-- package: ir.zinoo.mankan
-  name: { fa: "مانکن", en: "Mankan" }
-  category: health
-  stores: [bazaar, myket, play]
-- package: com.medario.padidar
-  name: { fa: "مداریو", en: "Medario" }
-  category: health
-  stores: [bazaar]
-- package: com.bartarinha.niniban
-  name: { fa: "نی نی بان", en: "Niniban" }
-  category: health
-  stores: [bazaar, myket]
-- package: com.niniplus.androidapp
-  name: { fa: "نی نی پلاس", en: "Niniplus" }
-  category: health
-  stores: [bazaar]
+  installs: { myket: 2000000 }
 - package: com.paziresh24.paziresh24
   name: { fa: "پذیرش۲۴", en: "Paziresh24" }
   category: health
   stores: [bazaar, myket, play]
-- package: com.pezeshket
-  name: { fa: "پزشکت", en: "Pezeshket" }
+  installs: { myket: 2000000 }
+- package: pr.gahvare.gahvare
+  name: { fa: "گهواره", en: "Gahvare" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 800000 }
+- package: app.herlife
+  name: { fa: "هرلایف", en: "Herlife" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 800000 }
+- package: ir.duck.impo
+  name: { fa: "ایمپو", en: "Impo" }
   category: health
   stores: [bazaar, myket]
+  installs: { myket: 800000 }
+- package: ir.hivatec.doctoreto
+  name: { fa: "دکترتو", en: "Doctoreto" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
 - package: ir.aftabeshafa.shafadoc
   name: { fa: "شفاداک", en: "ShafaDoc" }
   category: health
   stores: [bazaar, myket, play]
+  installs: { myket: 500000 }
+- package: com.lunaapp
+  name: { fa: "لونا", en: "Luna" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
+- package: ir.zinoo.mankan
+  name: { fa: "مانکن", en: "Mankan" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
+- package: ir.aradsystem.apps.calorietracker
+  name: { fa: "بشقاب", en: "Boshghab" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: app.drdr.android
+  name: { fa: "دکتردکتر", en: "DrDr" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: ir.eritco.gymShowAthlete
+  name: { fa: "جیم شو", en: "GymShow" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.diacotdj.liom
+  name: { fa: "لیوم", en: "Liom" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
 - package: app.yekzan.main
   name: { fa: "یک زن", en: "Yekzan" }
   category: health
   stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.darooyab.med
+  name: { fa: "دارویاب", en: "Darooyab" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.drsainaapp
+  name: { fa: "دکتر ساینا", en: "Drsaina" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.EnerGym
+  name: { fa: "انرجیم", en: "EnerGym" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.fito.caloriecounter
+  name: { fa: "هویج", en: "Havij" }
+  category: health
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: com.bartarinha.niniban
+  name: { fa: "نی نی بان", en: "Niniban" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.pezeshket
+  name: { fa: "پزشکت", en: "Pezeshket" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: me.axon.phr.twa
+  name: { fa: "اکسون", en: "Axon" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 100000 }
+- package: doctoryab_ir.samangan.ir.doctoryabapp
+  name: { fa: "دکتریاب", en: "Doctoryab" }
+  category: health
+  stores: [bazaar, myket]
+  installs: { myket: 100000 }
+- package: mojabi.app.darooyab
+  name: { fa: "دارویاب", en: "Darooyab" }
+  category: health
+  stores: []
+- package: com.medario.padidar
+  name: { fa: "مداریو", en: "Medario" }
+  category: health
+  stores: [bazaar]
+- package: com.niniplus.androidapp
+  name: { fa: "نی نی پلاس", en: "Niniplus" }
+  category: health
+  stores: [bazaar]
 - package: com.kermany.zireh
   name: { fa: "زیره", en: "Zireh" }
   category: health
   stores: [bazaar, play]
 
 # Video and music
-- package: com.peykasa.afarinak.afarinakapp
-  name: { fa: "آفرینک", en: "Afarinak" }
-  category: streaming
-  stores: [bazaar, myket, play]
-- package: com.ahangify.music
-  name: { fa: "آهنگیفای", en: "Ahangify" }
-  category: streaming
-  stores: [myket, play]
-- package: tv.perception.android.aio
-  name: { fa: "آیو", en: "Aio" }
+- package: com.aparat
+  name: { fa: "آپارات", en: "Aparat" }
   category: streaming
   stores: [bazaar, myket]
-- package: com.farakav.anten
-  name: { fa: "آنتن", en: "Anten" }
-  category: streaming
-  stores: [bazaar, myket]
-- package: com.aparat.kids
-  name: { fa: "آپارات کودک", en: "Aparat Kids" }
-  category: streaming
-  stores: [bazaar, myket]
-- package: com.beep.tunes
-  name: { fa: "بیپ تونز", en: "Beeptunes" }
-  category: streaming
-  stores: [bazaar]
-- package: com.yaramobile.digitoon
-  name: { fa: "دیجیتون", en: "Digitoon" }
-  category: streaming
-  stores: [bazaar, myket]
+  installs: { myket: 25000000 }
 - package: com.aparat.filimo
   name: { fa: "فیلیمو", en: "Filimo" }
   category: streaming
   stores: [bazaar, myket]
-- package: ir.filmnet.android
-  name: { fa: "فیلم نت", en: "Filmnet" }
-  category: streaming
-  stores: [bazaar, myket]
-- package: com.gapfilm.app
-  name: { fa: "گپ فیلم", en: "GapFilm" }
-  category: streaming
-  stores: [bazaar, myket, play]
-- package: ir.iribradio.iranseda3
-  name: { fa: "ایران صدا", en: "Iranseda" }
-  category: streaming
-  stores: [bazaar, myket]
-- package: com.likotv
-  name: { fa: "آی اسپورت", en: "iSport" }
-  category: streaming
-  stores: [myket, play]
-- package: com.mrtehran.mtandroid
-  name: { fa: "مستر تهران", en: "MrTehran" }
-  category: streaming
-  stores: [myket, play]
-- package: com.shatelland.namava.mobile
-  name: { fa: "نماوا", en: "Namava" }
-  category: streaming
-  stores: [bazaar, myket, play]
-- package: ir.navayeheiat
-  name: { fa: "نوا", en: "Nava" }
-  category: streaming
-  stores: [bazaar, myket]
-- package: ir.IRIB.jk.MediaIRIB
-  name: { fa: "سپهر", en: "Sepehr" }
-  category: streaming
-  stores: [bazaar, myket]
-- package: com.rahpou.irib
-  name: { fa: "سیمای همراه", en: "Simaye Hamrah" }
-  category: streaming
-  stores: [myket]
+  installs: { myket: 18000000 }
 - package: net.telewebion
   name: { fa: "تلوبیون", en: "Telewebion" }
   category: streaming
   stores: [bazaar, myket]
+  installs: { myket: 18000000 }
+- package: com.farakav.anten
+  name: { fa: "آنتن", en: "Anten" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 6000000 }
+- package: ir.filmnet.android
+  name: { fa: "فیلم نت", en: "Filmnet" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 6000000 }
+- package: com.gapfilm.app
+  name: { fa: "گپ فیلم", en: "GapFilm" }
+  category: streaming
+  stores: [bazaar, myket, play]
+  installs: { myket: 6000000 }
+- package: com.shatelland.namava.mobile
+  name: { fa: "نماوا", en: "Namava" }
+  category: streaming
+  stores: [bazaar, myket, play]
+  installs: { myket: 6000000 }
+- package: com.peykasa.afarinak.afarinakapp
+  name: { fa: "آفرینک", en: "Afarinak" }
+  category: streaming
+  stores: [bazaar, myket, play]
+  installs: { myket: 5000000 }
+- package: com.dorfaksoft.filo
+  name: { fa: "فیلو", en: "Filo" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: com.aparat.kids
+  name: { fa: "آپارات کودک", en: "Aparat Kids" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.yaramobile.digitoon
+  name: { fa: "دیجیتون", en: "Digitoon" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.aparat.music
+  name: { fa: "آپارات موزیک", en: "Aparat Music" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: com.aparat.sport
+  name: { fa: "آپارات اسپرت", en: "Aparat Sport" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: ir.iribradio.iranseda3
+  name: { fa: "ایران صدا", en: "Iranseda" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 1000000 }
+- package: com.rahpou.irib
+  name: { fa: "سیمای همراه", en: "Simaye Hamrah" }
+  category: streaming
+  stores: [myket]
+  installs: { myket: 800000 }
+- package: com.ahangify.music
+  name: { fa: "آهنگیفای", en: "Ahangify" }
+  category: streaming
+  stores: [myket, play]
+  installs: { myket: 700000 }
+- package: com.sheyda.app
+  name: { fa: "شیدا", en: "Sheyda" }
+  category: streaming
+  stores: [bazaar, myket, play]
+  installs: { myket: 700000 }
+- package: ir.navayeheiat
+  name: { fa: "نوا", en: "Nava" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 600000 }
+- package: ir.IRIB.jk.MediaIRIB
+  name: { fa: "سپهر", en: "Sepehr" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
+- package: tv.perception.android.aio
+  name: { fa: "آیو", en: "Aio" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: com.sabaidea.filimo.tv
+  name: { fa: "فیلیمو برای تلویزیون", en: "Filimo for TV" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: ir.asiatech.tmk
+  name: { fa: "تماشاخونه", en: "Tamashakhoone" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: com.goldenkey.jaamp
+  name: { fa: "جامپ", en: "Jaamp" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: com.kashoob.app
+  name: { fa: "کآشوب", en: "Kashoob" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: com.abrnarenji.dididoon
+  name: { fa: "دیدیدون", en: "Dididoon" }
+  category: streaming
+  stores: [myket]
+  installs: { myket: 200000 }
+- package: ir.msbmusic
+  name: { fa: "ام اس بی موزیک", en: "MSB Music" }
+  category: streaming
+  stores: [myket]
+  installs: { myket: 200000 }
+- package: com.liverazavi.mehrsoft
+  name: { fa: "پخش زنده حرم امام رضا", en: "Imam Reza Shrine Live" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 100000 }
+- package: holdings.kplus.musiciom
+  name: { fa: "موزیکیوم", en: "Musiciom" }
+  category: streaming
+  stores: [bazaar, myket]
+  installs: { myket: 100000 }
+- package: ir.pigi.tehranpodcat2
+  name: { fa: "تی پاد", en: "T-Pod" }
+  category: streaming
+  stores: [myket, play]
+  installs: { myket: 100000 }
 - package: com.myvusic.app
   name: { fa: "ویوزیک", en: "Vusic" }
   category: streaming
   stores: [bazaar, myket]
+  installs: { myket: 47000 }
+- package: com.likotv
+  name: { fa: "آی اسپورت", en: "iSport" }
+  category: streaming
+  stores: [myket, play]
+  installs: { myket: 600 }
+- package: com.beep.tunes
+  name: { fa: "بیپ تونز", en: "Beeptunes" }
+  category: streaming
+  stores: [bazaar]
+- package: com.mrtehran.mtandroid
+  name: { fa: "مستر تهران", en: "MrTehran" }
+  category: streaming
+  stores: [myket, play]
 
 # News and books
+- package: com.piccolo.footballi.server
+  name: { fa: "فوتبالی", en: "Footballi" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 11000000 }
+- package: ir.mservices.mybook
+  name: { fa: "طاقچه", en: "Taaghche" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 4000000 }
+- package: ir.football360.android
+  name: { fa: "فوتبال ۳۶۰", en: "Football 360" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
 - package: com.khorasannews.latestnews
   name: { fa: "آخرین خبر", en: "Akharin Khabar" }
   category: reading
   stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.footba11.results
+  name: { fa: "فوتبال ۱۱", en: "Footba11" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: com.farakav.varzesh3
+  name: { fa: "ورزش سه", en: "Varzesh3" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: holdings.kplus.footbaliga
+  name: { fa: "فوتبالیگا", en: "Footbaliga" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: ir.navaar.android
+  name: { fa: "نوار", en: "Navaar" }
+  category: reading
+  stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
+- package: ir.faraketab.player
+  name: { fa: "فراکتاب", en: "Faraketab" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 300000 }
+- package: ir.ghbook.reader
+  name: { fa: "بازار کتاب", en: "Bazar-e Ketab" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: top.comeback.twa
+  name: { fa: "کامبک", en: "Comeback" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.footballbartar.app
+  name: { fa: "فوتبال برتر", en: "Football Bartar" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.zandiyeh.kalabarg
+  name: { fa: "اخبار کالابرگ", en: "Kalabarg News" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.yekjoo.twa
+  name: { fa: "یکجو", en: "Yekjoo" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
 - package: fast.dic.dict
   name: { fa: "فست دیکشنری", en: "Fastdic" }
   category: reading
@@ -862,102 +1485,238 @@
   name: { fa: "فیدیبو", en: "Fidibo" }
   category: reading
   stores: [bazaar, play]
-- package: com.footba11.results
-  name: { fa: "فوتبال ۱۱", en: "Footba11" }
-  category: reading
-  stores: [bazaar, myket]
-- package: ir.football360.android
-  name: { fa: "فوتبال ۳۶۰", en: "Football 360" }
-  category: reading
-  stores: [bazaar, myket]
-- package: com.piccolo.footballi.server
-  name: { fa: "فوتبالی", en: "Footballi" }
-  category: reading
-  stores: [bazaar, myket]
 - package: com.ketabrah
   name: { fa: "کتابراه", en: "Ketabrah" }
   category: reading
   stores: [play]
-- package: ir.navaar.android
-  name: { fa: "نوار", en: "Navaar" }
-  category: reading
-  stores: [bazaar, myket, play]
-- package: ir.mservices.mybook
-  name: { fa: "طاقچه", en: "Taaghche" }
-  category: reading
-  stores: [bazaar, myket]
 
 # Education
-- package: com.bamooz.vocab.deutsch
-  name: { fa: "زبان بیاموز", en: "B-Amooz" }
-  category: education
-  stores: [bazaar, myket, play]
-- package: org.alleece.evillage
-  name: { fa: "دهکده زبان", en: "English Village" }
-  category: education
-  stores: [bazaar, myket]
-- package: com.sabaidea.filimo.school
-  name: { fa: "فیلیمو مدرسه", en: "Filimo School" }
-  category: education
-  stores: [bazaar, myket]
-- package: apphamyar.com
-  name: { fa: "همیار", en: "Hamyar" }
-  category: education
-  stores: [bazaar, myket]
-- package: ir.learnit
-  name: { fa: "لرنیت", en: "Learnit" }
-  category: education
-  stores: [bazaar, myket, play]
-- package: air.com.viraparsian.mishakoosha
-  name: { fa: "میشا کوشا", en: "Misha Koosha" }
-  category: education
-  stores: [bazaar, play]
-- package: com.paadars.practicehelpN
-  name: { fa: "پادرس", en: "Paadars" }
-  category: education
-  stores: [bazaar, myket]
 - package: ir.medu.shad
   name: { fa: "شاد", en: "Shad" }
   category: education
   stores: [bazaar, myket]
+  installs: { myket: 38000000 }
+- package: apphamyar.com
+  name: { fa: "همیار", en: "Hamyar" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 8000000 }
+- package: com.sabaidea.filimo.school
+  name: { fa: "فیلیمو مدرسه", en: "Filimo School" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: com.paadars.practicehelpN
+  name: { fa: "پادرس", en: "Paadars" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 3000000 }
+- package: ir.learnit
+  name: { fa: "لرنیت", en: "Learnit" }
+  category: education
+  stores: [bazaar, myket, play]
+  installs: { myket: 2000000 }
+- package: asr.group.idars
+  name: { fa: "مای درس", en: "MyDars" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
 - package: org.tahlilgaran.tdictionary
   name: { fa: "تحلیلگران", en: "TahlilGaran" }
   category: education
   stores: [bazaar, myket, play]
+  installs: { myket: 2000000 }
 - package: com.zabanshenas
   name: { fa: "زبانشناس", en: "Zabanshenas" }
   category: education
   stores: [bazaar, myket, play]
+  installs: { myket: 1000000 }
+- package: com.bamooz.vocab.deutsch
+  name: { fa: "زبان بیاموز", en: "B-Amooz" }
+  category: education
+  stores: [bazaar, myket, play]
+  installs: { myket: 800000 }
+- package: online.skyroom
+  name: { fa: "اسکای روم", en: "Skyroom" }
+  category: education
+  stores: [myket]
+  installs: { myket: 800000 }
+- package: hamyarzaban.learn.english
+  name: { fa: "همیارزبان", en: "Hamyar Zaban" }
+  category: education
+  stores: [bazaar, myket, play]
+  installs: { myket: 600000 }
+- package: org.alleece.evillage
+  name: { fa: "دهکده زبان", en: "English Village" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
+- package: zaban.amooz
+  name: { fa: "زبانشناس", en: "Zabanshenas" }
+  category: education
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: mogasa.les.ir
+  name: { fa: "دروسلی", en: "Drosly" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: app.hadafplus.hadaf_plus
+  name: { fa: "هدف پلاس", en: "Hadaf Plus" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.lanmis.app
+  name: { fa: "آموزشگاه من", en: "My School" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: app.zerang.twa
+  name: { fa: "زرنگ", en: "Zerang" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: air.com.viraparsian.mishakoosha
+  name: { fa: "میشا کوشا", en: "Misha Koosha" }
+  category: education
+  stores: [bazaar, play]
 
 # Services and tools
-- package: ir.esfandune.wave
-  name: { fa: "حسابداری موج", en: "Mowj Accounting" }
+- package: com.zarebin.browser
+  name: { fa: "ذره‌بین", en: "Zarebin" }
   category: services
   stores: [bazaar, myket]
-- package: com.parmisit.parmismobile
-  name: { fa: "حسابداری پارمیس", en: "Parmis Accounting" }
+  installs: { myket: 15000000 }
+- package: app.gapgpt.twa
+  name: { fa: "گپ جی پی تی", en: "GapGPT" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 7000000 }
+- package: me.gerdoo.browser_plus
+  name: { fa: "مرورگر گردو پلاس", en: "Gerdoo Browser Plus" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 2000000 }
+- package: ir.aqr.razavi
+  name: { fa: "رضوان", en: "Rezvan" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 800000 }
+- package: me.gerdoo.browser_light
+  name: { fa: "مرورگر گردو لایت", en: "Gerdoo Browser Lite" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 700000 }
+- package: com.jobvision.app
+  name: { fa: "جاب ویژن", en: "JobVision" }
   category: services
   stores: [bazaar, myket, play]
-- package: net.ragham.booking
-  name: { fa: "رقم", en: "Ragham" }
+  installs: { myket: 700000 }
+- package: com.niyphelah.leagueofmafia
+  name: { fa: "لیگ مافیا", en: "League of Mafia" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 700000 }
+- package: com.hampardaz.cinematicket
+  name: { fa: "سینماتیکت", en: "Cinematicket" }
   category: services
   stores: [bazaar, myket, play]
-- package: com.hazhircompany.kafineteiran
-  name: { fa: "کافی نت ایران", en: "Kafinet Iran" }
+  installs: { myket: 600000 }
+- package: net.tebyan.products.hamdam
+  name: { fa: "همدم", en: "Hamdam" }
   category: services
   stores: [bazaar, myket]
-- package: com.autoabzar.autoabzar
-  name: { fa: "اتو ابزار", en: "Auto Abzar" }
+  installs: { myket: 500000 }
+- package: ir.ikec.isaco
+  name: { fa: "ایساکو", en: "Isaco" }
   category: services
   stores: [bazaar, myket]
+  installs: { myket: 500000 }
+- package: ir.itoll.mycarapp
+  name: { fa: "آیتول", en: "iToll" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 500000 }
 - package: com.sanags.a4f3client
   name: { fa: "آچاره", en: "Achareh" }
   category: services
   stores: [bazaar, myket, play]
+  installs: { myket: 400000 }
 - package: com.e_estekhdam.android.app
   name: { fa: "ای استخدام", en: "e-Estekhdam" }
   category: services
   stores: [bazaar, myket]
+  installs: { myket: 400000 }
+- package: com.khedmatazma.customer
+  name: { fa: "خدمت از ما", en: "Khedmatazma" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.parmisit.parmismobile
+  name: { fa: "حسابداری پارمیس", en: "Parmis Accounting" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 300000 }
+- package: com.a4faran3.a4faran3a4
+  name: { fa: "متخصصین آچاره", en: "Achareh Providers" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.autoabzar.autoabzar
+  name: { fa: "اتو ابزار", en: "Auto Abzar" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.dastyar.io
+  name: { fa: "دستیار", en: "Dastyar" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: com.iranestekhdam.iranestekhdam
+  name: { fa: "ایران استخدام", en: "Iran Estekhdam" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: com.hazhircompany.kafineteiran
+  name: { fa: "کافی نت ایران", en: "Kafinet Iran" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: ir.karkooo.adnroid
+  name: { fa: "کارکو", en: "Karkoo" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: ir.ayantech.finesdetail
+  name: { fa: "خلافی پلاس", en: "Khalafi Plus" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: com.khedmatazma.provider
+  name: { fa: "متخصصین خدمت از ما", en: "Khedmatazma Providers" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: ir.esfandune.wave
+  name: { fa: "حسابداری موج", en: "Mowj Accounting" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 200000 }
+- package: net.ragham.booking
+  name: { fa: "رقم", en: "Ragham" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 200000 }
+- package: ca.nanowatch.app
+  name: { fa: "نانوواچ", en: "NanoWatch" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { myket: 10000 }
+- package: nu.milad.motmaenbash
+  name: { fa: "مطمئن باش", en: "MotmaenBash" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { myket: 9000 }
 - package: io.vsum.estelamkhalafi
   name: { fa: "فرمون", en: "Farmoon" }
   category: services
@@ -966,50 +1725,14 @@
   name: { fa: "هواشناس", en: "Havashenas" }
   category: services
   stores: [bazaar]
-- package: com.iranestekhdam.iranestekhdam
-  name: { fa: "ایران استخدام", en: "Iran Estekhdam" }
-  category: services
-  stores: [bazaar, myket, play]
-- package: ir.ikec.isaco
-  name: { fa: "ایساکو", en: "Isaco" }
-  category: services
-  stores: [bazaar, myket]
-- package: ir.itoll.mycarapp
-  name: { fa: "آیتول", en: "iToll" }
-  category: services
-  stores: [bazaar, myket]
 - package: com.serendip.khalafi
   name: { fa: "استعلام خلافی خودرو", en: "Khalafi" }
   category: services
   stores: [bazaar]
-- package: ir.ayantech.finesdetail
-  name: { fa: "خلافی پلاس", en: "Khalafi Plus" }
-  category: services
-  stores: [bazaar, myket]
-- package: com.khedmatazma.customer
-  name: { fa: "خدمت از ما", en: "Khedmatazma" }
-  category: services
-  stores: [bazaar, myket, play]
-- package: com.niyphelah.leagueofmafia
-  name: { fa: "لیگ مافیا", en: "League of Mafia" }
-  category: services
-  stores: [bazaar, myket]
-- package: nu.milad.motmaenbash
-  name: { fa: "مطمئن باش", en: "MotmaenBash" }
-  category: services
-  stores: [bazaar, myket, play]
-- package: ca.nanowatch.app
-  name: { fa: "نانوواچ", en: "NanoWatch" }
-  category: services
-  stores: [bazaar, myket]
 - package: ir.ostadkar.customer
   name: { fa: "استادکار", en: "Ostadkar" }
   category: services
   stores: []
-- package: ir.aqr.razavi
-  name: { fa: "رضوان", en: "Rezvan" }
-  category: services
-  stores: [bazaar, myket]
 - package: com.irantec.CarAlarm
   name: { fa: "ردیاب خودرو سایه", en: "Sayeh GPS" }
   category: services

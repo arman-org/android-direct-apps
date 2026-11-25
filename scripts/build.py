@@ -24,7 +24,7 @@ STORES = {
     "myket": ("Myket", "مایکت", "https://myket.ir/app/{}"),
     "play": ("Google Play", "گوگل‌پلی", "https://play.google.com/store/apps/details?id={}"),
 }
-APP_KEYS = {"package", "name", "category", "stores", "note"}
+APP_KEYS = {"package", "name", "category", "stores", "installs", "note"}
 
 
 class Invalid(Exception):
@@ -100,13 +100,34 @@ def read_country(path, category_ids):
             if not isinstance(a["note"], str) or not a["note"].strip():
                 raise Invalid(f"{where}: note is text")
             app["note"] = a["note"].strip()
+        if "installs" in a:
+            installs = a["installs"]
+            if (not isinstance(installs, dict) or set(installs) - set(STORES)
+                    or any(not isinstance(n, int) or isinstance(n, bool) or n < 0 for n in installs.values())):
+                raise Invalid(f"{where}: installs are counts by store, such as {{ myket: 200000 }}")
+            app["installs"] = installs
         apps.append(app)
     return apps
 
 
+def installs(app):
+    """The largest install count the app has, 0 when none is known."""
+    return max(app.get("installs", {}).values(), default=0)
+
+
+def short(n):
+    """An install count in a few characters: 4M, 1.5M, 200K."""
+    if n >= 1_000_000:
+        return f"{n / 1_000_000:.1f}".rstrip("0").rstrip(".") + "M"
+    if n >= 1_000:
+        return f"{n // 1_000}K"
+    return str(n) if n else "—"
+
+
 def order(apps, category_ids):
+    """By category, then the most installed first."""
     rank = {c: i for i, c in enumerate(category_ids)}
-    return sorted(apps, key=lambda a: (rank[a["category"]], a["name"]["en"].lower(), a["package"]))
+    return sorted(apps, key=lambda a: (rank[a["category"]], -installs(a), a["name"]["en"].lower(), a["package"]))
 
 
 def build_json(code, apps):
@@ -128,10 +149,10 @@ def build_md(code, apps, categories):
         if not group:
             continue
         lines += [f"## {c['name']['fa']} · {c['name']['en']} ({len(group)})", "",
-                  "| نام | Name | Package | Stores |", "| --- | --- | --- | --- |"]
+                  "| نام | Name | Installs | Package | Stores |", "| --- | --- | --- | --- | --- |"]
         for a in group:
             links = " · ".join(f"[{STORES[s][0]}]({STORES[s][2].format(a['package'])})" for s in a["stores"]) or "—"
-            lines.append(f"| {a['name'].get('fa', '')} | {a['name']['en']} | `{a['package']}` | {links} |")
+            lines.append(f"| {a['name'].get('fa', '')} | {a['name']['en']} | {short(installs(a))} | `{a['package']}` | {links} |")
         lines.append("")
     return "\n".join(lines)
 
