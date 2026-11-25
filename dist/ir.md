@@ -1,8 +1,8 @@
 # IR: apps that connect directly
 
-221 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
+223 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
 
-## بانک · Banks (28)
+## بانک · Banks (29)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
@@ -28,14 +28,15 @@
 | همراه بانک رسالت | Resalat Mobile Bank | `mob.banking.android.resalat` | [Bazaar](https://cafebazaar.ir/app/mob.banking.android.resalat) · [Myket](https://myket.ir/app/mob.banking.android.resalat) |
 | رمز پویا بانک سامان | Saman Bank OTP | `com.tosan.mobile.otpapp.saman` | [Myket](https://myket.ir/app/com.tosan.mobile.otpapp.saman) |
 | سکه | Sekeh | `com.bpm.sekeh` | [Bazaar](https://cafebazaar.ir/app/com.bpm.sekeh) · [Myket](https://myket.ir/app/com.bpm.sekeh) · [Google Play](https://play.google.com/store/apps/details?id=com.bpm.sekeh) |
-| همراه بانک سپه | Sepah Mobile Bank | `mob.banking.android.sepah` | — |
+| همراه بانک سپه | Sepah Mobile Bank | `com.tosan.dara.sepah` | [Bazaar](https://cafebazaar.ir/app/com.tosan.dara.sepah) · [Myket](https://myket.ir/app/com.tosan.dara.sepah) |
+| همراه بانک سپه (قدیمی) | Sepah Mobile Bank (old) | `mob.banking.android.sepah` | — |
 | سپینو | Sepino | `app.sepino` | [Bazaar](https://cafebazaar.ir/app/app.sepino) · [Myket](https://myket.ir/app/app.sepino) |
 | همراه بانک سینا | Sina Mobile Bank | `com.hafizco.mobilebanksina` | — |
 | همراه بانک تجارت | Tejarat Mobile Bank | `ir.tejaratbank.tata.mobile.android.tejarat` | [Bazaar](https://cafebazaar.ir/app/ir.tejaratbank.tata.mobile.android.tejarat) · [Myket](https://myket.ir/app/ir.tejaratbank.tata.mobile.android.tejarat) |
 | توبانک | Tobank | `com.gardeshpay.app` | [Bazaar](https://cafebazaar.ir/app/com.gardeshpay.app) · [Myket](https://myket.ir/app/com.gardeshpay.app) |
 | ویپاد | Wepod | `com.dotin.wepod` | [Bazaar](https://cafebazaar.ir/app/com.dotin.wepod) · [Myket](https://myket.ir/app/com.dotin.wepod) · [Google Play](https://play.google.com/store/apps/details?id=com.dotin.wepod) |
 
-## پرداخت و کیف پول · Payments and wallets (16)
+## پرداخت و کیف پول · Payments and wallets (17)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
@@ -52,6 +53,7 @@
 | پی پاد | Paypod | `com.etick.mobilemancard` | [Bazaar](https://cafebazaar.ir/app/com.etick.mobilemancard) · [Myket](https://myket.ir/app/com.etick.mobilemancard) |
 | ساد ۲۴ | SAD24 | `ir.sad24.app` | [Bazaar](https://cafebazaar.ir/app/ir.sad24.app) · [Myket](https://myket.ir/app/ir.sad24.app) · [Google Play](https://play.google.com/store/apps/details?id=ir.sad24.app) |
 | ست | Set | `ir.stts.etc` | [Myket](https://myket.ir/app/ir.stts.etc) |
+| تارا | Tara | `com.tara360.tara.production` | [Bazaar](https://cafebazaar.ir/app/com.tara360.tara.production) · [Myket](https://myket.ir/app/com.tara360.tara.production) · [Google Play](https://play.google.com/store/apps/details?id=com.tara360.tara.production) |
 | تومن پی | TomanPay | `org.qbitpay` | [Bazaar](https://cafebazaar.ir/app/org.qbitpay) · [Myket](https://myket.ir/app/org.qbitpay) |
 | تاپ | TOP | `ir.tgbs.peccharge` | [Bazaar](https://cafebazaar.ir/app/ir.tgbs.peccharge) · [Myket](https://myket.ir/app/ir.tgbs.peccharge) · [Google Play](https://play.google.com/store/apps/details?id=ir.tgbs.peccharge) |
 | زرین پلاس | Zarinplus | `app.emtiyaz` | [Bazaar](https://cafebazaar.ir/app/app.emtiyaz) · [Myket](https://myket.ir/app/app.emtiyaz) · [Google Play](https://play.google.com/store/apps/details?id=app.emtiyaz) |

@@ -2,6 +2,10 @@
 # Edit here, then run python scripts/build.py. See README.md.
 
 # Banks
+- package: com.tosan.dara.sepah
+  name: { fa: "همراه بانک سپه", en: "Sepah Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
 - package: ir.bmi.bam.nativeweb
   name: { fa: "بام", en: "Baam" }
   category: bank
@@ -91,7 +95,7 @@
   category: bank
   stores: [bazaar, myket, play]
 - package: mob.banking.android.sepah
-  name: { fa: "همراه بانک سپه", en: "Sepah Mobile Bank" }
+  name: { fa: "همراه بانک سپه (قدیمی)", en: "Sepah Mobile Bank (old)" }
   category: bank
   stores: []
 - package: app.sepino
@@ -116,6 +120,10 @@
   stores: [bazaar, myket, play]
 
 # Payments and wallets
+- package: com.tara360.tara.production
+  name: { fa: "تارا", en: "Tara" }
+  category: payment
+  stores: [bazaar, myket, play]
 - package: ir.sep.sesoot
   name: { fa: "۷۲۴", en: "724" }
   category: payment
