@@ -1,0 +1,96 @@
+{
+ "country": "ru",
+ "count": 6,
+ "categories": [
+  {
+   "id": "bank",
+   "name": {
+    "fa": "بانک",
+    "en": "Banks"
+   }
+  },
+  {
+   "id": "payment",
+   "name": {
+    "fa": "پرداخت و کیف پول",
+    "en": "Payments and wallets"
+   }
+  },
+  {
+   "id": "telecom",
+   "name": {
+    "fa": "اپراتور و اینترنت",
+    "en": "Mobile operators and internet"
+   }
+  },
+  {
+   "id": "shopping",
+   "name": {
+    "fa": "خرید و آگهی",
+    "en": "Shopping and classifieds"
+   }
+  }
+ ],
+ "apps": [
+  {
+   "package": "by.alfabank.app.insnc3",
+   "name": {
+    "en": "Alfa-Bank Belarus InSync"
+   },
+   "category": "bank",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=by.alfabank.app.insnc3"
+   }
+  },
+  {
+   "package": "com.mobicon.mbank2.belarusbank",
+   "name": {
+    "en": "M-Belarusbank"
+   },
+   "category": "bank",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=com.mobicon.mbank2.belarusbank"
+   }
+  },
+  {
+   "package": "by.mtbank.Moby",
+   "name": {
+    "en": "MTBank Moby"
+   },
+   "category": "bank",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=by.mtbank.Moby"
+   }
+  },
+  {
+   "package": "com.belkartpay.belkartpay",
+   "name": {
+    "en": "Belkart Pay"
+   },
+   "category": "payment",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=com.belkartpay.belkartpay"
+   }
+  },
+  {
+   "package": "by.beltelecom.my",
+   "name": {
+    "en": "My Beltelecom"
+   },
+   "category": "telecom",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=by.beltelecom.my"
+   }
+  },
+  {
+   "package": "se.scmv.belarus",
+   "name": {
+    "en": "Kufar"
+   },
+   "category": "shopping",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=se.scmv.belarus"
+   }
+  }
+ ]
+}

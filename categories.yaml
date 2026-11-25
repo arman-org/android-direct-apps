@@ -1,0 +1,41 @@
+# The categories an app can be in, in the order the lists show them.
+# id: lowercase letters; name: Persian and English.
+
+- id: bank
+  name: { fa: بانک, en: Banks }
+- id: payment
+  name: { fa: پرداخت و کیف پول, en: Payments and wallets }
+- id: crypto
+  name: { fa: ارز دیجیتال, en: Crypto exchanges }
+- id: investing
+  name: { fa: بورس و سرمایه‌گذاری, en: Stocks and investing }
+- id: insurance
+  name: { fa: بیمه, en: Insurance }
+- id: government
+  name: { fa: خدمات دولتی, en: Government services }
+- id: telecom
+  name: { fa: اپراتور و اینترنت, en: Mobile operators and internet }
+- id: messenger
+  name: { fa: پیام‌رسان و شبکه اجتماعی, en: Messengers and social networks }
+- id: store
+  name: { fa: فروشگاه اپ, en: App stores }
+- id: shopping
+  name: { fa: خرید و آگهی, en: Shopping and classifieds }
+- id: food
+  name: { fa: غذا و سوپرمارکت, en: Food and groceries }
+- id: transport
+  name: { fa: تاکسی و حمل‌ونقل, en: Taxis and transport }
+- id: travel
+  name: { fa: سفر و اقامت, en: Travel and stays }
+- id: maps
+  name: { fa: نقشه و مسیریابی, en: Maps and navigation }
+- id: health
+  name: { fa: سلامت و پزشکی, en: Health }
+- id: streaming
+  name: { fa: فیلم، سریال و موسیقی, en: Video and music }
+- id: reading
+  name: { fa: خبر و کتاب, en: News and books }
+- id: education
+  name: { fa: آموزش, en: Education }
+- id: services
+  name: { fa: خدمات و ابزار, en: Services and tools }

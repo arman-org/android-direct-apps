@@ -1,0 +1,34 @@
+# Apps that connect directly: Russia and Belarus.
+# Edit here, then run python scripts/build.py. See README.md.
+
+# Banks
+- package: by.alfabank.app.insnc3
+  name: { en: "Alfa-Bank Belarus InSync" }
+  category: bank
+  stores: [play]
+- package: com.mobicon.mbank2.belarusbank
+  name: { en: "M-Belarusbank" }
+  category: bank
+  stores: [play]
+- package: by.mtbank.Moby
+  name: { en: "MTBank Moby" }
+  category: bank
+  stores: [play]
+
+# Payments and wallets
+- package: com.belkartpay.belkartpay
+  name: { en: "Belkart Pay" }
+  category: payment
+  stores: [play]
+
+# Mobile operators and internet
+- package: by.beltelecom.my
+  name: { en: "My Beltelecom" }
+  category: telecom
+  stores: [play]
+
+# Shopping and classifieds
+- package: se.scmv.belarus
+  name: { en: "Kufar" }
+  category: shopping
+  stores: [play]

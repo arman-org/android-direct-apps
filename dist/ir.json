@@ -1,0 +1,2783 @@
+{
+ "country": "ir",
+ "count": 221,
+ "categories": [
+  {
+   "id": "bank",
+   "name": {
+    "fa": "بانک",
+    "en": "Banks"
+   }
+  },
+  {
+   "id": "payment",
+   "name": {
+    "fa": "پرداخت و کیف پول",
+    "en": "Payments and wallets"
+   }
+  },
+  {
+   "id": "crypto",
+   "name": {
+    "fa": "ارز دیجیتال",
+    "en": "Crypto exchanges"
+   }
+  },
+  {
+   "id": "investing",
+   "name": {
+    "fa": "بورس و سرمایه‌گذاری",
+    "en": "Stocks and investing"
+   }
+  },
+  {
+   "id": "insurance",
+   "name": {
+    "fa": "بیمه",
+    "en": "Insurance"
+   }
+  },
+  {
+   "id": "government",
+   "name": {
+    "fa": "خدمات دولتی",
+    "en": "Government services"
+   }
+  },
+  {
+   "id": "telecom",
+   "name": {
+    "fa": "اپراتور و اینترنت",
+    "en": "Mobile operators and internet"
+   }
+  },
+  {
+   "id": "messenger",
+   "name": {
+    "fa": "پیام‌رسان و شبکه اجتماعی",
+    "en": "Messengers and social networks"
+   }
+  },
+  {
+   "id": "store",
+   "name": {
+    "fa": "فروشگاه اپ",
+    "en": "App stores"
+   }
+  },
+  {
+   "id": "shopping",
+   "name": {
+    "fa": "خرید و آگهی",
+    "en": "Shopping and classifieds"
+   }
+  },
+  {
+   "id": "food",
+   "name": {
+    "fa": "غذا و سوپرمارکت",
+    "en": "Food and groceries"
+   }
+  },
+  {
+   "id": "transport",
+   "name": {
+    "fa": "تاکسی و حمل‌ونقل",
+    "en": "Taxis and transport"
+   }
+  },
+  {
+   "id": "travel",
+   "name": {
+    "fa": "سفر و اقامت",
+    "en": "Travel and stays"
+   }
+  },
+  {
+   "id": "maps",
+   "name": {
+    "fa": "نقشه و مسیریابی",
+    "en": "Maps and navigation"
+   }
+  },
+  {
+   "id": "health",
+   "name": {
+    "fa": "سلامت و پزشکی",
+    "en": "Health"
+   }
+  },
+  {
+   "id": "streaming",
+   "name": {
+    "fa": "فیلم، سریال و موسیقی",
+    "en": "Video and music"
+   }
+  },
+  {
+   "id": "reading",
+   "name": {
+    "fa": "خبر و کتاب",
+    "en": "News and books"
+   }
+  },
+  {
+   "id": "education",
+   "name": {
+    "fa": "آموزش",
+    "en": "Education"
+   }
+  },
+  {
+   "id": "services",
+   "name": {
+    "fa": "خدمات و ابزار",
+    "en": "Services and tools"
+   }
+  }
+ ],
+ "apps": [
+  {
+   "package": "ir.bmi.bam.nativeweb",
+   "name": {
+    "fa": "بام",
+    "en": "Baam"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.bmi.bam.nativeweb",
+    "myket": "https://myket.ir/app/ir.bmi.bam.nativeweb"
+   }
+  },
+  {
+   "package": "digital.neobank",
+   "name": {
+    "fa": "بانکینو",
+    "en": "Bankino"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/digital.neobank",
+    "myket": "https://myket.ir/app/digital.neobank"
+   }
+  },
+  {
+   "package": "com.samanpr.blu",
+   "name": {
+    "fa": "بلو",
+    "en": "blu"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.samanpr.blu",
+    "myket": "https://myket.ir/app/com.samanpr.blu"
+   }
+  },
+  {
+   "package": "mob.banking.android.gardesh",
+   "name": {
+    "fa": "موبایل بانک گردشگری",
+    "en": "Gardeshgari Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/mob.banking.android.gardesh",
+    "myket": "https://myket.ir/app/mob.banking.android.gardesh"
+   }
+  },
+  {
+   "package": "com.farazpardazan.enbank",
+   "name": {
+    "fa": "همراه نوین",
+    "en": "Hamrah Novin"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.farazpardazan.enbank",
+    "myket": "https://myket.ir/app/com.farazpardazan.enbank"
+   }
+  },
+  {
+   "package": "com.citydi.hplus",
+   "name": {
+    "fa": "همراه شهر پلاس",
+    "en": "Hamrah Shahr Plus"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.citydi.hplus",
+    "myket": "https://myket.ir/app/com.citydi.hplus"
+   }
+  },
+  {
+   "package": "ir.tejaratbank.totp.mobile.android",
+   "name": {
+    "fa": "همراز",
+    "en": "Hamraz"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.tejaratbank.totp.mobile.android",
+    "myket": "https://myket.ir/app/ir.tejaratbank.totp.mobile.android"
+   }
+  },
+  {
+   "package": "com.sadadpsp.eva",
+   "name": {
+    "fa": "ایوا",
+    "en": "IVA"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.sadadpsp.eva",
+    "myket": "https://myket.ir/app/com.sadadpsp.eva"
+   }
+  },
+  {
+   "package": "com.bki.mobilebanking.android",
+   "name": {
+    "fa": "همراه بانک کشاورزی",
+    "en": "Keshavarzi Mobile Bank"
+   },
+   "category": "bank",
+   "links": {}
+  },
+  {
+   "package": "com.maskanmobilebank",
+   "name": {
+    "fa": "همراه بانک مسکن",
+    "en": "Maskan Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "myket": "https://myket.ir/app/com.maskanmobilebank"
+   }
+  },
+  {
+   "package": "com.ada.mbank.mehr",
+   "name": {
+    "fa": "همراه بانک مهر ایران",
+    "en": "Mehr Iran Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.ada.mbank.mehr",
+    "myket": "https://myket.ir/app/com.ada.mbank.mehr"
+   }
+  },
+  {
+   "package": "com.pmb.mobile",
+   "name": {
+    "fa": "همراه بانک ملت",
+    "en": "Mellat Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.pmb.mobile",
+    "myket": "https://myket.ir/app/com.pmb.mobile"
+   }
+  },
+  {
+   "package": "ir.mobillet.app",
+   "name": {
+    "fa": "موبایلت",
+    "en": "Mobillet"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.mobillet.app",
+    "myket": "https://myket.ir/app/ir.mobillet.app"
+   }
+  },
+  {
+   "package": "com.parsmobapp",
+   "name": {
+    "fa": "پارسیان من",
+    "en": "Parsian Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.parsmobapp",
+    "myket": "https://myket.ir/app/com.parsmobapp"
+   }
+  },
+  {
+   "package": "mob.banking.android.pasargad",
+   "name": {
+    "fa": "همراه بانک پاسارگاد",
+    "en": "Pasargad Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/mob.banking.android.pasargad",
+    "myket": "https://myket.ir/app/mob.banking.android.pasargad"
+   }
+  },
+  {
+   "package": "com.postbank.mb",
+   "name": {
+    "fa": "همراه بانک پست بانک",
+    "en": "Post Bank Mobile Bank"
+   },
+   "category": "bank",
+   "links": {}
+  },
+  {
+   "package": "nuesoft.mobileToken",
+   "name": {
+    "fa": "رمزبان بانک ملی",
+    "en": "Ramzban"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/nuesoft.mobileToken",
+    "myket": "https://myket.ir/app/nuesoft.mobileToken"
+   }
+  },
+  {
+   "package": "co.redbank.app",
+   "name": {
+    "fa": "ردبانک",
+    "en": "Redbank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/co.redbank.app",
+    "myket": "https://myket.ir/app/co.redbank.app"
+   }
+  },
+  {
+   "package": "com.refahbank.dpi.android",
+   "name": {
+    "fa": "موبایل بانک رفاه",
+    "en": "Refah Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.refahbank.dpi.android",
+    "myket": "https://myket.ir/app/com.refahbank.dpi.android"
+   }
+  },
+  {
+   "package": "mob.banking.android.resalat",
+   "name": {
+    "fa": "همراه بانک رسالت",
+    "en": "Resalat Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/mob.banking.android.resalat",
+    "myket": "https://myket.ir/app/mob.banking.android.resalat"
+   }
+  },
+  {
+   "package": "com.tosan.mobile.otpapp.saman",
+   "name": {
+    "fa": "رمز پویا بانک سامان",
+    "en": "Saman Bank OTP"
+   },
+   "category": "bank",
+   "links": {
+    "myket": "https://myket.ir/app/com.tosan.mobile.otpapp.saman"
+   }
+  },
+  {
+   "package": "com.bpm.sekeh",
+   "name": {
+    "fa": "سکه",
+    "en": "Sekeh"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.bpm.sekeh",
+    "myket": "https://myket.ir/app/com.bpm.sekeh",
+    "play": "https://play.google.com/store/apps/details?id=com.bpm.sekeh"
+   }
+  },
+  {
+   "package": "mob.banking.android.sepah",
+   "name": {
+    "fa": "همراه بانک سپه",
+    "en": "Sepah Mobile Bank"
+   },
+   "category": "bank",
+   "links": {}
+  },
+  {
+   "package": "app.sepino",
+   "name": {
+    "fa": "سپینو",
+    "en": "Sepino"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/app.sepino",
+    "myket": "https://myket.ir/app/app.sepino"
+   }
+  },
+  {
+   "package": "com.hafizco.mobilebanksina",
+   "name": {
+    "fa": "همراه بانک سینا",
+    "en": "Sina Mobile Bank"
+   },
+   "category": "bank",
+   "links": {}
+  },
+  {
+   "package": "ir.tejaratbank.tata.mobile.android.tejarat",
+   "name": {
+    "fa": "همراه بانک تجارت",
+    "en": "Tejarat Mobile Bank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.tejaratbank.tata.mobile.android.tejarat",
+    "myket": "https://myket.ir/app/ir.tejaratbank.tata.mobile.android.tejarat"
+   }
+  },
+  {
+   "package": "com.gardeshpay.app",
+   "name": {
+    "fa": "توبانک",
+    "en": "Tobank"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.gardeshpay.app",
+    "myket": "https://myket.ir/app/com.gardeshpay.app"
+   }
+  },
+  {
+   "package": "com.dotin.wepod",
+   "name": {
+    "fa": "ویپاد",
+    "en": "Wepod"
+   },
+   "category": "bank",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.dotin.wepod",
+    "myket": "https://myket.ir/app/com.dotin.wepod",
+    "play": "https://play.google.com/store/apps/details?id=com.dotin.wepod"
+   }
+  },
+  {
+   "package": "ir.sep.sesoot",
+   "name": {
+    "fa": "۷۲۴",
+    "en": "724"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.sep.sesoot",
+    "myket": "https://myket.ir/app/ir.sep.sesoot"
+   }
+  },
+  {
+   "package": "com.sibche.aspardproject.app",
+   "name": {
+    "fa": "آپ",
+    "en": "Ap"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.sibche.aspardproject.app",
+    "myket": "https://myket.ir/app/com.sibche.aspardproject.app"
+   }
+  },
+  {
+   "package": "com.daapapp.crmrn",
+   "name": {
+    "fa": "داپ اپ",
+    "en": "Daap App"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.daapapp.crmrn",
+    "myket": "https://myket.ir/app/com.daapapp.crmrn"
+   }
+  },
+  {
+   "package": "com.mydigipay.app.android",
+   "name": {
+    "fa": "دیجی پی",
+    "en": "Digipay"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.mydigipay.app.android",
+    "myket": "https://myket.ir/app/com.mydigipay.app.android",
+    "play": "https://play.google.com/store/apps/details?id=com.mydigipay.app.android"
+   }
+  },
+  {
+   "package": "com.ebcom.ewano",
+   "name": {
+    "fa": "اوانو",
+    "en": "Ewano"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.ebcom.ewano",
+    "myket": "https://myket.ir/app/com.ebcom.ewano",
+    "play": "https://play.google.com/store/apps/details?id=com.ebcom.ewano"
+   }
+  },
+  {
+   "package": "com.fam.fam",
+   "name": {
+    "fa": "فام",
+    "en": "FAM"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.fam.fam",
+    "myket": "https://myket.ir/app/com.fam.fam"
+   }
+  },
+  {
+   "package": "ir.ayantech.ghabzino",
+   "name": {
+    "fa": "قبضینو",
+    "en": "Ghabzino"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.ayantech.ghabzino",
+    "myket": "https://myket.ir/app/ir.ayantech.ghabzino",
+    "play": "https://play.google.com/store/apps/details?id=ir.ayantech.ghabzino"
+   }
+  },
+  {
+   "package": "ir.hafhashtad.android780",
+   "name": {
+    "fa": "هف هشتاد",
+    "en": "HafHashtad"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.hafhashtad.android780",
+    "myket": "https://myket.ir/app/ir.hafhashtad.android780",
+    "play": "https://play.google.com/store/apps/details?id=ir.hafhashtad.android780"
+   }
+  },
+  {
+   "package": "com.adpdigital.mbs.ayande",
+   "name": {
+    "fa": "همراه کارت",
+    "en": "Hamrah Card"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.adpdigital.mbs.ayande",
+    "myket": "https://myket.ir/app/com.adpdigital.mbs.ayande"
+   }
+  },
+  {
+   "package": "ir.partsoftware.cup",
+   "name": {
+    "fa": "آی کاپ",
+    "en": "iCup"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.partsoftware.cup",
+    "myket": "https://myket.ir/app/ir.partsoftware.cup",
+    "play": "https://play.google.com/store/apps/details?id=ir.partsoftware.cup"
+   }
+  },
+  {
+   "package": "com.etick.mobilemancard",
+   "name": {
+    "fa": "پی پاد",
+    "en": "Paypod"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.etick.mobilemancard",
+    "myket": "https://myket.ir/app/com.etick.mobilemancard"
+   }
+  },
+  {
+   "package": "ir.sad24.app",
+   "name": {
+    "fa": "ساد ۲۴",
+    "en": "SAD24"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.sad24.app",
+    "myket": "https://myket.ir/app/ir.sad24.app",
+    "play": "https://play.google.com/store/apps/details?id=ir.sad24.app"
+   }
+  },
+  {
+   "package": "ir.stts.etc",
+   "name": {
+    "fa": "ست",
+    "en": "Set"
+   },
+   "category": "payment",
+   "links": {
+    "myket": "https://myket.ir/app/ir.stts.etc"
+   }
+  },
+  {
+   "package": "org.qbitpay",
+   "name": {
+    "fa": "تومن پی",
+    "en": "TomanPay"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/org.qbitpay",
+    "myket": "https://myket.ir/app/org.qbitpay"
+   }
+  },
+  {
+   "package": "ir.tgbs.peccharge",
+   "name": {
+    "fa": "تاپ",
+    "en": "TOP"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.tgbs.peccharge",
+    "myket": "https://myket.ir/app/ir.tgbs.peccharge",
+    "play": "https://play.google.com/store/apps/details?id=ir.tgbs.peccharge"
+   }
+  },
+  {
+   "package": "app.emtiyaz",
+   "name": {
+    "fa": "زرین پلاس",
+    "en": "Zarinplus"
+   },
+   "category": "payment",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/app.emtiyaz",
+    "myket": "https://myket.ir/app/app.emtiyaz",
+    "play": "https://play.google.com/store/apps/details?id=app.emtiyaz"
+   }
+  },
+  {
+   "package": "com.arzdigitalnew",
+   "name": {
+    "fa": "ارزدیجیتال",
+    "en": "Arzdigital"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.arzdigitalnew",
+    "myket": "https://myket.ir/app/com.arzdigitalnew",
+    "play": "https://play.google.com/store/apps/details?id=com.arzdigitalnew"
+   }
+  },
+  {
+   "package": "cash.bit24",
+   "name": {
+    "fa": "بیت ۲۴",
+    "en": "Bit24"
+   },
+   "category": "crypto",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=cash.bit24"
+   }
+  },
+  {
+   "package": "com.bitbarg.app",
+   "name": {
+    "fa": "بیت برگ",
+    "en": "Bitbarg"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.bitbarg.app",
+    "myket": "https://myket.ir/app/com.bitbarg.app",
+    "play": "https://play.google.com/store/apps/details?id=com.bitbarg.app"
+   }
+  },
+  {
+   "package": "io.bitpin.app",
+   "name": {
+    "fa": "بیت پین",
+    "en": "Bitpin"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/io.bitpin.app",
+    "myket": "https://myket.ir/app/io.bitpin.app"
+   }
+  },
+  {
+   "package": "com.exonyxapp.trader",
+   "name": {
+    "fa": "اکس اونیکس",
+    "en": "Exonyx"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.exonyxapp.trader",
+    "myket": "https://myket.ir/app/com.exonyxapp.trader"
+   }
+  },
+  {
+   "package": "app.nobitex",
+   "name": {
+    "fa": "نوبیتکس",
+    "en": "Nobitex"
+   },
+   "category": "crypto",
+   "links": {}
+  },
+  {
+   "package": "market.nobitex",
+   "name": {
+    "fa": "نوبیتکس",
+    "en": "Nobitex"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/market.nobitex",
+    "myket": "https://myket.ir/app/market.nobitex"
+   }
+  },
+  {
+   "package": "co.okex.app",
+   "name": {
+    "fa": "اوکی اکسچنج",
+    "en": "OK Exchange"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/co.okex.app",
+    "myket": "https://myket.ir/app/co.okex.app",
+    "play": "https://play.google.com/store/apps/details?id=co.okex.app"
+   }
+  },
+  {
+   "package": "com.ramzinex.ramzinex",
+   "name": {
+    "fa": "رمزینکس",
+    "en": "Ramzinex"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.ramzinex.ramzinex",
+    "myket": "https://myket.ir/app/com.ramzinex.ramzinex"
+   }
+  },
+  {
+   "package": "com.parsa.saraf",
+   "name": {
+    "fa": "صراف",
+    "en": "Saraf"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.parsa.saraf",
+    "myket": "https://myket.ir/app/com.parsa.saraf"
+   }
+  },
+  {
+   "package": "com.arzjoo",
+   "name": {
+    "fa": "سرمایکس",
+    "en": "Sarmayex"
+   },
+   "category": "crypto",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.arzjoo",
+    "myket": "https://myket.ir/app/com.arzjoo",
+    "play": "https://play.google.com/store/apps/details?id=com.arzjoo"
+   }
+  },
+  {
+   "package": "ir.hooshdadeh.bourse",
+   "name": {
+    "fa": "تحلیل گر بورس",
+    "en": "Bourse Analyst"
+   },
+   "category": "investing",
+   "links": {
+    "myket": "https://myket.ir/app/ir.hooshdadeh.bourse",
+    "play": "https://play.google.com/store/apps/details?id=ir.hooshdadeh.bourse"
+   }
+  },
+  {
+   "package": "com.emofid.rnmofid",
+   "name": {
+    "fa": "مفید اپ",
+    "en": "Mofid App"
+   },
+   "category": "investing",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.emofid.rnmofid",
+    "myket": "https://myket.ir/app/com.emofid.rnmofid",
+    "play": "https://play.google.com/store/apps/details?id=com.emofid.rnmofid"
+   }
+  },
+  {
+   "package": "com.shamimsoft.nerkh",
+   "name": {
+    "fa": "نرخ ارز",
+    "en": "Nerkh Arz"
+   },
+   "category": "investing",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.shamimsoft.nerkh",
+    "myket": "https://myket.ir/app/com.shamimsoft.nerkh",
+    "play": "https://play.google.com/store/apps/details?id=com.shamimsoft.nerkh"
+   }
+  },
+  {
+   "package": "ir.part.app.signal",
+   "name": {
+    "fa": "سیگنال",
+    "en": "Signal"
+   },
+   "category": "investing",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.part.app.signal",
+    "myket": "https://myket.ir/app/ir.part.app.signal",
+    "play": "https://play.google.com/store/apps/details?id=ir.part.app.signal"
+   }
+  },
+  {
+   "package": "com.vandaw.tgju",
+   "name": {
+    "fa": "قیمت‌ها (TGJU)",
+    "en": "TGJU Prices"
+   },
+   "category": "investing",
+   "links": {
+    "myket": "https://myket.ir/app/com.vandaw.tgju",
+    "play": "https://play.google.com/store/apps/details?id=com.vandaw.tgju"
+   }
+  },
+  {
+   "package": "com.nar.bimito",
+   "name": {
+    "fa": "ازکی",
+    "en": "Azki"
+   },
+   "category": "insurance",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.nar.bimito",
+    "myket": "https://myket.ir/app/com.nar.bimito",
+    "play": "https://play.google.com/store/apps/details?id=com.nar.bimito"
+   }
+  },
+  {
+   "package": "com.pdpsoft.android.saapa",
+   "name": {
+    "fa": "برق من",
+    "en": "Bargh-e Man"
+   },
+   "category": "government",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.pdpsoft.android.saapa",
+    "myket": "https://myket.ir/app/com.pdpsoft.android.saapa"
+   }
+  },
+  {
+   "package": "ir.eadl.edalatehamrah",
+   "name": {
+    "fa": "عدالت همراه",
+    "en": "Edalat-e Hamrah"
+   },
+   "category": "government",
+   "links": {}
+  },
+  {
+   "package": "com.tamin.taminhamrah",
+   "name": {
+    "fa": "تامین من",
+    "en": "My Tamin"
+   },
+   "category": "government",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.tamin.taminhamrah",
+    "myket": "https://myket.ir/app/com.tamin.taminhamrah"
+   }
+  },
+  {
+   "package": "com.mytehran",
+   "name": {
+    "fa": "تهران من",
+    "en": "MyTehran"
+   },
+   "category": "government",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.mytehran",
+    "myket": "https://myket.ir/app/com.mytehran"
+   }
+  },
+  {
+   "package": "ir.ayantech.pishkhan24",
+   "name": {
+    "fa": "پیشخوان ۲۴",
+    "en": "Pishkhan24"
+   },
+   "category": "government",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.ayantech.pishkhan24",
+    "myket": "https://myket.ir/app/ir.ayantech.pishkhan24",
+    "play": "https://play.google.com/store/apps/details?id=ir.ayantech.pishkhan24"
+   }
+  },
+  {
+   "package": "com.nrdc.android.pyh",
+   "name": {
+    "fa": "پلیس من",
+    "en": "Police Man"
+   },
+   "category": "government",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.nrdc.android.pyh",
+    "myket": "https://myket.ir/app/com.nrdc.android.pyh"
+   }
+  },
+  {
+   "package": "ir.hiweb.app.my",
+   "name": {
+    "fa": "های‌وب من",
+    "en": "My HiWeb"
+   },
+   "category": "telecom",
+   "links": {
+    "myket": "https://myket.ir/app/ir.hiweb.app.my"
+   }
+  },
+  {
+   "package": "com.shmapp",
+   "name": {
+    "fa": "شاتل موبایل من",
+    "en": "My Shatel Mobile"
+   },
+   "category": "telecom",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.shmapp",
+    "myket": "https://myket.ir/app/com.shmapp",
+    "play": "https://play.google.com/store/apps/details?id=com.shmapp"
+   }
+  },
+  {
+   "package": "ir.mytci",
+   "name": {
+    "fa": "مخابرات من",
+    "en": "My TCI"
+   },
+   "category": "telecom",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.mytci",
+    "myket": "https://myket.ir/app/ir.mytci"
+   }
+  },
+  {
+   "package": "com.myirancell",
+   "name": {
+    "fa": "ایرانسل من",
+    "en": "MyIrancell"
+   },
+   "category": "telecom",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.myirancell",
+    "myket": "https://myket.ir/app/com.myirancell",
+    "play": "https://play.google.com/store/apps/details?id=com.myirancell"
+   }
+  },
+  {
+   "package": "com.mtni.myirancell",
+   "name": {
+    "fa": "ایرانسل من (قدیمی)",
+    "en": "MyIrancell (old)"
+   },
+   "category": "telecom",
+   "links": {
+    "myket": "https://myket.ir/app/com.mtni.myirancell"
+   }
+  },
+  {
+   "package": "ir.mci.ecareapp",
+   "name": {
+    "fa": "همراه من",
+    "en": "MyMCI"
+   },
+   "category": "telecom",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.mci.ecareapp",
+    "myket": "https://myket.ir/app/ir.mci.ecareapp",
+    "play": "https://play.google.com/store/apps/details?id=ir.mci.ecareapp"
+   }
+  },
+  {
+   "package": "ir.rightel.myrightel",
+   "name": {
+    "fa": "رایتل من",
+    "en": "MyRightel"
+   },
+   "category": "telecom",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.rightel.myrightel",
+    "myket": "https://myket.ir/app/ir.rightel.myrightel"
+   }
+  },
+  {
+   "package": "ir.rightel.android.momir.rbt",
+   "name": {
+    "fa": "آوای انتظار رایتل",
+    "en": "Rightel Ringback Tones"
+   },
+   "category": "telecom",
+   "links": {}
+  },
+  {
+   "package": "ir.nasim",
+   "name": {
+    "fa": "بله",
+    "en": "Bale"
+   },
+   "category": "messenger",
+   "links": {
+    "myket": "https://myket.ir/app/ir.nasim"
+   }
+  },
+  {
+   "package": "ir.chatzy.messenger",
+   "name": {
+    "fa": "چتزی",
+    "en": "Chatzy"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.chatzy.messenger",
+    "myket": "https://myket.ir/app/ir.chatzy.messenger"
+   }
+  },
+  {
+   "package": "ir.eitaa.messenger",
+   "name": {
+    "fa": "ایتا",
+    "en": "Eitaa"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.eitaa.messenger",
+    "myket": "https://myket.ir/app/ir.eitaa.messenger"
+   }
+  },
+  {
+   "package": "com.gapafzar.messenger",
+   "name": {
+    "fa": "گپ",
+    "en": "Gap Messenger"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.gapafzar.messenger",
+    "myket": "https://myket.ir/app/com.gapafzar.messenger"
+   }
+  },
+  {
+   "package": "ir.gharar",
+   "name": {
+    "fa": "قرار",
+    "en": "Gharar"
+   },
+   "category": "messenger",
+   "links": {}
+  },
+  {
+   "package": "net.iGap",
+   "name": {
+    "fa": "آیگپ",
+    "en": "iGap"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/net.iGap",
+    "myket": "https://myket.ir/app/net.iGap"
+   }
+  },
+  {
+   "package": "com.nazdika.app",
+   "name": {
+    "fa": "نزدیکا",
+    "en": "Nazdika"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.nazdika.app",
+    "myket": "https://myket.ir/app/com.nazdika.app"
+   }
+  },
+  {
+   "package": "com.mnhaami.pasaj",
+   "name": {
+    "fa": "پاتوق",
+    "en": "Patogh"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.mnhaami.pasaj",
+    "myket": "https://myket.ir/app/com.mnhaami.pasaj",
+    "play": "https://play.google.com/store/apps/details?id=com.mnhaami.pasaj"
+   }
+  },
+  {
+   "package": "app.pinno",
+   "name": {
+    "fa": "پینو",
+    "en": "Pinno"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/app.pinno",
+    "myket": "https://myket.ir/app/app.pinno",
+    "play": "https://play.google.com/store/apps/details?id=app.pinno"
+   }
+  },
+  {
+   "package": "app.rbmain.a",
+   "name": {
+    "fa": "روبیکا",
+    "en": "Rubika"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/app.rbmain.a",
+    "myket": "https://myket.ir/app/app.rbmain.a"
+   }
+  },
+  {
+   "package": "mobi.mmdt.ottplus",
+   "name": {
+    "fa": "سروش پلاس",
+    "en": "Soroush Plus"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/mobi.mmdt.ottplus",
+    "myket": "https://myket.ir/app/mobi.mmdt.ottplus"
+   }
+  },
+  {
+   "package": "com.wisgoon.android",
+   "name": {
+    "fa": "ویسگون",
+    "en": "Wisgoon"
+   },
+   "category": "messenger",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.wisgoon.android",
+    "myket": "https://myket.ir/app/com.wisgoon.android"
+   }
+  },
+  {
+   "package": "com.farsitel.bazaar",
+   "name": {
+    "fa": "بازار",
+    "en": "Bazaar"
+   },
+   "category": "store",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.farsitel.bazaar"
+   }
+  },
+  {
+   "package": "ir.mservices.market",
+   "name": {
+    "fa": "مایکت",
+    "en": "Myket"
+   },
+   "category": "store",
+   "links": {
+    "myket": "https://myket.ir/app/ir.mservices.market"
+   }
+  },
+  {
+   "package": "com.bama.consumer",
+   "name": {
+    "fa": "باما",
+    "en": "Bama"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.bama.consumer",
+    "myket": "https://myket.ir/app/com.bama.consumer",
+    "play": "https://play.google.com/store/apps/details?id=com.bama.consumer"
+   }
+  },
+  {
+   "package": "com.banimode.app",
+   "name": {
+    "fa": "بانی مد",
+    "en": "Banimode"
+   },
+   "category": "shopping",
+   "links": {}
+  },
+  {
+   "package": "ir.basalam.app",
+   "name": {
+    "fa": "باسلام",
+    "en": "Basalam"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.basalam.app",
+    "myket": "https://myket.ir/app/ir.basalam.app"
+   }
+  },
+  {
+   "package": "ir.basalam.basalam",
+   "name": {
+    "fa": "غرفه من (باسلام)",
+    "en": "Basalam Vendors"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.basalam.basalam",
+    "myket": "https://myket.ir/app/ir.basalam.basalam"
+   }
+  },
+  {
+   "package": "ir.itrasaneh.bazarkhodro",
+   "name": {
+    "fa": "بازار خودرو",
+    "en": "Bazar Khodro"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.itrasaneh.bazarkhodro"
+   }
+  },
+  {
+   "package": "com.khodromobi.pricing",
+   "name": {
+    "fa": "قیمت گذار خودرو",
+    "en": "Car Pricing"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.khodromobi.pricing"
+   }
+  },
+  {
+   "package": "com.digikala",
+   "name": {
+    "fa": "دیجی کالا",
+    "en": "Digikala"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.digikala",
+    "myket": "https://myket.ir/app/com.digikala"
+   }
+  },
+  {
+   "package": "com.digistyle.prod",
+   "name": {
+    "fa": "دیجی استایل",
+    "en": "Digistyle"
+   },
+   "category": "shopping",
+   "links": {}
+  },
+  {
+   "package": "ir.divar",
+   "name": {
+    "fa": "دیوار",
+    "en": "Divar"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.divar"
+   }
+  },
+  {
+   "package": "ir.emalls.app",
+   "name": {
+    "fa": "ایمالز",
+    "en": "Emalls"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.emalls.app",
+    "myket": "https://myket.ir/app/ir.emalls.app",
+    "play": "https://play.google.com/store/apps/details?id=ir.emalls.app"
+   }
+  },
+  {
+   "package": "ir.esam.app",
+   "name": {
+    "fa": "اسام",
+    "en": "Esam"
+   },
+   "category": "shopping",
+   "links": {}
+  },
+  {
+   "package": "com.hamrah_mechanic.hamrah_mechanic",
+   "name": {
+    "fa": "همراه مکانیک",
+    "en": "Hamrah Mechanic"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.hamrah_mechanic.hamrah_mechanic",
+    "myket": "https://myket.ir/app/com.hamrah_mechanic.hamrah_mechanic",
+    "play": "https://play.google.com/store/apps/details?id=com.hamrah_mechanic.hamrah_mechanic"
+   }
+  },
+  {
+   "package": "com.komodaa.app",
+   "name": {
+    "fa": "کمدا",
+    "en": "Komodaa"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.komodaa.app",
+    "myket": "https://myket.ir/app/com.komodaa.app",
+    "play": "https://play.google.com/store/apps/details?id=com.komodaa.app"
+   }
+  },
+  {
+   "package": "com.IranModernBusinesses.Netbarg",
+   "name": {
+    "fa": "نت‌برگ",
+    "en": "Netbarg"
+   },
+   "category": "shopping",
+   "links": {
+    "myket": "https://myket.ir/app/com.IranModernBusinesses.Netbarg"
+   }
+  },
+  {
+   "package": "ir.aritec.pasazh",
+   "name": {
+    "fa": "پاساژ",
+    "en": "Pasazh"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.aritec.pasazh",
+    "myket": "https://myket.ir/app/ir.aritec.pasazh",
+    "play": "https://play.google.com/store/apps/details?id=ir.aritec.pasazh"
+   }
+  },
+  {
+   "package": "ir.pindo.fletcher",
+   "name": {
+    "fa": "پیندو",
+    "en": "Pindo"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.pindo.fletcher",
+    "myket": "https://myket.ir/app/ir.pindo.fletcher"
+   }
+  },
+  {
+   "package": "com.sheypoor.mobile",
+   "name": {
+    "fa": "شیپور",
+    "en": "Sheypoor"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.sheypoor.mobile",
+    "myket": "https://myket.ir/app/com.sheypoor.mobile"
+   }
+  },
+  {
+   "package": "com.takhfifan.takhfifan",
+   "name": {
+    "fa": "تخفیفان",
+    "en": "Takhfifan"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.takhfifan.takhfifan",
+    "myket": "https://myket.ir/app/com.takhfifan.takhfifan"
+   }
+  },
+  {
+   "package": "ir.torob",
+   "name": {
+    "fa": "ترب",
+    "en": "Torob"
+   },
+   "category": "shopping",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.torob",
+    "myket": "https://myket.ir/app/ir.torob"
+   }
+  },
+  {
+   "package": "com.pishgaman.bazargam",
+   "name": {
+    "fa": "بازرگام",
+    "en": "Bazargam"
+   },
+   "category": "food",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.pishgaman.bazargam",
+    "myket": "https://myket.ir/app/com.pishgaman.bazargam"
+   }
+  },
+  {
+   "package": "com.delino.android",
+   "name": {
+    "fa": "دلینو",
+    "en": "Delino"
+   },
+   "category": "food",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.delino.android",
+    "myket": "https://myket.ir/app/com.delino.android"
+   }
+  },
+  {
+   "package": "me.narenj.onlinedelivery",
+   "name": {
+    "fa": "نارنج",
+    "en": "Narenj"
+   },
+   "category": "food",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/me.narenj.onlinedelivery"
+   }
+  },
+  {
+   "package": "ir.mynal.papillon.papillonchef",
+   "name": {
+    "fa": "سرآشپز پاپیون",
+    "en": "Sarashpaz Papion"
+   },
+   "category": "food",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.mynal.papillon.papillonchef",
+    "myket": "https://myket.ir/app/ir.mynal.papillon.papillonchef",
+    "play": "https://play.google.com/store/apps/details?id=ir.mynal.papillon.papillonchef"
+   }
+  },
+  {
+   "package": "com.zoodfood.android",
+   "name": {
+    "fa": "اسنپ فود",
+    "en": "SnappFood"
+   },
+   "category": "food",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.zoodfood.android",
+    "myket": "https://myket.ir/app/com.zoodfood.android"
+   }
+  },
+  {
+   "package": "com.snappmarket",
+   "name": {
+    "fa": "اسنپ مارکت",
+    "en": "SnappMarket"
+   },
+   "category": "food",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.snappmarket",
+    "myket": "https://myket.ir/app/com.snappmarket"
+   }
+  },
+  {
+   "package": "com.alopeyk.customer",
+   "name": {
+    "fa": "الوپیک",
+    "en": "AloPeyk"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.alopeyk.customer",
+    "myket": "https://myket.ir/app/com.alopeyk.customer"
+   }
+  },
+  {
+   "package": "ir.pakcharkh.bdood",
+   "name": {
+    "fa": "بیدود",
+    "en": "Bdood"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.pakcharkh.bdood",
+    "myket": "https://myket.ir/app/ir.pakcharkh.bdood"
+   }
+  },
+  {
+   "package": "co.jadeh.driver",
+   "name": {
+    "fa": "جاده رانندگان",
+    "en": "Jadeh Driver"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/co.jadeh.driver",
+    "myket": "https://myket.ir/app/co.jadeh.driver"
+   }
+  },
+  {
+   "package": "com.taxsee.taxsee",
+   "name": {
+    "fa": "ماکسیم",
+    "en": "Maxim"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.taxsee.taxsee",
+    "myket": "https://myket.ir/app/com.taxsee.taxsee",
+    "play": "https://play.google.com/store/apps/details?id=com.taxsee.taxsee"
+   }
+  },
+  {
+   "package": "ir.taxsee.driver",
+   "name": {
+    "fa": "ماکسیم رانندگان",
+    "en": "Maxim Driver"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.taxsee.driver",
+    "myket": "https://myket.ir/app/ir.taxsee.driver",
+    "play": "https://play.google.com/store/apps/details?id=ir.taxsee.driver"
+   }
+  },
+  {
+   "package": "ir.metrotimeiran.metrotime",
+   "name": {
+    "fa": "مترو تایم",
+    "en": "Metro Time"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.metrotimeiran.metrotime"
+   }
+  },
+  {
+   "package": "cab.snapp.passenger",
+   "name": {
+    "fa": "اسنپ",
+    "en": "Snapp"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/cab.snapp.passenger",
+    "myket": "https://myket.ir/app/cab.snapp.passenger"
+   }
+  },
+  {
+   "package": "cab.snapp.passenger.play",
+   "name": {
+    "fa": "اسنپ (گوگل‌پلی)",
+    "en": "Snapp (Google Play)"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/cab.snapp.passenger.play",
+    "myket": "https://myket.ir/app/cab.snapp.passenger.play"
+   }
+  },
+  {
+   "package": "cab.snapp.driver",
+   "name": {
+    "fa": "اسنپ رانندگان",
+    "en": "Snapp Driver"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/cab.snapp.driver",
+    "myket": "https://myket.ir/app/cab.snapp.driver"
+   }
+  },
+  {
+   "package": "com.snapp_box.android",
+   "name": {
+    "fa": "اسنپ باکس",
+    "en": "Snappbox"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.snapp_box.android",
+    "myket": "https://myket.ir/app/com.snapp_box.android"
+   }
+  },
+  {
+   "package": "com.snappbox.bikerapp",
+   "name": {
+    "fa": "اسنپ باکس رانندگان",
+    "en": "Snappbox Driver"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.snappbox.bikerapp",
+    "myket": "https://myket.ir/app/com.snappbox.bikerapp"
+   }
+  },
+  {
+   "package": "taxi.tapsi.passenger",
+   "name": {
+    "fa": "تپسی",
+    "en": "Tapsi"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/taxi.tapsi.passenger",
+    "myket": "https://myket.ir/app/taxi.tapsi.passenger"
+   }
+  },
+  {
+   "package": "taxi.tap30.passenger",
+   "name": {
+    "fa": "تپسی (قدیمی)",
+    "en": "Tapsi (old)"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/taxi.tap30.passenger",
+    "myket": "https://myket.ir/app/taxi.tap30.passenger"
+   }
+  },
+  {
+   "package": "taxi.tap30.driver",
+   "name": {
+    "fa": "تپسی رانندگان",
+    "en": "Tapsi Driver"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/taxi.tap30.driver",
+    "myket": "https://myket.ir/app/taxi.tap30.driver"
+   }
+  },
+  {
+   "package": "net.taraabar.carrier",
+   "name": {
+    "fa": "ترابرنت رانندگان",
+    "en": "Taraabarnet Drivers"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/net.taraabar.carrier",
+    "myket": "https://myket.ir/app/net.taraabar.carrier",
+    "play": "https://play.google.com/store/apps/details?id=net.taraabar.carrier"
+   }
+  },
+  {
+   "package": "ftc.com.findtaxisystem",
+   "name": {
+    "fa": "تاکسی ۳۶۰",
+    "en": "Taxi 360"
+   },
+   "category": "transport",
+   "links": {
+    "myket": "https://myket.ir/app/ftc.com.findtaxisystem"
+   }
+  },
+  {
+   "package": "co.fardad.android.metro",
+   "name": {
+    "fa": "مترو تهران",
+    "en": "Tehran Metro"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/co.fardad.android.metro"
+   }
+  },
+  {
+   "package": "com.neda.buseta",
+   "name": {
+    "fa": "حمل و نقل عمومی تهران",
+    "en": "Tehran Public Transport"
+   },
+   "category": "transport",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.neda.buseta",
+    "myket": "https://myket.ir/app/com.neda.buseta",
+    "play": "https://play.google.com/store/apps/details?id=com.neda.buseta"
+   }
+  },
+  {
+   "package": "com.avrudi.fids",
+   "name": {
+    "fa": "اطلاعات پرواز فرودگاه",
+    "en": "Airport Flight Information"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.avrudi.fids",
+    "myket": "https://myket.ir/app/com.avrudi.fids",
+    "play": "https://play.google.com/store/apps/details?id=com.avrudi.fids"
+   }
+  },
+  {
+   "package": "ir.alibaba",
+   "name": {
+    "fa": "علی بابا",
+    "en": "Alibaba"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.alibaba",
+    "myket": "https://myket.ir/app/ir.alibaba"
+   }
+  },
+  {
+   "package": "app.eghamat24.com",
+   "name": {
+    "fa": "اقامت ۲۴",
+    "en": "Eghamat24"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/app.eghamat24.com",
+    "myket": "https://myket.ir/app/app.eghamat24.com"
+   }
+  },
+  {
+   "package": "com.flightio.app",
+   "name": {
+    "fa": "فلایتیو",
+    "en": "Flightio"
+   },
+   "category": "travel",
+   "links": {
+    "myket": "https://myket.ir/app/com.flightio.app"
+   }
+  },
+  {
+   "package": "com.jabamaguest",
+   "name": {
+    "fa": "جاباما",
+    "en": "Jabama"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.jabamaguest",
+    "myket": "https://myket.ir/app/com.jabamaguest",
+    "play": "https://play.google.com/store/apps/details?id=com.jabamaguest"
+   }
+  },
+  {
+   "package": "com.jajiga.app",
+   "name": {
+    "fa": "جاجیگا",
+    "en": "Jajiga"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.jajiga.app",
+    "myket": "https://myket.ir/app/com.jajiga.app",
+    "play": "https://play.google.com/store/apps/details?id=com.jajiga.app"
+   }
+  },
+  {
+   "package": "com.mrbilit.app",
+   "name": {
+    "fa": "مستر بلیط",
+    "en": "MrBilit"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.mrbilit.app",
+    "myket": "https://myket.ir/app/com.mrbilit.app"
+   }
+  },
+  {
+   "package": "ir.otaghak.app",
+   "name": {
+    "fa": "اتاقک",
+    "en": "Otaghak"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.otaghak.app",
+    "myket": "https://myket.ir/app/ir.otaghak.app",
+    "play": "https://play.google.com/store/apps/details?id=ir.otaghak.app"
+   }
+  },
+  {
+   "package": "com.safarmarket.app",
+   "name": {
+    "fa": "سفرمارکت",
+    "en": "Safarmarket"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.safarmarket.app",
+    "myket": "https://myket.ir/app/com.safarmarket.app"
+   }
+  },
+  {
+   "package": "ir.sepehr360.app",
+   "name": {
+    "fa": "سپهر ۳۶۰",
+    "en": "Sepehr360"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.sepehr360.app",
+    "myket": "https://myket.ir/app/ir.sepehr360.app",
+    "play": "https://play.google.com/store/apps/details?id=ir.sepehr360.app"
+   }
+  },
+  {
+   "package": "com.pintapin.pintapin",
+   "name": {
+    "fa": "اسنپ تریپ",
+    "en": "Snapptrip"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.pintapin.pintapin",
+    "myket": "https://myket.ir/app/com.pintapin.pintapin"
+   }
+  },
+  {
+   "package": "ir.tcharter.tcharter",
+   "name": {
+    "fa": "تی چارتر",
+    "en": "Tcharter"
+   },
+   "category": "travel",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.tcharter.tcharter",
+    "myket": "https://myket.ir/app/ir.tcharter.tcharter",
+    "play": "https://play.google.com/store/apps/details?id=ir.tcharter.tcharter"
+   }
+  },
+  {
+   "package": "com.baladmaps",
+   "name": {
+    "fa": "بلد",
+    "en": "Balad"
+   },
+   "category": "maps",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.baladmaps",
+    "play": "https://play.google.com/store/apps/details?id=com.baladmaps"
+   }
+  },
+  {
+   "package": "ir.balad",
+   "name": {
+    "fa": "بلد",
+    "en": "Balad"
+   },
+   "category": "maps",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.balad",
+    "myket": "https://myket.ir/app/ir.balad"
+   }
+  },
+  {
+   "package": "ir.daal.app",
+   "name": {
+    "fa": "دال",
+    "en": "Daal"
+   },
+   "category": "maps",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.daal.app",
+    "myket": "https://myket.ir/app/ir.daal.app"
+   }
+  },
+  {
+   "package": "org.rajman.neshan.traffic.tehran.navigator",
+   "name": {
+    "fa": "نشان",
+    "en": "Neshan"
+   },
+   "category": "maps",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/org.rajman.neshan.traffic.tehran.navigator",
+    "myket": "https://myket.ir/app/org.rajman.neshan.traffic.tehran.navigator",
+    "play": "https://play.google.com/store/apps/details?id=org.rajman.neshan.traffic.tehran.navigator"
+   }
+  },
+  {
+   "package": "org.rajman.neshan.traffic.tehran",
+   "name": {
+    "fa": "رایا",
+    "en": "Raya"
+   },
+   "category": "maps",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/org.rajman.neshan.traffic.tehran",
+    "myket": "https://myket.ir/app/org.rajman.neshan.traffic.tehran"
+   }
+  },
+  {
+   "package": "org.rajman.map.traffic.mashhad",
+   "name": {
+    "fa": "رایا مشهد",
+    "en": "Raya Mashhad"
+   },
+   "category": "maps",
+   "links": {}
+  },
+  {
+   "package": "me.unique.map.unique",
+   "name": {
+    "fa": "وی",
+    "en": "WAY"
+   },
+   "category": "maps",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/me.unique.map.unique",
+    "myket": "https://myket.ir/app/me.unique.map.unique"
+   }
+  },
+  {
+   "package": "ir.aradsystem.apps.calorietracker",
+   "name": {
+    "fa": "بشقاب",
+    "en": "Boshghab"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.aradsystem.apps.calorietracker",
+    "myket": "https://myket.ir/app/ir.aradsystem.apps.calorietracker"
+   }
+  },
+  {
+   "package": "mojabi.app.darooyab",
+   "name": {
+    "fa": "دارویاب",
+    "en": "Darooyab"
+   },
+   "category": "health",
+   "links": {}
+  },
+  {
+   "package": "com.drsainaapp",
+   "name": {
+    "fa": "دکتر ساینا",
+    "en": "Drsaina"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.drsainaapp",
+    "myket": "https://myket.ir/app/com.drsainaapp"
+   }
+  },
+  {
+   "package": "ir.EnerGym",
+   "name": {
+    "fa": "انرجیم",
+    "en": "EnerGym"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.EnerGym",
+    "myket": "https://myket.ir/app/ir.EnerGym"
+   }
+  },
+  {
+   "package": "pr.gahvare.gahvare",
+   "name": {
+    "fa": "گهواره",
+    "en": "Gahvare"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/pr.gahvare.gahvare",
+    "myket": "https://myket.ir/app/pr.gahvare.gahvare",
+    "play": "https://play.google.com/store/apps/details?id=pr.gahvare.gahvare"
+   }
+  },
+  {
+   "package": "ir.duck.impo",
+   "name": {
+    "fa": "ایمپو",
+    "en": "Impo"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.duck.impo",
+    "myket": "https://myket.ir/app/ir.duck.impo"
+   }
+  },
+  {
+   "package": "ir.eynakgroup.caloriemeter",
+   "name": {
+    "fa": "کرفس",
+    "en": "Karafs"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.eynakgroup.caloriemeter",
+    "myket": "https://myket.ir/app/ir.eynakgroup.caloriemeter",
+    "play": "https://play.google.com/store/apps/details?id=ir.eynakgroup.caloriemeter"
+   }
+  },
+  {
+   "package": "ir.zinoo.mankan",
+   "name": {
+    "fa": "مانکن",
+    "en": "Mankan"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.zinoo.mankan",
+    "myket": "https://myket.ir/app/ir.zinoo.mankan",
+    "play": "https://play.google.com/store/apps/details?id=ir.zinoo.mankan"
+   }
+  },
+  {
+   "package": "com.medario.padidar",
+   "name": {
+    "fa": "مداریو",
+    "en": "Medario"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.medario.padidar"
+   }
+  },
+  {
+   "package": "com.bartarinha.niniban",
+   "name": {
+    "fa": "نی نی بان",
+    "en": "Niniban"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.bartarinha.niniban",
+    "myket": "https://myket.ir/app/com.bartarinha.niniban"
+   }
+  },
+  {
+   "package": "com.niniplus.androidapp",
+   "name": {
+    "fa": "نی نی پلاس",
+    "en": "Niniplus"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.niniplus.androidapp"
+   }
+  },
+  {
+   "package": "com.paziresh24.paziresh24",
+   "name": {
+    "fa": "پذیرش۲۴",
+    "en": "Paziresh24"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.paziresh24.paziresh24",
+    "myket": "https://myket.ir/app/com.paziresh24.paziresh24",
+    "play": "https://play.google.com/store/apps/details?id=com.paziresh24.paziresh24"
+   }
+  },
+  {
+   "package": "com.pezeshket",
+   "name": {
+    "fa": "پزشکت",
+    "en": "Pezeshket"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.pezeshket",
+    "myket": "https://myket.ir/app/com.pezeshket"
+   }
+  },
+  {
+   "package": "ir.aftabeshafa.shafadoc",
+   "name": {
+    "fa": "شفاداک",
+    "en": "ShafaDoc"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.aftabeshafa.shafadoc",
+    "myket": "https://myket.ir/app/ir.aftabeshafa.shafadoc",
+    "play": "https://play.google.com/store/apps/details?id=ir.aftabeshafa.shafadoc"
+   }
+  },
+  {
+   "package": "app.yekzan.main",
+   "name": {
+    "fa": "یک زن",
+    "en": "Yekzan"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/app.yekzan.main",
+    "myket": "https://myket.ir/app/app.yekzan.main",
+    "play": "https://play.google.com/store/apps/details?id=app.yekzan.main"
+   }
+  },
+  {
+   "package": "com.kermany.zireh",
+   "name": {
+    "fa": "زیره",
+    "en": "Zireh"
+   },
+   "category": "health",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.kermany.zireh",
+    "play": "https://play.google.com/store/apps/details?id=com.kermany.zireh"
+   }
+  },
+  {
+   "package": "com.peykasa.afarinak.afarinakapp",
+   "name": {
+    "fa": "آفرینک",
+    "en": "Afarinak"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.peykasa.afarinak.afarinakapp",
+    "myket": "https://myket.ir/app/com.peykasa.afarinak.afarinakapp",
+    "play": "https://play.google.com/store/apps/details?id=com.peykasa.afarinak.afarinakapp"
+   }
+  },
+  {
+   "package": "com.ahangify.music",
+   "name": {
+    "fa": "آهنگیفای",
+    "en": "Ahangify"
+   },
+   "category": "streaming",
+   "links": {
+    "myket": "https://myket.ir/app/com.ahangify.music",
+    "play": "https://play.google.com/store/apps/details?id=com.ahangify.music"
+   }
+  },
+  {
+   "package": "tv.perception.android.aio",
+   "name": {
+    "fa": "آیو",
+    "en": "Aio"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/tv.perception.android.aio",
+    "myket": "https://myket.ir/app/tv.perception.android.aio"
+   }
+  },
+  {
+   "package": "com.farakav.anten",
+   "name": {
+    "fa": "آنتن",
+    "en": "Anten"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.farakav.anten",
+    "myket": "https://myket.ir/app/com.farakav.anten"
+   }
+  },
+  {
+   "package": "com.aparat.kids",
+   "name": {
+    "fa": "آپارات کودک",
+    "en": "Aparat Kids"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.aparat.kids",
+    "myket": "https://myket.ir/app/com.aparat.kids"
+   }
+  },
+  {
+   "package": "com.beep.tunes",
+   "name": {
+    "fa": "بیپ تونز",
+    "en": "Beeptunes"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.beep.tunes"
+   }
+  },
+  {
+   "package": "com.yaramobile.digitoon",
+   "name": {
+    "fa": "دیجیتون",
+    "en": "Digitoon"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.yaramobile.digitoon",
+    "myket": "https://myket.ir/app/com.yaramobile.digitoon"
+   }
+  },
+  {
+   "package": "com.aparat.filimo",
+   "name": {
+    "fa": "فیلیمو",
+    "en": "Filimo"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.aparat.filimo",
+    "myket": "https://myket.ir/app/com.aparat.filimo"
+   }
+  },
+  {
+   "package": "ir.filmnet.android",
+   "name": {
+    "fa": "فیلم نت",
+    "en": "Filmnet"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.filmnet.android",
+    "myket": "https://myket.ir/app/ir.filmnet.android"
+   }
+  },
+  {
+   "package": "com.gapfilm.app",
+   "name": {
+    "fa": "گپ فیلم",
+    "en": "GapFilm"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.gapfilm.app",
+    "myket": "https://myket.ir/app/com.gapfilm.app",
+    "play": "https://play.google.com/store/apps/details?id=com.gapfilm.app"
+   }
+  },
+  {
+   "package": "ir.iribradio.iranseda3",
+   "name": {
+    "fa": "ایران صدا",
+    "en": "Iranseda"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.iribradio.iranseda3",
+    "myket": "https://myket.ir/app/ir.iribradio.iranseda3"
+   }
+  },
+  {
+   "package": "com.likotv",
+   "name": {
+    "fa": "آی اسپورت",
+    "en": "iSport"
+   },
+   "category": "streaming",
+   "links": {
+    "myket": "https://myket.ir/app/com.likotv",
+    "play": "https://play.google.com/store/apps/details?id=com.likotv"
+   }
+  },
+  {
+   "package": "com.mrtehran.mtandroid",
+   "name": {
+    "fa": "مستر تهران",
+    "en": "MrTehran"
+   },
+   "category": "streaming",
+   "links": {
+    "myket": "https://myket.ir/app/com.mrtehran.mtandroid",
+    "play": "https://play.google.com/store/apps/details?id=com.mrtehran.mtandroid"
+   }
+  },
+  {
+   "package": "com.shatelland.namava.mobile",
+   "name": {
+    "fa": "نماوا",
+    "en": "Namava"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.shatelland.namava.mobile",
+    "myket": "https://myket.ir/app/com.shatelland.namava.mobile",
+    "play": "https://play.google.com/store/apps/details?id=com.shatelland.namava.mobile"
+   }
+  },
+  {
+   "package": "ir.navayeheiat",
+   "name": {
+    "fa": "نوا",
+    "en": "Nava"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.navayeheiat",
+    "myket": "https://myket.ir/app/ir.navayeheiat"
+   }
+  },
+  {
+   "package": "ir.IRIB.jk.MediaIRIB",
+   "name": {
+    "fa": "سپهر",
+    "en": "Sepehr"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.IRIB.jk.MediaIRIB",
+    "myket": "https://myket.ir/app/ir.IRIB.jk.MediaIRIB"
+   }
+  },
+  {
+   "package": "com.rahpou.irib",
+   "name": {
+    "fa": "سیمای همراه",
+    "en": "Simaye Hamrah"
+   },
+   "category": "streaming",
+   "links": {
+    "myket": "https://myket.ir/app/com.rahpou.irib"
+   }
+  },
+  {
+   "package": "net.telewebion",
+   "name": {
+    "fa": "تلوبیون",
+    "en": "Telewebion"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/net.telewebion",
+    "myket": "https://myket.ir/app/net.telewebion"
+   }
+  },
+  {
+   "package": "com.myvusic.app",
+   "name": {
+    "fa": "ویوزیک",
+    "en": "Vusic"
+   },
+   "category": "streaming",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.myvusic.app",
+    "myket": "https://myket.ir/app/com.myvusic.app"
+   }
+  },
+  {
+   "package": "com.khorasannews.latestnews",
+   "name": {
+    "fa": "آخرین خبر",
+    "en": "Akharin Khabar"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.khorasannews.latestnews",
+    "myket": "https://myket.ir/app/com.khorasannews.latestnews"
+   }
+  },
+  {
+   "package": "fast.dic.dict",
+   "name": {
+    "fa": "فست دیکشنری",
+    "en": "Fastdic"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/fast.dic.dict",
+    "play": "https://play.google.com/store/apps/details?id=fast.dic.dict"
+   }
+  },
+  {
+   "package": "com.fidibo.app",
+   "name": {
+    "fa": "فیدیبو",
+    "en": "Fidibo"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.fidibo.app",
+    "play": "https://play.google.com/store/apps/details?id=com.fidibo.app"
+   }
+  },
+  {
+   "package": "com.footba11.results",
+   "name": {
+    "fa": "فوتبال ۱۱",
+    "en": "Footba11"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.footba11.results",
+    "myket": "https://myket.ir/app/com.footba11.results"
+   }
+  },
+  {
+   "package": "ir.football360.android",
+   "name": {
+    "fa": "فوتبال ۳۶۰",
+    "en": "Football 360"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.football360.android",
+    "myket": "https://myket.ir/app/ir.football360.android"
+   }
+  },
+  {
+   "package": "com.piccolo.footballi.server",
+   "name": {
+    "fa": "فوتبالی",
+    "en": "Footballi"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.piccolo.footballi.server",
+    "myket": "https://myket.ir/app/com.piccolo.footballi.server"
+   }
+  },
+  {
+   "package": "com.ketabrah",
+   "name": {
+    "fa": "کتابراه",
+    "en": "Ketabrah"
+   },
+   "category": "reading",
+   "links": {
+    "play": "https://play.google.com/store/apps/details?id=com.ketabrah"
+   }
+  },
+  {
+   "package": "ir.navaar.android",
+   "name": {
+    "fa": "نوار",
+    "en": "Navaar"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.navaar.android",
+    "myket": "https://myket.ir/app/ir.navaar.android",
+    "play": "https://play.google.com/store/apps/details?id=ir.navaar.android"
+   }
+  },
+  {
+   "package": "ir.mservices.mybook",
+   "name": {
+    "fa": "طاقچه",
+    "en": "Taaghche"
+   },
+   "category": "reading",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.mservices.mybook",
+    "myket": "https://myket.ir/app/ir.mservices.mybook"
+   }
+  },
+  {
+   "package": "com.bamooz.vocab.deutsch",
+   "name": {
+    "fa": "زبان بیاموز",
+    "en": "B-Amooz"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.bamooz.vocab.deutsch",
+    "myket": "https://myket.ir/app/com.bamooz.vocab.deutsch",
+    "play": "https://play.google.com/store/apps/details?id=com.bamooz.vocab.deutsch"
+   }
+  },
+  {
+   "package": "org.alleece.evillage",
+   "name": {
+    "fa": "دهکده زبان",
+    "en": "English Village"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/org.alleece.evillage",
+    "myket": "https://myket.ir/app/org.alleece.evillage"
+   }
+  },
+  {
+   "package": "com.sabaidea.filimo.school",
+   "name": {
+    "fa": "فیلیمو مدرسه",
+    "en": "Filimo School"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.sabaidea.filimo.school",
+    "myket": "https://myket.ir/app/com.sabaidea.filimo.school"
+   }
+  },
+  {
+   "package": "apphamyar.com",
+   "name": {
+    "fa": "همیار",
+    "en": "Hamyar"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/apphamyar.com",
+    "myket": "https://myket.ir/app/apphamyar.com"
+   }
+  },
+  {
+   "package": "ir.learnit",
+   "name": {
+    "fa": "لرنیت",
+    "en": "Learnit"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.learnit",
+    "myket": "https://myket.ir/app/ir.learnit",
+    "play": "https://play.google.com/store/apps/details?id=ir.learnit"
+   }
+  },
+  {
+   "package": "air.com.viraparsian.mishakoosha",
+   "name": {
+    "fa": "میشا کوشا",
+    "en": "Misha Koosha"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/air.com.viraparsian.mishakoosha",
+    "play": "https://play.google.com/store/apps/details?id=air.com.viraparsian.mishakoosha"
+   }
+  },
+  {
+   "package": "com.paadars.practicehelpN",
+   "name": {
+    "fa": "پادرس",
+    "en": "Paadars"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.paadars.practicehelpN",
+    "myket": "https://myket.ir/app/com.paadars.practicehelpN"
+   }
+  },
+  {
+   "package": "ir.medu.shad",
+   "name": {
+    "fa": "شاد",
+    "en": "Shad"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.medu.shad",
+    "myket": "https://myket.ir/app/ir.medu.shad"
+   }
+  },
+  {
+   "package": "org.tahlilgaran.tdictionary",
+   "name": {
+    "fa": "تحلیلگران",
+    "en": "TahlilGaran"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/org.tahlilgaran.tdictionary",
+    "myket": "https://myket.ir/app/org.tahlilgaran.tdictionary",
+    "play": "https://play.google.com/store/apps/details?id=org.tahlilgaran.tdictionary"
+   }
+  },
+  {
+   "package": "com.zabanshenas",
+   "name": {
+    "fa": "زبانشناس",
+    "en": "Zabanshenas"
+   },
+   "category": "education",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.zabanshenas",
+    "myket": "https://myket.ir/app/com.zabanshenas",
+    "play": "https://play.google.com/store/apps/details?id=com.zabanshenas"
+   }
+  },
+  {
+   "package": "com.sanags.a4f3client",
+   "name": {
+    "fa": "آچاره",
+    "en": "Achareh"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.sanags.a4f3client",
+    "myket": "https://myket.ir/app/com.sanags.a4f3client",
+    "play": "https://play.google.com/store/apps/details?id=com.sanags.a4f3client"
+   }
+  },
+  {
+   "package": "com.e_estekhdam.android.app",
+   "name": {
+    "fa": "ای استخدام",
+    "en": "e-Estekhdam"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.e_estekhdam.android.app",
+    "myket": "https://myket.ir/app/com.e_estekhdam.android.app"
+   }
+  },
+  {
+   "package": "io.vsum.estelamkhalafi",
+   "name": {
+    "fa": "فرمون",
+    "en": "Farmoon"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/io.vsum.estelamkhalafi"
+   }
+  },
+  {
+   "package": "com.app.weatherclock",
+   "name": {
+    "fa": "هواشناس",
+    "en": "Havashenas"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.app.weatherclock"
+   }
+  },
+  {
+   "package": "com.iranestekhdam.iranestekhdam",
+   "name": {
+    "fa": "ایران استخدام",
+    "en": "Iran Estekhdam"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.iranestekhdam.iranestekhdam",
+    "myket": "https://myket.ir/app/com.iranestekhdam.iranestekhdam",
+    "play": "https://play.google.com/store/apps/details?id=com.iranestekhdam.iranestekhdam"
+   }
+  },
+  {
+   "package": "ir.ikec.isaco",
+   "name": {
+    "fa": "ایساکو",
+    "en": "Isaco"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.ikec.isaco",
+    "myket": "https://myket.ir/app/ir.ikec.isaco"
+   }
+  },
+  {
+   "package": "ir.itoll.mycarapp",
+   "name": {
+    "fa": "آیتول",
+    "en": "iToll"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.itoll.mycarapp",
+    "myket": "https://myket.ir/app/ir.itoll.mycarapp"
+   }
+  },
+  {
+   "package": "com.serendip.khalafi",
+   "name": {
+    "fa": "استعلام خلافی خودرو",
+    "en": "Khalafi"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.serendip.khalafi"
+   }
+  },
+  {
+   "package": "ir.ayantech.finesdetail",
+   "name": {
+    "fa": "خلافی پلاس",
+    "en": "Khalafi Plus"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.ayantech.finesdetail",
+    "myket": "https://myket.ir/app/ir.ayantech.finesdetail"
+   }
+  },
+  {
+   "package": "com.khedmatazma.customer",
+   "name": {
+    "fa": "خدمت از ما",
+    "en": "Khedmatazma"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.khedmatazma.customer",
+    "myket": "https://myket.ir/app/com.khedmatazma.customer",
+    "play": "https://play.google.com/store/apps/details?id=com.khedmatazma.customer"
+   }
+  },
+  {
+   "package": "com.niyphelah.leagueofmafia",
+   "name": {
+    "fa": "لیگ مافیا",
+    "en": "League of Mafia"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.niyphelah.leagueofmafia",
+    "myket": "https://myket.ir/app/com.niyphelah.leagueofmafia"
+   }
+  },
+  {
+   "package": "nu.milad.motmaenbash",
+   "name": {
+    "fa": "مطمئن باش",
+    "en": "MotmaenBash"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/nu.milad.motmaenbash",
+    "myket": "https://myket.ir/app/nu.milad.motmaenbash",
+    "play": "https://play.google.com/store/apps/details?id=nu.milad.motmaenbash"
+   }
+  },
+  {
+   "package": "ca.nanowatch.app",
+   "name": {
+    "fa": "نانوواچ",
+    "en": "NanoWatch"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ca.nanowatch.app",
+    "myket": "https://myket.ir/app/ca.nanowatch.app"
+   }
+  },
+  {
+   "package": "ir.ostadkar.customer",
+   "name": {
+    "fa": "استادکار",
+    "en": "Ostadkar"
+   },
+   "category": "services",
+   "links": {}
+  },
+  {
+   "package": "ir.aqr.razavi",
+   "name": {
+    "fa": "رضوان",
+    "en": "Rezvan"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/ir.aqr.razavi",
+    "myket": "https://myket.ir/app/ir.aqr.razavi"
+   }
+  },
+  {
+   "package": "com.irantec.CarAlarm",
+   "name": {
+    "fa": "ردیاب خودرو سایه",
+    "en": "Sayeh GPS"
+   },
+   "category": "services",
+   "links": {
+    "bazaar": "https://cafebazaar.ir/app/com.irantec.CarAlarm"
+   }
+  }
+ ]
+}
