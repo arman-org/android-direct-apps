@@ -930,6 +930,10 @@
   stores: [bazaar, myket, play]
 
 # Services and tools
+- package: ir.esfandune.wave
+  name: { fa: "حسابداری موج", en: "Mowj Accounting" }
+  category: services
+  stores: [bazaar, myket]
 - package: com.parmisit.parmismobile
   name: { fa: "حسابداری پارمیس", en: "Parmis Accounting" }
   category: services

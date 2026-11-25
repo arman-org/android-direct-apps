@@ -1,6 +1,6 @@
 # IR: apps that connect directly
 
-243 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
+244 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
 
 ## بانک · Banks (38)
 
@@ -315,7 +315,7 @@
 | تحلیلگران | TahlilGaran | `org.tahlilgaran.tdictionary` | [Bazaar](https://cafebazaar.ir/app/org.tahlilgaran.tdictionary) · [Myket](https://myket.ir/app/org.tahlilgaran.tdictionary) · [Google Play](https://play.google.com/store/apps/details?id=org.tahlilgaran.tdictionary) |
 | زبانشناس | Zabanshenas | `com.zabanshenas` | [Bazaar](https://cafebazaar.ir/app/com.zabanshenas) · [Myket](https://myket.ir/app/com.zabanshenas) · [Google Play](https://play.google.com/store/apps/details?id=com.zabanshenas) |
 
-## خدمات و ابزار · Services and tools (20)
+## خدمات و ابزار · Services and tools (21)
 
 | نام | Name | Package | Stores |
 | --- | --- | --- | --- |
@@ -333,6 +333,7 @@
 | خدمت از ما | Khedmatazma | `com.khedmatazma.customer` | [Bazaar](https://cafebazaar.ir/app/com.khedmatazma.customer) · [Myket](https://myket.ir/app/com.khedmatazma.customer) · [Google Play](https://play.google.com/store/apps/details?id=com.khedmatazma.customer) |
 | لیگ مافیا | League of Mafia | `com.niyphelah.leagueofmafia` | [Bazaar](https://cafebazaar.ir/app/com.niyphelah.leagueofmafia) · [Myket](https://myket.ir/app/com.niyphelah.leagueofmafia) |
 | مطمئن باش | MotmaenBash | `nu.milad.motmaenbash` | [Bazaar](https://cafebazaar.ir/app/nu.milad.motmaenbash) · [Myket](https://myket.ir/app/nu.milad.motmaenbash) · [Google Play](https://play.google.com/store/apps/details?id=nu.milad.motmaenbash) |
+| حسابداری موج | Mowj Accounting | `ir.esfandune.wave` | [Bazaar](https://cafebazaar.ir/app/ir.esfandune.wave) · [Myket](https://myket.ir/app/ir.esfandune.wave) |
 | نانوواچ | NanoWatch | `ca.nanowatch.app` | [Bazaar](https://cafebazaar.ir/app/ca.nanowatch.app) · [Myket](https://myket.ir/app/ca.nanowatch.app) |
 | استادکار | Ostadkar | `ir.ostadkar.customer` | — |
 | حسابداری پارمیس | Parmis Accounting | `com.parmisit.parmismobile` | [Bazaar](https://cafebazaar.ir/app/com.parmisit.parmismobile) · [Myket](https://myket.ir/app/com.parmisit.parmismobile) · [Google Play](https://play.google.com/store/apps/details?id=com.parmisit.parmismobile) |
