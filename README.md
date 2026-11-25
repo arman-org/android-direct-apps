@@ -6,7 +6,8 @@ country that refuse a foreign address or only work from inside it. VPN and
 proxy apps use these lists to leave such apps out of the tunnel.
 
 Each app is listed with its Persian and English name, a category, and the
-stores it is in. The lists are kept by hand.
+stores it is in; what clients download is only the package names. The
+lists are kept by hand.
 
 | Country | List | Browse |
 | --- | --- | --- |
@@ -23,22 +24,15 @@ https://cdn.jsdelivr.net/gh/arman-org/android-direct-apps@main/dist/ir.json
 ```json
 {
  "country": "ir",
- "count": 1,
- "categories": [{"id": "telecom", "name": {"fa": "اپراتور و اینترنت", "en": "Mobile operators and internet"}}],
  "apps": [
-  {
-   "package": "ir.mci.ecareapp",
-   "name": {"fa": "همراه من", "en": "MyMCI"},
-   "category": "telecom",
-   "links": {
-    "bazaar": "https://cafebazaar.ir/app/ir.mci.ecareapp",
-    "myket": "https://myket.ir/app/ir.mci.ecareapp",
-    "play": "https://play.google.com/store/apps/details?id=ir.mci.ecareapp"
-   }
-  }
+  "cab.snapp.passenger",
+  "ir.mci.ecareapp"
  ]
 }
 ```
+
+Only the package names: the names, categories, and stores in
+`countries/` and `dist/<code>.md` are for reading and editing the lists.
 
 ## Adding or changing an app
 

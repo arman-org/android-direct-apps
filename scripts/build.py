@@ -109,23 +109,10 @@ def order(apps, category_ids):
     return sorted(apps, key=lambda a: (rank[a["category"]], a["name"]["en"].lower(), a["package"]))
 
 
-def build_json(code, apps, categories):
-    used = {a["category"] for a in apps}
-    out = {
-        "country": code,
-        "count": len(apps),
-        "categories": [c for c in categories if c["id"] in used],
-        "apps": [
-            {
-                "package": a["package"],
-                "name": a["name"],
-                "category": a["category"],
-                "links": {s: STORES[s][2].format(a["package"]) for s in a["stores"]},
-                **({"note": a["note"]} if "note" in a else {}),
-            }
-            for a in apps
-        ],
-    }
+def build_json(code, apps):
+    """What clients download: only the package names. The names,
+    categories, and stores are for reading and editing the lists here."""
+    out = {"country": code, "apps": sorted(a["package"] for a in apps)}
     return json.dumps(out, ensure_ascii=False, indent=1) + "\n"
 
 
@@ -161,7 +148,7 @@ def build():
         if not re.fullmatch(r"[a-z]{2}", code):
             raise Invalid(f"{path.name}: named by its two-letter country code")
         apps = order(read_country(path, ids), ids)
-        files[f"{code}.json"] = build_json(code, apps, categories)
+        files[f"{code}.json"] = build_json(code, apps)
         files[f"{code}.md"] = build_md(code, apps, categories)
         print(f"{code}: {len(apps)} apps")
     return files
