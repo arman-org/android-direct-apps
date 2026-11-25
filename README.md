@@ -44,15 +44,16 @@ Only the package names: the names, categories, and stores in
      name: { fa: همراه من, en: MyMCI }
      category: telecom
      stores: [bazaar, myket, play]
-     installs: { myket: 32000000 }      # optional: download counts by store
+     installs: { bazaar: 54000000, myket: 32000000 }   # optional
      note: Refuses a foreign address.   # optional: why it connects directly
    ```
 
    `category` is one of [categories.yaml](categories.yaml); `stores` are
    some of `bazaar`, `myket`, `play`, and the links are made from them.
-   `installs` is what a store showed when last checked (Myket's download
-   count for now); `dist/<code>.md` lists each category's apps by it, the
-   most installed first.
+   `installs` is what the stores showed when last checked: Bazaar's active
+   installs, and Myket's downloads. `dist/<code>.md` lists each category's
+   apps by Bazaar's count (Myket's for an app not on Bazaar), the most
+   used first.
 2. Build: `pip install pyyaml`, then `python scripts/build.py`.
 3. Commit the list and `dist/` together. Every push is checked (Actions,
    Check): package names, categories, no app twice, and `dist/` current.

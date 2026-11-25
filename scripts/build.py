@@ -111,8 +111,10 @@ def read_country(path, category_ids):
 
 
 def installs(app):
-    """The largest install count the app has, 0 when none is known."""
-    return max(app.get("installs", {}).values(), default=0)
+    """How widely the app is used: Bazaar's active installs, else Myket's
+    downloads (a lesser measure), 0 when neither is known."""
+    counts = app.get("installs", {})
+    return counts.get("bazaar") or counts.get("myket") or 0
 
 
 def short(n):
@@ -149,10 +151,13 @@ def build_md(code, apps, categories):
         if not group:
             continue
         lines += [f"## {c['name']['fa']} · {c['name']['en']} ({len(group)})", "",
-                  "| نام | Name | Installs | Package | Stores |", "| --- | --- | --- | --- | --- |"]
+                  "| نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |",
+                  "| --- | --- | --- | --- | --- | --- |"]
         for a in group:
             links = " · ".join(f"[{STORES[s][0]}]({STORES[s][2].format(a['package'])})" for s in a["stores"]) or "—"
-            lines.append(f"| {a['name'].get('fa', '')} | {a['name']['en']} | {short(installs(a))} | `{a['package']}` | {links} |")
+            counts = a.get("installs", {})
+            lines.append(f"| {a['name'].get('fa', '')} | {a['name']['en']} | {short(counts.get('bazaar', 0))} | "
+                         f"{short(counts.get('myket', 0))} | `{a['package']}` | {links} |")
         lines.append("")
     return "\n".join(lines)
 
