@@ -3,6 +3,11 @@
 # installs: Bazaar's active installs and Myket's downloads when last checked.
 
 # Banks
+- package: com.tosan.dara.sarmayeh
+  name: { fa: "تک بانک سرمایه", en: "Tak Bank Sarmayeh" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 400000, myket: 200000 }
 - package: com.fatak.mbank.arman
   name: { fa: "موبایل بانک موسسه آرمان", en: "Arman Mobile Bank" }
   category: bank
@@ -380,6 +385,36 @@
   installs: { myket: 200 }
 
 # Payments and wallets
+- package: qabzebarq.bargheman.com
+  name: { fa: "قبض برق", en: "Electricity Bill" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 60000, myket: 2000 }
+- package: qabzeab.ccp.tpww.ir.aspardproject.qabzeab
+  name: { fa: "قبض آب", en: "Water Bill (2)" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 62000, myket: 6000 }
+- package: qabzegas.newbilling.nigc.ir
+  name: { fa: "قبض گاز", en: "Gas Bill" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 100000, myket: 8000 }
+- package: ir.ayantech.fixedlinebillinquiry
+  name: { fa: "قبض تلفن ثابت", en: "Landline Bill" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 160000, myket: 30000 }
+- package: ccp.tpww.ir.aspardproject.qabzeab
+  name: { fa: "استعلام و پرداخت قبض آب", en: "Water Bill" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 160000, myket: 50000 }
+- package: ir.co.pna.sun
+  name: { fa: "سان", en: "Sun" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 570000, myket: 200000 }
 - package: ir.ayantech.mobilebillinquiry
   name: { fa: "استعلام قبض موبایل", en: "Mobile Bill Inquiry" }
   category: payment
@@ -552,6 +587,36 @@
   installs: { bazaar: 28000, myket: 23000 }
 
 # Crypto exchanges
+- package: ir.twox.twa
+  name: { fa: "تو ایکس", en: "TwoX" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { bazaar: 170000, myket: 200000 }
+- package: land.tether.tetherland
+  name: { fa: "تترلند", en: "Tetherland" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { bazaar: 290000, myket: 300000 }
+- package: com.ompfinex.app
+  name: { fa: "او ام پی فینکس", en: "OMPFinex" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { bazaar: 480000, myket: 400000 }
+- package: ir.myter.bit24
+  name: { fa: "بیت ۲۴", en: "Bit24" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { bazaar: 620000, myket: 500000 }
+- package: ir.aban.th
+  name: { fa: "آبان تتر", en: "Aban Tether" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { bazaar: 950000, myket: 800000 }
+- package: ir.wallex.app
+  name: { fa: "والکس", en: "Wallex" }
+  category: crypto
+  stores: [bazaar, myket]
+  installs: { bazaar: 1200000, myket: 700000 }
 - package: market.nobitex
   name: { fa: "نوبیتکس", en: "Nobitex" }
   category: crypto
@@ -672,6 +737,86 @@
   stores: []
 
 # Stocks and investing
+- package: com.example.tse_robot
+  name: { fa: "روند", en: "Ravand" }
+  category: investing
+  stores: [bazaar]
+  installs: { bazaar: 24000 }
+- package: com.project.android.skenas
+  name: { fa: "اسکناس", en: "Eskenas" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 53000, myket: 13000 }
+- package: ir.mobinsb.smobile
+  name: { fa: "اسمارت مبین سرمایه", en: "Smart Mobin Sarmayeh" }
+  category: investing
+  stores: [bazaar]
+  installs: { bazaar: 59000 }
+- package: com.bidarex
+  name: { fa: "بیدار اپ", en: "Bidar App" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 59000, myket: 18000 }
+- package: ir.baloot
+  name: { fa: "بلوط", en: "Baloot" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 60000, myket: 29000 }
+- package: com.ghollak.app
+  name: { fa: "قلک", en: "Ghollak" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 69000, myket: 23000 }
+- package: com.emofid.bourseview.twa
+  name: { fa: "بورس ویو", en: "BourseView" }
+  category: investing
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 82000, myket: 32000 }
+- package: ir.zohasoft.bifilter
+  name: { fa: "فیلتر هوشمند بورس", en: "Smart Bourse Filter" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 98000, myket: 21000 }
+- package: com.farabixo.mobile.twa
+  name: { fa: "فارابیکسو", en: "Farabixo" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 180000, myket: 60000 }
+- package: com.fasttse.android
+  name: { fa: "فست بورس", en: "Fast Bourse" }
+  category: investing
+  stores: [bazaar]
+  installs: { bazaar: 260000 }
+- package: com.sahra.oms.ibshop
+  name: { fa: "آی‌بی‌شاپ", en: "IB Shop" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 320000, myket: 100000 }
+- package: com.firouzeh.app
+  name: { fa: "فیروزه", en: "Firouzeh" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 350000, myket: 200000 }
+- package: com.mofidonline.mobile
+  name: { fa: "مفید آنلاین", en: "Mofid Online" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 400000, myket: 60000 }
+- package: ir.charisma.superapp
+  name: { fa: "کاریزما", en: "Charisma" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 690000, myket: 300000 }
+- package: com.rh.ot.android
+  name: { fa: "رایان همراه", en: "Rayan Hamrah" }
+  category: investing
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 820000, myket: 200000 }
+- package: com.agah.asatrader
+  name: { fa: "آساتریدر", en: "AsaTrader" }
+  category: investing
+  stores: [bazaar, myket]
+  installs: { bazaar: 3000000, myket: 600000 }
 - package: ir.sahim
   name: { fa: "سهیم", en: "Sahim" }
   category: investing
@@ -743,6 +888,21 @@
   stores: [myket]
 
 # Insurance
+- package: com.bimeh.pwa.twa
+  name: { fa: "بیمه دات کام", en: "Bimeh.com" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 92000, myket: 47000 }
+- package: com.saman.singlewindow
+  name: { fa: "بیمه سامان", en: "Saman Insurance" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 500000, myket: 200000 }
+- package: com.bimebazar.bimebazar
+  name: { fa: "بیمه بازار", en: "Bimebazar" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 1100000, myket: 500000 }
 - package: ir.bimeiran.ir
   name: { fa: "بیمه ایران یادگاری", en: "Iran Insurance Yadegari" }
   category: insurance
@@ -1020,6 +1180,31 @@
   installs: { myket: 60000000 }
 
 # Shopping and classifieds
+- package: vestasystem.ir.mozayede
+  name: { fa: "مزایده خودرو هوشمند", en: "Smart Car Auction" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { bazaar: 21000, myket: 2000 }
+- package: ir.mokryandev.cartech
+  name: { fa: "کارتک", en: "Cartech" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { bazaar: 46000, myket: 33000 }
+- package: ir.car.bilgisoft
+  name: { fa: "Car.ir", en: "Car.ir" }
+  category: shopping
+  stores: [bazaar]
+  installs: { bazaar: 100000 }
+- package: khodroshop.ir
+  name: { fa: "خودروشاپ", en: "Khodroshop" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { bazaar: 110000, myket: 27000 }
+- package: ir.bazarkhodroiran
+  name: { fa: "بازار خودرو ایران", en: "Bazar Khodro Iran" }
+  category: shopping
+  stores: [bazaar]
+  installs: { bazaar: 140000 }
 - package: com.monagheseyar.mozaidekhodro
   name: { fa: "مزایده خودرو", en: "Car Auction" }
   category: shopping
