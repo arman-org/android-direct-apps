@@ -560,6 +560,11 @@
   installs: { bazaar: 2400000, myket: 1000000 }
 
 # Government services
+- package: ir.pt.sata
+  name: { fa: "ساتا", en: "Sata" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 1200000, myket: 300000 }
 - package: com.pdpsoft.android.saapa
   name: { fa: "برق من", en: "Bargh-e Man" }
   category: government

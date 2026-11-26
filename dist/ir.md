@@ -1,6 +1,6 @@
 # IR: apps that connect directly
 
-347 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
+348 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
 
 ## بانک · Banks (48)
 
@@ -137,7 +137,7 @@
 | --- | --- | --- | --- | --- | --- |
 | ازکی | Azki | 2.4M | 1M | `com.nar.bimito` | [Bazaar](https://cafebazaar.ir/app/com.nar.bimito) · [Myket](https://myket.ir/app/com.nar.bimito) · [Google Play](https://play.google.com/store/apps/details?id=com.nar.bimito) |
 
-## خدمات دولتی · Government services (7)
+## خدمات دولتی · Government services (8)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -146,6 +146,7 @@
 | تامین من | My Tamin | 7.4M | 3M | `com.tamin.taminhamrah` | [Bazaar](https://cafebazaar.ir/app/com.tamin.taminhamrah) · [Myket](https://myket.ir/app/com.tamin.taminhamrah) |
 | دولت من | My Government | 4.9M | 4M | `ir.gov.mygov` | [Bazaar](https://cafebazaar.ir/app/ir.gov.mygov) · [Myket](https://myket.ir/app/ir.gov.mygov) |
 | تهران من | MyTehran | 2.9M | 900K | `com.mytehran` | [Bazaar](https://cafebazaar.ir/app/com.mytehran) · [Myket](https://myket.ir/app/com.mytehran) |
+| ساتا | Sata | 1.2M | 300K | `ir.pt.sata` | [Bazaar](https://cafebazaar.ir/app/ir.pt.sata) · [Myket](https://myket.ir/app/ir.pt.sata) |
 | پیشخوان ۲۴ | Pishkhan24 | 970K | 500K | `ir.ayantech.pishkhan24` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.pishkhan24) · [Myket](https://myket.ir/app/ir.ayantech.pishkhan24) · [Google Play](https://play.google.com/store/apps/details?id=ir.ayantech.pishkhan24) |
 | عدالت همراه | Edalat-e Hamrah | — | — | `ir.eadl.edalatehamrah` | — |
 
