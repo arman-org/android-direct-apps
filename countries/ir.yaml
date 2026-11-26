@@ -380,6 +380,31 @@
   installs: { myket: 200 }
 
 # Payments and wallets
+- package: ir.ayantech.mobilebillinquiry
+  name: { fa: "استعلام قبض موبایل", en: "Mobile Bill Inquiry" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 15000, myket: 2000 }
+- package: f.omor.bargh.app_58148
+  name: { fa: "خدمات الکترونیک برق", en: "Electricity e-Services" }
+  category: payment
+  stores: [bazaar]
+  installs: { bazaar: 670000 }
+- package: ir.ayantech.electricitybillinquiry
+  name: { fa: "استعلام قبض برق", en: "Electricity Bill Inquiry" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 300000, myket: 200000 }
+- package: ir.ayantech.waterbillinquiry
+  name: { fa: "استعلام قبض آب", en: "Water Bill Inquiry" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 460000, myket: 200000 }
+- package: ir.ayantech.gasbillinquiry
+  name: { fa: "استعلام قبض گاز", en: "Gas Bill Inquiry" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 730000, myket: 300000 }
 - package: ir.keepa.pwa
   name: { fa: "کیپا", en: "Keepa" }
   category: payment
@@ -647,6 +672,11 @@
   stores: []
 
 # Stocks and investing
+- package: ir.sahim
+  name: { fa: "سهیم", en: "Sahim" }
+  category: investing
+  stores: [bazaar]
+  installs: { bazaar: 41000 }
 - package: ir.part.app.signal
   name: { fa: "سیگنال", en: "Signal" }
   category: investing
@@ -713,6 +743,21 @@
   stores: [myket]
 
 # Insurance
+- package: ir.bimeiran.ir
+  name: { fa: "بیمه ایران یادگاری", en: "Iran Insurance Yadegari" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 220000, myket: 42000 }
+- package: ir.dayins.didar
+  name: { fa: "دی‌دار", en: "Didar" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 660000, myket: 300000 }
+- package: ir.insurance.dana.android
+  name: { fa: "همراه دانا", en: "Hamrah Dana" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 1000000, myket: 300000 }
 - package: com.Radisan.Asia
   name: { fa: "یاس بیمه آسیا", en: "Yas Asia Insurance" }
   category: insurance
@@ -730,6 +775,56 @@
   installs: { bazaar: 2400000, myket: 1000000 }
 
 # Government services
+- package: ir.actiongroup.sajava
+  name: { fa: "سجاوا", en: "Sajava" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 30000, myket: 3000 }
+- package: com.arayeh.shahinshahr
+  name: { fa: "شهرداری شاهین‌شهر", en: "Shahinshahr Municipality" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 45000, myket: 33000 }
+- package: ir.ahvaz.my
+  name: { fa: "اهواز من", en: "My Ahvaz" }
+  category: government
+  stores: [bazaar]
+  installs: { bazaar: 56000 }
+- package: com.approid.kalabarg
+  name: { fa: "کالابرگ", en: "Kalabarg" }
+  category: government
+  stores: [bazaar]
+  installs: { bazaar: 61000 }
+- package: ir.we.tax
+  name: { fa: "مالیات من", en: "My Tax" }
+  category: government
+  stores: [bazaar]
+  installs: { bazaar: 75000 }
+- package: ir.sabt.inap
+  name: { fa: "سامانه خدمات ثبت احوال", en: "Civil Registration Services" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 180000, myket: 42000 }
+- package: ir.isfahan.app.twa
+  name: { fa: "اصفهان من", en: "My Isfahan" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 240000, myket: 200000 }
+- package: ir.ayantech.subventioninquiry
+  name: { fa: "استعلام یارانه", en: "Subsidy Inquiry" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 580000, myket: 200000 }
+- package: ir.ntsw
+  name: { fa: "سامانه جامع تجارت", en: "National Trade System" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 640000, myket: 200000 }
+- package: ir.kateb.app.kateb
+  name: { fa: "کاتب", en: "Kateb" }
+  category: government
+  stores: [bazaar]
+  installs: { bazaar: 750000 }
 - package: com.gss.crocodile
   name: { fa: "سامانه هدا", en: "Hoda" }
   category: government
@@ -925,6 +1020,11 @@
   installs: { myket: 60000000 }
 
 # Shopping and classifieds
+- package: com.monagheseyar.mozaidekhodro
+  name: { fa: "مزایده خودرو", en: "Car Auction" }
+  category: shopping
+  stores: [bazaar, myket]
+  installs: { bazaar: 130000, myket: 80000 }
 - package: ir.divar
   name: { fa: "دیوار", en: "Divar" }
   category: shopping
@@ -1103,6 +1203,26 @@
   installs: { bazaar: 13000 }
 
 # Taxis and transport
+- package: tracking.post.ir
+  name: { fa: "رهگیری مرسولات پستی", en: "Post Parcel Tracking" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { bazaar: 120000, myket: 13000 }
+- package: ir.ayantech.posttrackinginquiry
+  name: { fa: "پیگیری مرسوله پستی", en: "Post Tracking" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { bazaar: 370000, myket: 60000 }
+- package: ir.tipax.mytipax
+  name: { fa: "مای تیپاکس", en: "My Tipax" }
+  category: transport
+  stores: [bazaar, myket]
+  installs: { bazaar: 900000, myket: 400000 }
+- package: com.PersiaBME.DriversInquiry
+  name: { fa: "راه من", en: "Rah-e Man" }
+  category: transport
+  stores: [bazaar]
+  installs: { bazaar: 1000000 }
 - package: cab.snapp.passenger
   name: { fa: "اسنپ", en: "Snapp" }
   category: transport
@@ -1292,6 +1412,11 @@
   installs: { bazaar: 130000, myket: 200000 }
 
 # Maps and navigation
+- package: org.rajman.neshan.traffic.shiraz
+  name: { fa: "نقشه شهرداری شیراز", en: "Shiraz Municipality Map" }
+  category: maps
+  stores: [bazaar]
+  installs: { bazaar: 83000 }
 - package: org.rajman.neshan.traffic.tehran.navigator
   name: { fa: "نشان", en: "Neshan" }
   category: maps
@@ -1920,6 +2045,66 @@
   installs: { bazaar: 190000, myket: 200000 }
 
 # Services and tools
+- package: ir.tahlilgaran.pol
+  name: { fa: "هایپه", en: "Hayeh" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 14000, myket: 2000 }
+- package: com.komakkar.com
+  name: { fa: "کمک کار", en: "Komakkar" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 16000, myket: 4000 }
+- package: ir.fastapps.nazif
+  name: { fa: "نظیف", en: "Nazif" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 18000, myket: 900 }
+- package: io.ionic.amyar24
+  name: { fa: "آمیار۲۴", en: "Amyar24" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 23000, myket: 3000 }
+- package: com.dna.android.karbama
+  name: { fa: "کارباما", en: "Karbama" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 33000, myket: 6000 }
+- package: net.serviq.customer
+  name: { fa: "سرویک", en: "Serviq" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 36000, myket: 7000 }
+- package: com.homeservize.customerapp
+  name: { fa: "هوم سرویز", en: "Home Servize" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 68000, myket: 13000 }
+- package: ir.fanos.inappestelam
+  name: { fa: "سامانه استعلام", en: "Estelam System" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 100000, myket: 10000 }
+- package: com.example.flutter_application_code_meli
+  name: { fa: "استعلام‌یار", en: "Estelam Yar" }
+  category: services
+  stores: [bazaar]
+  installs: { bazaar: 110000 }
+- package: client.fixa.app
+  name: { fa: "فیکسا", en: "Fixa" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 340000, myket: 70000 }
+- package: pro.sanjagh.client
+  name: { fa: "سنجاق", en: "Sanjagh" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 360000, myket: 90000 }
+- package: ir.ayantech.justicesharesinquiry
+  name: { fa: "استعلام سهام عدالت", en: "Justice Shares Inquiry" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 910000, myket: 300000 }
 - package: ir.mvmco
   name: { fa: "ام‌وی‌ام من", en: "My MVM" }
   category: services

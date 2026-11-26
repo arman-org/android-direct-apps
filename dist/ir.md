@@ -1,6 +1,6 @@
 # IR: apps that connect directly
 
-422 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
+459 apps. Built from [countries/ir.yaml](../countries/ir.yaml) by `scripts/build.py`; do not edit.
 
 ## بانک · Banks (75)
 
@@ -82,7 +82,7 @@
 | هوشاد | Hooshad | 430 | 300 | `ir.sqsh.smartassistant` | [Bazaar](https://cafebazaar.ir/app/ir.sqsh.smartassistant) · [Myket](https://myket.ir/app/ir.sqsh.smartassistant) |
 | متاتی | Metati | — | 200 | `com.metati.app` | [Bazaar](https://cafebazaar.ir/app/com.metati.app) · [Myket](https://myket.ir/app/com.metati.app) |
 
-## پرداخت و کیف پول · Payments and wallets (29)
+## پرداخت و کیف پول · Payments and wallets (34)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -104,16 +104,21 @@
 | فام | FAM | 900K | 300K | `com.fam.fam` | [Bazaar](https://cafebazaar.ir/app/com.fam.fam) · [Myket](https://myket.ir/app/com.fam.fam) |
 | ایزی‌پی | EzPay | 830K | 200K | `com.tosansoha.ezpay` | [Bazaar](https://cafebazaar.ir/app/com.tosansoha.ezpay) · [Myket](https://myket.ir/app/com.tosansoha.ezpay) |
 | ازکی وام | Azki Vam | 760K | 300K | `com.azkivam.twa` | [Bazaar](https://cafebazaar.ir/app/com.azkivam.twa) · [Myket](https://myket.ir/app/com.azkivam.twa) |
+| استعلام قبض گاز | Gas Bill Inquiry | 730K | 300K | `ir.ayantech.gasbillinquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.gasbillinquiry) · [Myket](https://myket.ir/app/ir.ayantech.gasbillinquiry) |
+| خدمات الکترونیک برق | Electricity e-Services | 670K | — | `f.omor.bargh.app_58148` | [Bazaar](https://cafebazaar.ir/app/f.omor.bargh.app_58148) |
 | زرین پلاس | Zarinplus | 620K | 300K | `app.emtiyaz` | [Bazaar](https://cafebazaar.ir/app/app.emtiyaz) · [Myket](https://myket.ir/app/app.emtiyaz) · [Google Play](https://play.google.com/store/apps/details?id=app.emtiyaz) |
 | تومن پی | TomanPay | 570K | 200K | `org.qbitpay` | [Bazaar](https://cafebazaar.ir/app/org.qbitpay) · [Myket](https://myket.ir/app/org.qbitpay) |
 | لندو | Lendo | 560K | 300K | `com.lendo.lendo` | [Bazaar](https://cafebazaar.ir/app/com.lendo.lendo) · [Myket](https://myket.ir/app/com.lendo.lendo) |
+| استعلام قبض آب | Water Bill Inquiry | 460K | 200K | `ir.ayantech.waterbillinquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.waterbillinquiry) · [Myket](https://myket.ir/app/ir.ayantech.waterbillinquiry) |
 | ست | Set | — | 400K | `ir.stts.etc` | [Myket](https://myket.ir/app/ir.stts.etc) |
 | کیپا | Keepa | 340K | 200K | `ir.keepa.pwa` | [Bazaar](https://cafebazaar.ir/app/ir.keepa.pwa) · [Myket](https://myket.ir/app/ir.keepa.pwa) |
+| استعلام قبض برق | Electricity Bill Inquiry | 300K | 200K | `ir.ayantech.electricitybillinquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.electricitybillinquiry) · [Myket](https://myket.ir/app/ir.ayantech.electricitybillinquiry) |
 | چک صیادی | Sayad Cheque | 250K | 35K | `ir.ayantech.sayadcheckinquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.sayadcheckinquiry) · [Myket](https://myket.ir/app/ir.ayantech.sayadcheckinquiry) |
 | داپ اپ | Daap App | 190K | 200K | `com.daapapp.crmrn` | [Bazaar](https://cafebazaar.ir/app/com.daapapp.crmrn) · [Myket](https://myket.ir/app/com.daapapp.crmrn) |
 | کمان | Kaman | 88K | 30K | `com.kamanfg.clientapp` | [Bazaar](https://cafebazaar.ir/app/com.kamanfg.clientapp) · [Myket](https://myket.ir/app/com.kamanfg.clientapp) |
 | جیرینگ | Jiring | 41K | 15K | `com.jrg.app` | [Bazaar](https://cafebazaar.ir/app/com.jrg.app) · [Myket](https://myket.ir/app/com.jrg.app) |
 | آنی ریز | Aniriz | 28K | 23K | `com.aniriz.aniriz_app` | [Bazaar](https://cafebazaar.ir/app/com.aniriz.aniriz_app) · [Myket](https://myket.ir/app/com.aniriz.aniriz_app) |
+| استعلام قبض موبایل | Mobile Bill Inquiry | 15K | 2K | `ir.ayantech.mobilebillinquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.mobilebillinquiry) · [Myket](https://myket.ir/app/ir.ayantech.mobilebillinquiry) |
 | همراه پرداخت موسسه آرمان | Arman Payment | 270 | — | `com.fatak.payment.arman` | [Bazaar](https://cafebazaar.ir/app/com.fatak.payment.arman) |
 
 ## ارز دیجیتال · Crypto exchanges (24)
@@ -145,7 +150,7 @@
 | بیت ۲۴ | Bit24 | — | — | `cash.bit24` | [Google Play](https://play.google.com/store/apps/details?id=cash.bit24) |
 | نوبیتکس | Nobitex | — | — | `app.nobitex` | — |
 
-## بورس و سرمایه‌گذاری · Stocks and investing (13)
+## بورس و سرمایه‌گذاری · Stocks and investing (14)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -158,20 +163,24 @@
 | تحلیل گر بورس | Bourse Analyst | — | 200K | `ir.hooshdadeh.bourse` | [Myket](https://myket.ir/app/ir.hooshdadeh.bourse) · [Google Play](https://play.google.com/store/apps/details?id=ir.hooshdadeh.bourse) |
 | اهرم | Ahrom | 110K | 80K | `app.ahrominvest.ir` | [Bazaar](https://cafebazaar.ir/app/app.ahrominvest.ir) · [Myket](https://myket.ir/app/app.ahrominvest.ir) |
 | بان‌وست | Banvest | 99K | 17K | `com.ada.wealthplus` | [Bazaar](https://cafebazaar.ir/app/com.ada.wealthplus) · [Myket](https://myket.ir/app/com.ada.wealthplus) |
+| سهیم | Sahim | 41K | — | `ir.sahim` | [Bazaar](https://cafebazaar.ir/app/ir.sahim) |
 | مس‌چی | Meschi | 34K | 41K | `com.novin.meschi` | [Bazaar](https://cafebazaar.ir/app/com.novin.meschi) · [Myket](https://myket.ir/app/com.novin.meschi) |
 | زرپین | Zarpin | 34K | 36K | `com.zarpin.app` | [Bazaar](https://cafebazaar.ir/app/com.zarpin.app) · [Myket](https://myket.ir/app/com.zarpin.app) |
 | لیما | Lima | 7K | 3K | `ir.lima.app` | [Bazaar](https://cafebazaar.ir/app/ir.lima.app) · [Myket](https://myket.ir/app/ir.lima.app) |
 | جافاند | Jafund | — | — | `com.jafund.app` | [Myket](https://myket.ir/app/com.jafund.app) |
 
-## بیمه · Insurance (3)
+## بیمه · Insurance (6)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
 | ازکی | Azki | 2.4M | 1M | `com.nar.bimito` | [Bazaar](https://cafebazaar.ir/app/com.nar.bimito) · [Myket](https://myket.ir/app/com.nar.bimito) · [Google Play](https://play.google.com/store/apps/details?id=com.nar.bimito) |
+| همراه دانا | Hamrah Dana | 1M | 300K | `ir.insurance.dana.android` | [Bazaar](https://cafebazaar.ir/app/ir.insurance.dana.android) · [Myket](https://myket.ir/app/ir.insurance.dana.android) |
+| دی‌دار | Didar | 660K | 300K | `ir.dayins.didar` | [Bazaar](https://cafebazaar.ir/app/ir.dayins.didar) · [Myket](https://myket.ir/app/ir.dayins.didar) |
 | یاقوت البرز | Yaghout Alborz | 430K | 300K | `com.Radisan.Alborz.SuperApp` | [Bazaar](https://cafebazaar.ir/app/com.Radisan.Alborz.SuperApp) · [Myket](https://myket.ir/app/com.Radisan.Alborz.SuperApp) |
+| بیمه ایران یادگاری | Iran Insurance Yadegari | 220K | 42K | `ir.bimeiran.ir` | [Bazaar](https://cafebazaar.ir/app/ir.bimeiran.ir) · [Myket](https://myket.ir/app/ir.bimeiran.ir) |
 | یاس بیمه آسیا | Yas Asia Insurance | 220K | 80K | `com.Radisan.Asia` | [Bazaar](https://cafebazaar.ir/app/com.Radisan.Asia) · [Myket](https://myket.ir/app/com.Radisan.Asia) |
 
-## خدمات دولتی · Government services (12)
+## خدمات دولتی · Government services (22)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -186,6 +195,16 @@
 | سامانه هدا | Hoda | 1.6M | 500K | `com.gss.crocodile` | [Bazaar](https://cafebazaar.ir/app/com.gss.crocodile) · [Myket](https://myket.ir/app/com.gss.crocodile) |
 | ساتا | Sata | 1.2M | 300K | `ir.pt.sata` | [Bazaar](https://cafebazaar.ir/app/ir.pt.sata) · [Myket](https://myket.ir/app/ir.pt.sata) |
 | پیشخوان ۲۴ | Pishkhan24 | 970K | 500K | `ir.ayantech.pishkhan24` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.pishkhan24) · [Myket](https://myket.ir/app/ir.ayantech.pishkhan24) · [Google Play](https://play.google.com/store/apps/details?id=ir.ayantech.pishkhan24) |
+| کاتب | Kateb | 750K | — | `ir.kateb.app.kateb` | [Bazaar](https://cafebazaar.ir/app/ir.kateb.app.kateb) |
+| سامانه جامع تجارت | National Trade System | 640K | 200K | `ir.ntsw` | [Bazaar](https://cafebazaar.ir/app/ir.ntsw) · [Myket](https://myket.ir/app/ir.ntsw) |
+| استعلام یارانه | Subsidy Inquiry | 580K | 200K | `ir.ayantech.subventioninquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.subventioninquiry) · [Myket](https://myket.ir/app/ir.ayantech.subventioninquiry) |
+| اصفهان من | My Isfahan | 240K | 200K | `ir.isfahan.app.twa` | [Bazaar](https://cafebazaar.ir/app/ir.isfahan.app.twa) · [Myket](https://myket.ir/app/ir.isfahan.app.twa) |
+| سامانه خدمات ثبت احوال | Civil Registration Services | 180K | 42K | `ir.sabt.inap` | [Bazaar](https://cafebazaar.ir/app/ir.sabt.inap) · [Myket](https://myket.ir/app/ir.sabt.inap) |
+| مالیات من | My Tax | 75K | — | `ir.we.tax` | [Bazaar](https://cafebazaar.ir/app/ir.we.tax) |
+| کالابرگ | Kalabarg | 61K | — | `com.approid.kalabarg` | [Bazaar](https://cafebazaar.ir/app/com.approid.kalabarg) |
+| اهواز من | My Ahvaz | 56K | — | `ir.ahvaz.my` | [Bazaar](https://cafebazaar.ir/app/ir.ahvaz.my) |
+| شهرداری شاهین‌شهر | Shahinshahr Municipality | 45K | 33K | `com.arayeh.shahinshahr` | [Bazaar](https://cafebazaar.ir/app/com.arayeh.shahinshahr) · [Myket](https://myket.ir/app/com.arayeh.shahinshahr) |
+| سجاوا | Sajava | 30K | 3K | `ir.actiongroup.sajava` | [Bazaar](https://cafebazaar.ir/app/ir.actiongroup.sajava) · [Myket](https://myket.ir/app/ir.actiongroup.sajava) |
 | عدالت همراه | Edalat-e Hamrah | — | — | `ir.eadl.edalatehamrah` | — |
 
 ## اپراتور و اینترنت · Mobile operators and internet (9)
@@ -229,7 +248,7 @@
 | بازار | Bazaar | 170M | — | `com.farsitel.bazaar` | [Bazaar](https://cafebazaar.ir/app/com.farsitel.bazaar) |
 | مایکت | Myket | — | 60M | `ir.mservices.market` | [Myket](https://myket.ir/app/ir.mservices.market) |
 
-## خرید و آگهی · Shopping and classifieds (25)
+## خرید و آگهی · Shopping and classifieds (26)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -256,6 +275,7 @@
 | دیجی استایل | Digistyle | 270K | — | `com.digistyle.prod` | [Bazaar](https://cafebazaar.ir/app/com.digistyle.prod) |
 | شاپینو | Shopino | 210K | 200K | `app.shopino` | [Bazaar](https://cafebazaar.ir/app/app.shopino) · [Myket](https://myket.ir/app/app.shopino) |
 | نت‌برگ | Netbarg | — | 200K | `com.IranModernBusinesses.Netbarg` | [Myket](https://myket.ir/app/com.IranModernBusinesses.Netbarg) |
+| مزایده خودرو | Car Auction | 130K | 80K | `com.monagheseyar.mozaidekhodro` | [Bazaar](https://cafebazaar.ir/app/com.monagheseyar.mozaidekhodro) · [Myket](https://myket.ir/app/com.monagheseyar.mozaidekhodro) |
 | آگهی کالا | Agahi Kala | 110K | 400K | `com.agahi_kala` | [Bazaar](https://cafebazaar.ir/app/com.agahi_kala) · [Myket](https://myket.ir/app/com.agahi_kala) |
 | اسام | Esam | — | — | `ir.esam.app` | — |
 
@@ -274,7 +294,7 @@
 | تپسی‌فود | Tapsi Food | 260K | 200K | `com.tapsi.tapsifood` | [Bazaar](https://cafebazaar.ir/app/com.tapsi.tapsifood) · [Myket](https://myket.ir/app/com.tapsi.tapsifood) |
 | نارنج | Narenj | 13K | — | `me.narenj.onlinedelivery` | [Bazaar](https://cafebazaar.ir/app/me.narenj.onlinedelivery) |
 
-## تاکسی و حمل‌ونقل · Taxis and transport (21)
+## تاکسی و حمل‌ونقل · Taxis and transport (25)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -288,15 +308,19 @@
 | ترابرنت رانندگان | Taraabarnet Drivers | 1.6M | 500K | `net.taraabar.carrier` | [Bazaar](https://cafebazaar.ir/app/net.taraabar.carrier) · [Myket](https://myket.ir/app/net.taraabar.carrier) · [Google Play](https://play.google.com/store/apps/details?id=net.taraabar.carrier) |
 | الوپیک | AloPeyk | 1.4M | 500K | `com.alopeyk.customer` | [Bazaar](https://cafebazaar.ir/app/com.alopeyk.customer) · [Myket](https://myket.ir/app/com.alopeyk.customer) |
 | اسنپ (گوگل‌پلی) | Snapp (Google Play) | 1.3M | 800K | `cab.snapp.passenger.play` | [Bazaar](https://cafebazaar.ir/app/cab.snapp.passenger.play) · [Myket](https://myket.ir/app/cab.snapp.passenger.play) |
+| راه من | Rah-e Man | 1M | — | `com.PersiaBME.DriversInquiry` | [Bazaar](https://cafebazaar.ir/app/com.PersiaBME.DriversInquiry) |
 | مترو تهران | Tehran Metro | 920K | — | `co.fardad.android.metro` | [Bazaar](https://cafebazaar.ir/app/co.fardad.android.metro) |
+| مای تیپاکس | My Tipax | 900K | 400K | `ir.tipax.mytipax` | [Bazaar](https://cafebazaar.ir/app/ir.tipax.mytipax) · [Myket](https://myket.ir/app/ir.tipax.mytipax) |
 | اسنپ باکس | Snappbox | 650K | 200K | `com.snapp_box.android` | [Bazaar](https://cafebazaar.ir/app/com.snapp_box.android) · [Myket](https://myket.ir/app/com.snapp_box.android) |
 | ترابرنت | Taraabarnet | 620K | 200K | `net.taraabar.shipper.twa` | [Bazaar](https://cafebazaar.ir/app/net.taraabar.shipper.twa) · [Myket](https://myket.ir/app/net.taraabar.shipper.twa) · [Google Play](https://play.google.com/store/apps/details?id=net.taraabar.shipper.twa) |
 | حمل و نقل عمومی تهران | Tehran Public Transport | 590K | 200K | `com.neda.buseta` | [Bazaar](https://cafebazaar.ir/app/com.neda.buseta) · [Myket](https://myket.ir/app/com.neda.buseta) · [Google Play](https://play.google.com/store/apps/details?id=com.neda.buseta) |
 | الوپیک سفیران | AloPeyk Couriers | 490K | 300K | `com.alopeyk.courier` | [Bazaar](https://cafebazaar.ir/app/com.alopeyk.courier) · [Myket](https://myket.ir/app/com.alopeyk.courier) |
 | دات وان | DotOne | 480K | 300K | `com.dotone.passenger` | [Bazaar](https://cafebazaar.ir/app/com.dotone.passenger) · [Myket](https://myket.ir/app/com.dotone.passenger) |
 | جاده رانندگان | Jadeh Driver | 460K | 100K | `co.jadeh.driver` | [Bazaar](https://cafebazaar.ir/app/co.jadeh.driver) · [Myket](https://myket.ir/app/co.jadeh.driver) |
+| پیگیری مرسوله پستی | Post Tracking | 370K | 60K | `ir.ayantech.posttrackinginquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.posttrackinginquiry) · [Myket](https://myket.ir/app/ir.ayantech.posttrackinginquiry) |
 | تاکسی ۳۶۰ | Taxi 360 | 340K | 100K | `ftc.com.findtaxisystem` | [Bazaar](https://cafebazaar.ir/app/ftc.com.findtaxisystem) · [Myket](https://myket.ir/app/ftc.com.findtaxisystem) |
 | بیدود | Bdood | 320K | 100K | `ir.pakcharkh.bdood` | [Bazaar](https://cafebazaar.ir/app/ir.pakcharkh.bdood) · [Myket](https://myket.ir/app/ir.pakcharkh.bdood) |
+| رهگیری مرسولات پستی | Post Parcel Tracking | 120K | 13K | `tracking.post.ir` | [Bazaar](https://cafebazaar.ir/app/tracking.post.ir) · [Myket](https://myket.ir/app/tracking.post.ir) |
 | مترو تایم | Metro Time | 23K | — | `ir.metrotimeiran.metrotime` | [Bazaar](https://cafebazaar.ir/app/ir.metrotimeiran.metrotime) |
 | تپسی | Tapsi | 5K | 45K | `taxi.tapsi.passenger` | [Bazaar](https://cafebazaar.ir/app/taxi.tapsi.passenger) · [Myket](https://myket.ir/app/taxi.tapsi.passenger) |
 
@@ -321,7 +345,7 @@
 | اقامت ۲۴ | Eghamat24 | 140K | 60K | `app.eghamat24.com` | [Bazaar](https://cafebazaar.ir/app/app.eghamat24.com) · [Myket](https://myket.ir/app/app.eghamat24.com) |
 | یوتراوز | Utravs | 130K | 200K | `com.utravs` | [Bazaar](https://cafebazaar.ir/app/com.utravs) · [Myket](https://myket.ir/app/com.utravs) · [Google Play](https://play.google.com/store/apps/details?id=com.utravs) |
 
-## نقشه و مسیریابی · Maps and navigation (7)
+## نقشه و مسیریابی · Maps and navigation (8)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -331,6 +355,7 @@
 | بلد | Balad | 990K | — | `com.baladmaps` | [Bazaar](https://cafebazaar.ir/app/com.baladmaps) · [Google Play](https://play.google.com/store/apps/details?id=com.baladmaps) |
 | دال | Daal | 850K | 400K | `ir.daal.app` | [Bazaar](https://cafebazaar.ir/app/ir.daal.app) · [Myket](https://myket.ir/app/ir.daal.app) |
 | رایا | Raya | 340K | 60K | `org.rajman.neshan.traffic.tehran` | [Bazaar](https://cafebazaar.ir/app/org.rajman.neshan.traffic.tehran) · [Myket](https://myket.ir/app/org.rajman.neshan.traffic.tehran) |
+| نقشه شهرداری شیراز | Shiraz Municipality Map | 83K | — | `org.rajman.neshan.traffic.shiraz` | [Bazaar](https://cafebazaar.ir/app/org.rajman.neshan.traffic.shiraz) |
 | رایا مشهد | Raya Mashhad | — | — | `org.rajman.map.traffic.mashhad` | — |
 
 ## سلامت و پزشکی · Health (26)
@@ -475,7 +500,7 @@
 | دعای عهد | Dua Ahd | 360K | — | `com.example.lham.ahd` | [Bazaar](https://cafebazaar.ir/app/com.example.lham.ahd) |
 | مفاتیح الجنان نور | Mafatih Noor | 190K | 200K | `org.crcis.mafatih` | [Bazaar](https://cafebazaar.ir/app/org.crcis.mafatih) · [Myket](https://myket.ir/app/org.crcis.mafatih) |
 
-## خدمات و ابزار · Services and tools (44)
+## خدمات و ابزار · Services and tools (56)
 
 | نام | Name | Bazaar (active installs) | Myket (downloads) | Package | Stores |
 | --- | --- | --- | --- | --- | --- |
@@ -495,6 +520,7 @@
 | خلافی پلاس | Khalafi Plus | 1.4M | 200K | `ir.ayantech.finesdetail` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.finesdetail) · [Myket](https://myket.ir/app/ir.ayantech.finesdetail) |
 | آچاره | Achareh | 1.2M | 400K | `com.sanags.a4f3client` | [Bazaar](https://cafebazaar.ir/app/com.sanags.a4f3client) · [Myket](https://myket.ir/app/com.sanags.a4f3client) · [Google Play](https://play.google.com/store/apps/details?id=com.sanags.a4f3client) |
 | هواشناس | Havashenas | 1M | — | `com.app.weatherclock` | [Bazaar](https://cafebazaar.ir/app/com.app.weatherclock) |
+| استعلام سهام عدالت | Justice Shares Inquiry | 910K | 300K | `ir.ayantech.justicesharesinquiry` | [Bazaar](https://cafebazaar.ir/app/ir.ayantech.justicesharesinquiry) · [Myket](https://myket.ir/app/ir.ayantech.justicesharesinquiry) |
 | پی‌دی‌اف ساز | PDF Saz | 830K | 200K | `pdfmaker.mmb.com.webpdfmaker` | [Bazaar](https://cafebazaar.ir/app/pdfmaker.mmb.com.webpdfmaker) · [Myket](https://myket.ir/app/pdfmaker.mmb.com.webpdfmaker) |
 | ای استخدام | e-Estekhdam | 820K | 400K | `com.e_estekhdam.android.app` | [Bazaar](https://cafebazaar.ir/app/com.e_estekhdam.android.app) · [Myket](https://myket.ir/app/com.e_estekhdam.android.app) |
 | جاب ویژن | JobVision | 700K | 700K | `com.jobvision.app` | [Bazaar](https://cafebazaar.ir/app/com.jobvision.app) · [Myket](https://myket.ir/app/com.jobvision.app) · [Google Play](https://play.google.com/store/apps/details?id=com.jobvision.app) |
@@ -508,6 +534,8 @@
 | استعلام خلافی خودرو | Khalafi | 420K | — | `com.serendip.khalafi` | [Bazaar](https://cafebazaar.ir/app/com.serendip.khalafi) |
 | چراغ قوه پرنور | Bright Flashlight | 400K | 70K | `com.soheil.prolightfa` | [Bazaar](https://cafebazaar.ir/app/com.soheil.prolightfa) · [Myket](https://myket.ir/app/com.soheil.prolightfa) · [Google Play](https://play.google.com/store/apps/details?id=com.soheil.prolightfa) |
 | فرمون | Farmoon | 400K | — | `io.vsum.estelamkhalafi` | [Bazaar](https://cafebazaar.ir/app/io.vsum.estelamkhalafi) |
+| سنجاق | Sanjagh | 360K | 90K | `pro.sanjagh.client` | [Bazaar](https://cafebazaar.ir/app/pro.sanjagh.client) · [Myket](https://myket.ir/app/pro.sanjagh.client) |
+| فیکسا | Fixa | 340K | 70K | `client.fixa.app` | [Bazaar](https://cafebazaar.ir/app/client.fixa.app) · [Myket](https://myket.ir/app/client.fixa.app) |
 | اتو ابزار | Auto Abzar | 330K | 200K | `com.autoabzar.autoabzar` | [Bazaar](https://cafebazaar.ir/app/com.autoabzar.autoabzar) · [Myket](https://myket.ir/app/com.autoabzar.autoabzar) |
 | پلاک‌یاب خودرو | Car Plate Finder | 310K | 90K | `com.marius.IRPelak` | [Bazaar](https://cafebazaar.ir/app/com.marius.IRPelak) · [Myket](https://myket.ir/app/com.marius.IRPelak) |
 | کسرا همراه | Kasra Hamrah | 270K | 90K | `com.kasra.hamrah` | [Bazaar](https://cafebazaar.ir/app/com.kasra.hamrah) · [Myket](https://myket.ir/app/com.kasra.hamrah) |
@@ -519,7 +547,16 @@
 | ام‌وی‌ام من | My MVM | 130K | 38K | `ir.mvmco` | [Bazaar](https://cafebazaar.ir/app/ir.mvmco) · [Myket](https://myket.ir/app/ir.mvmco) |
 | دستیار | Dastyar | 120K | 200K | `com.dastyar.io` | [Bazaar](https://cafebazaar.ir/app/com.dastyar.io) · [Myket](https://myket.ir/app/com.dastyar.io) · [Google Play](https://play.google.com/store/apps/details?id=com.dastyar.io) |
 | کافی نت ایران | Kafinet Iran | 120K | 200K | `com.hazhircompany.kafineteiran` | [Bazaar](https://cafebazaar.ir/app/com.hazhircompany.kafineteiran) · [Myket](https://myket.ir/app/com.hazhircompany.kafineteiran) |
+| استعلام‌یار | Estelam Yar | 110K | — | `com.example.flutter_application_code_meli` | [Bazaar](https://cafebazaar.ir/app/com.example.flutter_application_code_meli) |
+| سامانه استعلام | Estelam System | 100K | 10K | `ir.fanos.inappestelam` | [Bazaar](https://cafebazaar.ir/app/ir.fanos.inappestelam) · [Myket](https://myket.ir/app/ir.fanos.inappestelam) |
 | ردیاب خودرو سایه | Sayeh GPS | 88K | — | `com.irantec.CarAlarm` | [Bazaar](https://cafebazaar.ir/app/com.irantec.CarAlarm) |
+| هوم سرویز | Home Servize | 68K | 13K | `com.homeservize.customerapp` | [Bazaar](https://cafebazaar.ir/app/com.homeservize.customerapp) · [Myket](https://myket.ir/app/com.homeservize.customerapp) · [Google Play](https://play.google.com/store/apps/details?id=com.homeservize.customerapp) |
 | نانوواچ | NanoWatch | 41K | 10K | `ca.nanowatch.app` | [Bazaar](https://cafebazaar.ir/app/ca.nanowatch.app) · [Myket](https://myket.ir/app/ca.nanowatch.app) |
+| سرویک | Serviq | 36K | 7K | `net.serviq.customer` | [Bazaar](https://cafebazaar.ir/app/net.serviq.customer) · [Myket](https://myket.ir/app/net.serviq.customer) · [Google Play](https://play.google.com/store/apps/details?id=net.serviq.customer) |
+| کارباما | Karbama | 33K | 6K | `com.dna.android.karbama` | [Bazaar](https://cafebazaar.ir/app/com.dna.android.karbama) · [Myket](https://myket.ir/app/com.dna.android.karbama) |
+| آمیار۲۴ | Amyar24 | 23K | 3K | `io.ionic.amyar24` | [Bazaar](https://cafebazaar.ir/app/io.ionic.amyar24) · [Myket](https://myket.ir/app/io.ionic.amyar24) |
+| نظیف | Nazif | 18K | 900 | `ir.fastapps.nazif` | [Bazaar](https://cafebazaar.ir/app/ir.fastapps.nazif) · [Myket](https://myket.ir/app/ir.fastapps.nazif) |
+| کمک کار | Komakkar | 16K | 4K | `com.komakkar.com` | [Bazaar](https://cafebazaar.ir/app/com.komakkar.com) · [Myket](https://myket.ir/app/com.komakkar.com) |
+| هایپه | Hayeh | 14K | 2K | `ir.tahlilgaran.pol` | [Bazaar](https://cafebazaar.ir/app/ir.tahlilgaran.pol) · [Myket](https://myket.ir/app/ir.tahlilgaran.pol) |
 | مطمئن باش | MotmaenBash | 8K | 9K | `nu.milad.motmaenbash` | [Bazaar](https://cafebazaar.ir/app/nu.milad.motmaenbash) · [Myket](https://myket.ir/app/nu.milad.motmaenbash) · [Google Play](https://play.google.com/store/apps/details?id=nu.milad.motmaenbash) |
 | استادکار | Ostadkar | — | — | `ir.ostadkar.customer` | — |
