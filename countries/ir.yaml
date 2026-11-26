@@ -3,6 +3,136 @@
 # installs: Bazaar's active installs and Myket's downloads when last checked.
 
 # Banks
+- package: com.fatak.mbank.arman
+  name: { fa: "موبایل بانک موسسه آرمان", en: "Arman Mobile Bank" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 610 }
+- package: com.caspianci.mobilebank
+  name: { fa: "همراه بانک موسسه کاسپین", en: "Caspian Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 5300, myket: 3000 }
+- package: ghadir.raha.torogh
+  name: { fa: "صندوق شهید واحدی", en: "Shahid Vahedi Fund" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 10000 }
+- package: com.JavidanMobileBank
+  name: { fa: "صندوق جاویدان سبزوار", en: "Javidan Fund" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 13000, myket: 5000 }
+- package: bnpco.ir.HampaPlus
+  name: { fa: "همپا+", en: "Hampa Plus" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 18000, myket: 2000 }
+- package: com.greenapi.app
+  name: { fa: "گرین بانک", en: "Green Bank" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 18000 }
+- package: com.tosan.dara.enbOtp
+  name: { fa: "رمز ساز اقتصاد نوین", en: "EN Bank OTP" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 30000, myket: 10000 }
+- package: com.pandco.hamrahbank
+  name: { fa: "همراه بانک قرض‌الحسنه پدیده", en: "Padideh Mobile Bank" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 76000 }
+- package: com.amatis.GhomeMobileBank
+  name: { fa: "صندوق دفتر تبلیغات", en: "Daftar-e Tablighat Fund" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 99000 }
+- package: ir.chatr.plus
+  name: { fa: "چتر پلاس پاسارگاد", en: "Chatr Plus Pasargad" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 100000 }
+- package: ir.tes.sarmayeh
+  name: { fa: "بانک سرمایه", en: "Sarmayeh Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 320000, myket: 200000 }
+- package: com.fam.metabank
+  name: { fa: "متابانک", en: "Metabank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 420000, myket: 200000 }
+- package: ir.izbank.omnichannel
+  name: { fa: "فراز بانک", en: "Faraz Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 440000, myket: 200000 }
+- package: com.melal
+  name: { fa: "همراه بانک ملل", en: "Melal Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 550000, myket: 200000 }
+- package: ir.jahesh.app
+  name: { fa: "جهش بانک", en: "Jahesh Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 680000, myket: 300000 }
+- package: com.taavon.app
+  name: { fa: "بانکواره", en: "Bankvareh" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 730000, myket: 300000 }
+- package: ir.karafarinbank.digital.mb
+  name: { fa: "بانک کارآفرین", en: "Karafarin Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 780000, myket: 400000 }
+- package: com.tosan.dara.sina
+  name: { fa: "موبایل بانک سینا", en: "Sina Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 800000, myket: 300000 }
+- package: com.bpm.moba
+  name: { fa: "امضای ملت", en: "Mellat Signature" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 810000, myket: 300000 }
+- package: co.nilin.faraznative
+  name: { fa: "همراه بانک ایران زمین", en: "Iran Zamin Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 940000, myket: 400000 }
+- package: mob.banking.android.taavon
+  name: { fa: "همراه بانک توسعه تعاون", en: "Tose'e Ta'avon Mobile Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 1300000, myket: 500000 }
+- package: com.refah.superapp
+  name: { fa: "فرا رفاه", en: "Fara Refah" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 1900000, myket: 400000 }
+- package: ir.omidbank
+  name: { fa: "امید بانک سپه", en: "Omid Bank Sepah" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 3100000, myket: 1000000 }
+- package: net.iranet.isc.sotp
+  name: { fa: "ریما (رمز یکبارمصرف)", en: "Rima OTP" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 3900000, myket: 2000000 }
+- package: com.tosan.dara.postbank
+  name: { fa: "همپا پست بانک", en: "Hampa Post Bank" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 3900000, myket: 2000000 }
+- package: ir.stsepehr.hamrahcard
+  name: { fa: "صاپ بانک صادرات", en: "Saap Saderat" }
+  category: bank
+  stores: [bazaar, myket]
+  installs: { bazaar: 4000000, myket: 2000000 }
 - package: com.abankefarda
   name: { fa: "آبانک", en: "Abank" }
   category: bank
@@ -250,6 +380,31 @@
   installs: { myket: 200 }
 
 # Payments and wallets
+- package: ir.keepa.pwa
+  name: { fa: "کیپا", en: "Keepa" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 340000, myket: 200000 }
+- package: com.lendo.lendo
+  name: { fa: "لندو", en: "Lendo" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 560000, myket: 300000 }
+- package: com.azkivam.twa
+  name: { fa: "ازکی وام", en: "Azki Vam" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 760000, myket: 300000 }
+- package: refahmobilepayment.arnaa.com.refahmobilepayment
+  name: { fa: "همراه کارت رفاه", en: "Refah Card" }
+  category: payment
+  stores: [bazaar, myket]
+  installs: { bazaar: 1500000, myket: 900000 }
+- package: com.fatak.payment.arman
+  name: { fa: "همراه پرداخت موسسه آرمان", en: "Arman Payment" }
+  category: payment
+  stores: [bazaar]
+  installs: { bazaar: 270 }
 - package: com.sibche.aspardproject.app
   name: { fa: "آپ", en: "Ap" }
   category: payment
@@ -558,6 +713,16 @@
   stores: [myket]
 
 # Insurance
+- package: com.Radisan.Asia
+  name: { fa: "یاس بیمه آسیا", en: "Yas Asia Insurance" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 220000, myket: 80000 }
+- package: com.Radisan.Alborz.SuperApp
+  name: { fa: "یاقوت البرز", en: "Yaghout Alborz" }
+  category: insurance
+  stores: [bazaar, myket]
+  installs: { bazaar: 430000, myket: 300000 }
 - package: com.nar.bimito
   name: { fa: "ازکی", en: "Azki" }
   category: insurance
@@ -565,6 +730,26 @@
   installs: { bazaar: 2400000, myket: 1000000 }
 
 # Government services
+- package: com.gss.crocodile
+  name: { fa: "سامانه هدا", en: "Hoda" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 1600000, myket: 500000 }
+- package: gov.shahrzad
+  name: { fa: "شهرزاد", en: "Shahrzad" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 1800000, myket: 800000 }
+- package: app.hamoon
+  name: { fa: "هامون", en: "Hamoon" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 2800000, myket: 200000 }
+- package: ir.sfara.fara
+  name: { fa: "شمیم", en: "Shamim" }
+  category: government
+  stores: [bazaar, myket]
+  installs: { bazaar: 9200000, myket: 3000000 }
 - package: ir.pt.sata
   name: { fa: "ساتا", en: "Sata" }
   category: government
@@ -1735,6 +1920,21 @@
   installs: { bazaar: 190000, myket: 200000 }
 
 # Services and tools
+- package: ir.mvmco
+  name: { fa: "ام‌وی‌ام من", en: "My MVM" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 130000, myket: 38000 }
+- package: com.kasra.hamrah
+  name: { fa: "کسرا همراه", en: "Kasra Hamrah" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 270000, myket: 90000 }
+- package: ir.hamyab24.app
+  name: { fa: "همیاب ۲۴", en: "Hamyab24" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 1500000, myket: 600000 }
 - package: ir.shahbaz.SHZToolBox
   name: { fa: "جعبه ابزار", en: "Toolbox" }
   category: services
