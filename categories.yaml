@@ -37,5 +37,7 @@
   name: { fa: خبر و کتاب, en: News and books }
 - id: education
   name: { fa: آموزش, en: Education }
+- id: religion
+  name: { fa: مذهبی و تقویم, en: Religion and calendars }
 - id: services
   name: { fa: خدمات و ابزار, en: Services and tools }

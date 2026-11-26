@@ -3,6 +3,11 @@
 # installs: Bazaar's active installs and Myket's downloads when last checked.
 
 # Banks
+- package: com.abankefarda
+  name: { fa: "آبانک", en: "Abank" }
+  category: bank
+  stores: [bazaar]
+  installs: { bazaar: 1800000 }
 - package: ir.bmi.bam.nativeweb
   name: { fa: "بام", en: "Baam" }
   category: bank
@@ -46,7 +51,7 @@
 - package: mob.banking.android.sepah
   name: { fa: "همراه بانک سپه (قدیمی)", en: "Sepah Mobile Bank (old)" }
   category: bank
-  stores: []
+  stores: [bazaar]
   installs: { bazaar: 11000000 }
 - package: mob.banking.android.resalat
   name: { fa: "همراه بانک رسالت", en: "Resalat Mobile Bank" }
@@ -61,7 +66,7 @@
 - package: com.bki.mobilebanking.android
   name: { fa: "همراه بانک کشاورزی", en: "Keshavarzi Mobile Bank" }
   category: bank
-  stores: []
+  stores: [bazaar]
   installs: { bazaar: 7600000 }
 - package: com.refahbank.dpi.android
   name: { fa: "موبایل بانک رفاه", en: "Refah Mobile Bank" }
@@ -186,7 +191,7 @@
 - package: com.postbank.mb
   name: { fa: "همراه بانک پست بانک", en: "Post Bank Mobile Bank" }
   category: bank
-  stores: []
+  stores: [bazaar]
   installs: { bazaar: 710000 }
 - package: mob.banking.android.gardesh
   name: { fa: "موبایل بانک گردشگری", en: "Gardeshgari Mobile Bank" }
@@ -196,7 +201,7 @@
 - package: com.hafizco.mobilebanksina
   name: { fa: "همراه بانک سینا", en: "Sina Mobile Bank" }
   category: bank
-  stores: []
+  stores: [bazaar]
   installs: { bazaar: 510000 }
 - package: com.tosan.mobile.otpapp.saman
   name: { fa: "رمز پویا بانک سامان", en: "Saman Bank OTP" }
@@ -647,6 +652,11 @@
   stores: []
 
 # Messengers and social networks
+- package: com.multiplatform.microphone
+  name: { fa: "میکروفون", en: "Microphone" }
+  category: messenger
+  stores: [bazaar, myket]
+  installs: { bazaar: 250000, myket: 200000 }
 - package: app.rbmain.a
   name: { fa: "روبیکا", en: "Rubika" }
   category: messenger
@@ -798,7 +808,7 @@
 - package: com.banimode.app
   name: { fa: "بانی مد", en: "Banimode" }
   category: shopping
-  stores: []
+  stores: [bazaar]
   installs: { bazaar: 690000 }
 - package: com.komodaa.app
   name: { fa: "کمدا", en: "Komodaa" }
@@ -833,7 +843,7 @@
 - package: com.digistyle.prod
   name: { fa: "دیجی استایل", en: "Digistyle" }
   category: shopping
-  stores: []
+  stores: [bazaar]
   installs: { bazaar: 270000 }
 - package: app.shopino
   name: { fa: "شاپینو", en: "Shopino" }
@@ -996,7 +1006,7 @@
 - package: ftc.com.findtaxisystem
   name: { fa: "تاکسی ۳۶۰", en: "Taxi 360" }
   category: transport
-  stores: [myket]
+  stores: [bazaar, myket]
   installs: { bazaar: 340000, myket: 100000 }
 - package: ir.pakcharkh.bdood
   name: { fa: "بیدود", en: "Bdood" }
@@ -1322,7 +1332,7 @@
 - package: com.likotv
   name: { fa: "آی اسپورت", en: "iSport" }
   category: streaming
-  stores: [myket, play]
+  stores: [bazaar, myket, play]
   installs: { bazaar: 2400000, myket: 600 }
 - package: com.dorfaksoft.filo
   name: { fa: "فیلو", en: "Filo" }
@@ -1430,6 +1440,11 @@
   stores: [myket, play]
 
 # News and books
+- package: com.farhang.loghat.bismuth
+  name: { fa: "فرهنگ لغت دهخدا", en: "Dehkhoda Dictionary" }
+  category: reading
+  stores: [bazaar, myket]
+  installs: { bazaar: 490000, myket: 200000 }
 - package: com.piccolo.footballi.server
   name: { fa: "فوتبالی", en: "Footballi" }
   category: reading
@@ -1516,6 +1531,41 @@
   stores: [play]
 
 # Education
+- package: com.royagaran.happinesstrain
+  name: { fa: "قطار شادی", en: "Happiness Train" }
+  category: education
+  stores: [bazaar]
+  installs: { bazaar: 8900000 }
+- package: com.hzrtazmoon.goog
+  name: { fa: "آزمون آیین‌نامه رانندگی", en: "Driving Test" }
+  category: education
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 760000, myket: 50000 }
+- package: com.EarthlyHeavens.QuranicTrain
+  name: { fa: "قطار قرآنی", en: "Quranic Train" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { bazaar: 730000, myket: 200000 }
+- package: com.anjeldeveloper.essentialword
+  name: { fa: "۵۰۴ واژه", en: "504 Essential Words" }
+  category: education
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 400000, myket: 400000 }
+- package: ir.StarGames.Daneshmand
+  name: { fa: "دانشمند کوچولو", en: "Little Scientist" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { bazaar: 360000, myket: 200000 }
+- package: com.narmafzarsazan.zabankouchoulou
+  name: { fa: "زبان کوچولو", en: "Zaban Kouchoulou" }
+  category: education
+  stores: [bazaar]
+  installs: { bazaar: 320000 }
+- package: com.picsoft.picodic
+  name: { fa: "دیکشنری PICoDIC", en: "PICoDIC Dictionary" }
+  category: education
+  stores: [bazaar, myket]
+  installs: { bazaar: 260000, myket: 200000 }
 - package: ir.medu.shad
   name: { fa: "شاد", en: "Shad" }
   category: education
@@ -1607,7 +1657,129 @@
   stores: [bazaar, myket]
   installs: { bazaar: 22000, myket: 200000 }
 
+# Religion and calendars
+- package: com.mobiliha.badesaba
+  name: { fa: "بادصبا", en: "BadeSaba" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 40000000, myket: 16000000 }
+- package: com.mobiliha.hablolmatin
+  name: { fa: "قرآن صوتی حبل‌المتین", en: "Hablolmatin Quran" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 7000000, myket: 4000000 }
+- package: com.byagowi.persiancalendar
+  name: { fa: "تقویم فارسی", en: "Persian Calendar" }
+  category: religion
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 6900000, myket: 5000000 }
+- package: com.mobiliha.babonnaeim
+  name: { fa: "مفاتیح باب‌النعیم", en: "BabonNaeim" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 4800000, myket: 3000000 }
+- package: mobi.raimon.SayAzan
+  name: { fa: "اذان‌گو", en: "Azangoo" }
+  category: religion
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 3000000, myket: 1000000 }
+- package: shamimsoft.shamimyass
+  name: { fa: "تقویم شمیم یاس", en: "Shamim Yas Calendar" }
+  category: religion
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 2700000, myket: 1000 }
+- package: com.naserb.newcalendar
+  name: { fa: "تقویم همه‌کاره", en: "All-in-One Calendar" }
+  category: religion
+  stores: [bazaar]
+  installs: { bazaar: 2700000 }
+- package: com.baharapp.calendar
+  name: { fa: "تقویم بهار", en: "Bahar Calendar" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 1000000, myket: 31000 }
+- package: shamimsoft.Joshankabir
+  name: { fa: "دعای جوشن کبیر", en: "Joshan Kabir" }
+  category: religion
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 1000000, myket: 500000 }
+- package: org.crcis.quran
+  name: { fa: "قرآن نور", en: "Quran Noor" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 850000, myket: 600000 }
+- package: com.calendarbadshurteh.rah
+  name: { fa: "تقویم بادشرطه", en: "Badshorteh Calendar" }
+  category: religion
+  stores: [bazaar]
+  installs: { bazaar: 460000 }
+- package: com.mohammadyaghobi.mafatih_al_janan
+  name: { fa: "باب الجنه", en: "Bab Al Jannat" }
+  category: religion
+  stores: [bazaar]
+  installs: { bazaar: 420000 }
+- package: com.onemobs.ziarateashura
+  name: { fa: "زیارت عاشورا", en: "Ziarat Ashura" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 400000, myket: 80000 }
+- package: com.example.lham.ahd
+  name: { fa: "دعای عهد", en: "Dua Ahd" }
+  category: religion
+  stores: [bazaar]
+  installs: { bazaar: 360000 }
+- package: org.crcis.mafatih
+  name: { fa: "مفاتیح الجنان نور", en: "Mafatih Noor" }
+  category: religion
+  stores: [bazaar, myket]
+  installs: { bazaar: 190000, myket: 200000 }
+
 # Services and tools
+- package: ir.shahbaz.SHZToolBox
+  name: { fa: "جعبه ابزار", en: "Toolbox" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 11000000, myket: 5000000 }
+- package: arian.applocker
+  name: { fa: "قفل برنامه‌ها", en: "App Locker" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 5500000, myket: 3000000 }
+- package: com.sofeh.android.musicstudio2
+  name: { fa: "ارگ ۲۴", en: "Org 24" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 5400000, myket: 4000000 }
+- package: com.fararoid.mobosecurity
+  name: { fa: "موبو سکیوریتی", en: "Mobo Security" }
+  category: services
+  stores: [bazaar]
+  installs: { bazaar: 4200000 }
+- package: com.ma.textgraphy
+  name: { fa: "متن نگار", en: "Matn Negar" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 2000000, myket: 2000000 }
+- package: pdfmaker.mmb.com.webpdfmaker
+  name: { fa: "پی‌دی‌اف ساز", en: "PDF Saz" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 830000, myket: 200000 }
+- package: com.farazspp.face.changer
+  name: { fa: "تغییر چهره", en: "Face Changer" }
+  category: services
+  stores: [bazaar]
+  installs: { bazaar: 420000 }
+- package: com.soheil.prolightfa
+  name: { fa: "چراغ قوه پرنور", en: "Bright Flashlight" }
+  category: services
+  stores: [bazaar, myket, play]
+  installs: { bazaar: 400000, myket: 70000 }
+- package: com.marius.IRPelak
+  name: { fa: "پلاک‌یاب خودرو", en: "Car Plate Finder" }
+  category: services
+  stores: [bazaar, myket]
+  installs: { bazaar: 310000, myket: 90000 }
 - package: com.zarebin.browser
   name: { fa: "ذره‌بین", en: "Zarebin" }
   category: services
